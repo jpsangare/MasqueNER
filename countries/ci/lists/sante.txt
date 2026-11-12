@@ -1,0 +1,1370 @@
+# sante.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), données issues d'OpenStreetMap (ODbL, © contributeurs OpenStreetMap) : hôpitaux, cliniques, pharmacies
+# source : data.gouv.ci (data354-CI), établissements proposant la CMU (Licence Ouverte 2.0)
+8e Tranche
+Academie des MERS
+Agefosyn
+Aho
+Analya
+Ancien SIEGE CNPS Plateau
+Ancienne CI Telecom de Daoukro
+Ancienne Mairie
+Antenne d'Hygiène Publique d'Abobo
+Aosi Action
+Association des Volontaire pour la Protection de l'Enfance
+Association Ivoirienne pour le Bien Être Familial
+baaba
+Baptist Hospital
+Bio Pharma
+BOX Hôpital Général D'Abobo
+Bureau de la Chefferie
+Cabinet D'Assistance En Elévage
+Cabinet De Santé Phytothérapie
+Cabinet Dentaire
+Cabinet dentaire 9ème tranches
+Cabinet dentaire Ave Maria
+Cabinet Dentaire Azur
+Cabinet Dentaire de la Zone 4
+Cabinet Dentaire du Grand Marché
+Cabinet dentaire Faddoul
+Cabinet dentaire gendarmerie
+Cabinet Dentaire Ivoire
+Cabinet dentaire Lorika
+Cabinet dentaire MEFKA sarl
+Cabinet Medical Chinois Le Temple De La Guerrison
+Cabinet Médical Christal
+Campus 1
+Case de Santé
+Celia
+Cemena
+Centrale de Prophylaxie Vétérinaire
+Centre anti-tuberculeux
+Centre Anti-Tuberculeux de Bouaké
+Centre antituberculeux
+Centre Communautaire De Kennedy-Clouetcha
+Centre Culturel de BACON
+Centre Culturel de Guitry
+Centre Culturel de SAMO
+Centre D'Ecoute et de Conseil
+Centre de Formation Polyvalent de Kaniasso
+centre de santé
+Centre de santé anti tuberculeux
+Centre de SANTE Arikokaha
+Centre de Santé Chrétien de Bouaké Zone
+Centre De Santé Communautaire
+Centre de santé communautaire de Tankesse
+Centre de Santé d'Akounougbé
+centre de santé d'apkessekro
+Centre de Santé de Diemba
+Centre de Santé de Guepahouo
+Centre de santé de kouetinfla
+Centre de santé de Kouta
+Centre de Santé de Niambezaria
+Centre de Santé des douanes
+Centre de santé Donata
+Centre de santé le remontant
+Centre de Santé Les Archanges
+Centre de Sante n'badon
+Centre de Santé NDA
+Centre de Santé Palazzolo
+Centre de SANTE Quartier DIVO
+Centre de Santé Régional de Banankoro
+Centre de santé rural
+Centre de Santé Rural Assoum I
+Centre de Santé Rural Boukro
+Centre de Santé Rural d'Eticoon
+Centre de santé rural de Derahouan
+Centre de Santé Rural de Gnippi 2
+Centre de Santé Rural de Kayeta
+Centre de santé rural de Kouta
+Centre de Santé Rural de Moutcho
+Centre de Santé Rural de Varale
+Centre de Santé rural deTrokpadrou
+Centre de Santé Sainte Famille
+Centre de santé scolaire et universitaire
+Centre de santé scolaire et universitaire de Man
+Centre de Santé Universitaire Campus 1
+Centre de Santé Universitaire Campus 2
+Centre de santé urbain
+Centre de Santé urbain Azaguié
+Centre de SANTE Urbain D'Abobodoume
+Centre de Santé Urbain d'Amelekia
+Centre de Santé Urbain d'Iboguhé
+Centre de Santé Urbain Dafci Cathedrale 2
+Centre de Santé Urbain de Assié-Koumassi
+Centre de santé urbain de buyo plateau
+Centre de santé urbain de Gbêpleu(HKB)
+Centre de santé urbain de Kaniasso
+Centre de Santé Urbain de Koko-Ton
+Centre de Santé Urbain de Kononfla
+Centre de Santé Urbain de Lolobo
+Centre de Santé Urbain de Madinani
+Centre de Santé Urbain de Molonou
+Centre de Santé Urbain de Noé
+Centre de Santé Urbain de Sinématiali
+Centre de Santé Urbain de Sipilou
+Centre de Santé Urbain de Songon
+Centre de santé urbain grand gbapleu
+Centre de santé urbain NDA
+Centre de Santé Urbain PMI
+Centre de Santé Urbaine de Bonon
+Centre de Santé Yadibikro
+Centre de Santé Yaou
+centre de soins chinois
+Centre De Soins Kennedy
+Centre de Soins Otcho de Songon
+Centre de Soins Pour Ulcers De Buruli
+Centre De Thermothérapie
+Centre de traitement des maladies infectieuses
+Centre de Transfusion Sanguine
+Centre du Passeport Marcory
+Centre Emploi Jeunes BAKO
+Centre hospitalier
+Centre Hospitalier d'Odienné
+Centre Hospitalier Régional
+Centre Hospitalier Régional d'Abengourou
+Centre Hospitalier Regional D'Odienne
+Centre Hospitalier Régional de Gagnoa
+Centre Hospitalier Régional de Man
+Centre Hospitalier Régional de San Pédro
+Centre Hospitalier Regional de TOUBA
+Centre Hospitalier Rural
+Centre Hospitalier Universitaire
+Centre hospitalier universitaire de Cocody (CHU de Cocody)
+Centre Hospitalier Universitaire de Treichville
+Centre Hospitalier Universitaire de Yopougon
+Centre médical Afrique futur
+Centre Médical Berthel
+Centre Médical Chardy
+Centre Médical Chinois
+Centre Medical et d'Imagerie Diagnostique (CMIDA)
+Centre médical firdaoss
+Centre médical la providence
+Centre Médical Militaire de DALOA
+Centre Médical Pasteur
+Centre Médical Reel Santé
+Centre Médical Riviera AmbassadeCMRA
+Centre Médical Sainte Famille de Grand-Bassam
+centre medical social
+Centre Médical Spécialisé Soumeya
+Centre médico chirurgical d'abobo
+Centre Medico-Churigical AMSU
+Centre Medico-social focolari
+Centre Numerique D'Adzope
+Centre Oeuvre et Mission
+centre ophtamologique de KAMI
+Centre paramedical la paix
+Centre Passeport 2 Plateaux
+Centre Pilote
+Centre Social
+Centre Social Abongoua
+Centre Social Adiake
+Centre Social Blolequin
+Centre Social BOTRO
+Centre Social de Bassam
+Centre Social de Bouafle
+Centre Social de BUYO
+Centre Social de Ferkessedougou
+Centre Social de Gagnoa
+Centre Social de Guitry
+Centre Social de ISSIA
+Centre Social de KANI
+Centre Social de Mankono
+Centre Social de Meagui
+Centre Social de N'Zecrezessou
+Centre Social de Prikro
+Centre Social de Saioua
+Centre Social de Samatiguila
+Centre Social de Sassandra au Quartier Groudou
+Centre Social de Seguelon
+Centre Social de Tieningboue
+Centre Social de Vavoua
+Centre Social de Zaranou
+Centre Social DPP MACA
+Centre Social Niangon
+Centre Social Sakassou
+Centre Social Tiassale
+Centre Social Toulepleu
+Centre Social ZONE
+CGI
+CGI ABOBO
+CGI ANGRE
+CGI Soubre
+CGRAE San-Pedro
+CHR Aboisso
+CHR Adzope
+CHR Agboville
+CHR Bondoukou
+CHR D'Abengourou
+CHR de bondoukou
+CHR de DALOA
+CHR de Dimbokro
+CHR de Gagnoa
+CHR de Guiglo
+CHR de San-Pedro
+CHR de Yamoussoukro
+Chr Dimbokro
+CHR DIVO
+CHR Korhogo
+CHU ANGRE
+CHU d'Angré
+CHU de Bouake
+CHU de Cocody
+CHU Treichville
+Climique Social Santé Pour Tous
+Clinique Afrique Noire
+Clinique Afro-asiatique
+Clinique AIBEF
+Clinique Américaine d'Abidjan Sarl
+Clinique Antilope
+Clinique Axe optique
+Clinique Béatitudes
+Clinique Bichat
+Clinique C2H
+Clinique Cem Chic
+Clinique centrale d'Abobo
+Clinique Centrale d'Abobo Centre
+Clinique Centrale de San-Pédro
+Clinique Chinoise
+clinique de tonton Bertin
+Clinique dentaire ROSYL
+Clinique Du Lavage
+Clinique El Rapha
+Clinique espace médical micao
+Clinique Espace Médical Santé
+Clinique Gnanmiensa
+Clinique GOSPA
+Clinique Harmonie
+Clinique HMS Plateau
+Clinique Huberson
+Clinique johanna
+Clinique La Mascotte
+Clinique la Providence
+Clinique La Rochelle
+Clinique la rosette
+Clinique La Sentinelle Santé
+Clinique le belier
+Clinique le Ghery
+Clinique le rocher
+Clinique les Grâces
+Clinique les Myriades
+Clinique les Oliviers
+Clinique Liring
+Clinique Mayan Kassy
+Clinique Médical Sika Abobo
+Clinique Médicale
+Clinique Médicale Bouaké
+Clinique médicale d'Angré
+Clinique Médicale Djama Soutra
+Clinique Médicale Étoile du Commerce
+Clinique medicale houphouet
+Clinique médicale janick
+Clinique médicale Kehassemon
+Clinique médicale Koko
+Clinique Médicale la Colombe
+Clinique Médicale Latrille
+Clinique Médicale le Bélier
+Clinique médicale Le jourdain
+Clinique médicale Les grâces
+Clinique médicale Les Oliviers
+Clinique Médicale Les Orchidées
+Clinique Médicale Mont Carmel
+Clinique médicale oasis santé
+Clinique médicale Queen Latifat
+Clinique Médicale Rima
+Clinique Médicale Sacré Coeur
+Clinique médicale Saint Viateur
+Clinique Médicale Solidarité
+Clinique Médicale Source de Vie
+Clinique Médicale Spécialisée
+Clinique médicale Vie
+Clinique Medicale Wimin de Bidjante
+Clinique Médico-Chirurgicale Nanan
+Clinique Medico-Churigical Le banco
+Clinique Notre Dame de Lourdes
+Clinique Notre Dame de San Pedro
+Clinique ONG Santé Côte d'Ivoire
+Clinique orientale Novabio
+Clinique PARA Medical le prix du pardon
+Clinique Paramédicale
+Clinique Perle
+Clinique Privé Saint Ornella
+Clinique privée
+Clinique Privée Bouakally
+Clinique Privée Saint Horeb
+Clinique Procréa
+Clinique saint sauveur
+Clinique Sainte Famille
+Clinique Sainte Jane-Leora
+Clinique Sainte Nancy
+Clinique Sainte Vie
+Clinique Santé pour Tous
+Clinique Seweke 2
+Clinique Siloé
+Clinique spirituel JHSG
+Clinique Ste Jane-Leora
+Clinique Tortues
+Clinique Tosseta
+Clinique Vétérinaire
+Clinique Vétérinaire de la Riviéra
+Clinique Veterinaire Lycée Technique
+Clinque le chandelier
+CMB Koumassi
+Codivet
+Collège la Perruche
+Collège Moderne Abigui
+Collège Moderne Diangokro
+Complexe Sportif Anyama
+Complexe Sucrier Borotou KORO
+COUR Royale de YAOU
+Cremos DALOA
+Criemosse man
+Croix Rouge Boundiali
+CSR BOZI Satimaci
+CSR de Bribouo
+CSR de Kibouo
+CSR de ZAHIA
+CSR Ebimpe
+CSR LOKOA
+CSR N'Zikro
+CSR Pelezi
+CSU ABBE Broukoi
+CSU Ananguie
+CSU AZITO
+CSU BELLE VILLE
+CSU Christiankoi
+CSU-COM Kenedy Clouetcha
+CSU de Chiepo
+CSU de Gabiadji
+CSU de NAHIO
+CSU de NEBO
+CSU de ZEGO
+CSU Didoko
+CSU DIVO
+CSU Garage DALOA
+CSU GRAND MORIE
+CSU HIRE
+CSU Lauzoua
+CSU N'Douci
+CSU Ogoudou
+CSU SANTE
+CSU Tafiré
+CSU Unicafe BELLE VILLE
+Csucom de Koumassi Campement
+DE l'AMITIER
+Dépôt de médicaments
+Depôt de pharmacie
+Depôt de Pharmacie de Kpouebo
+Dépôt de Pharmacie du Rond-point
+Dépôt de produit pharmaceutique d'Akounougbé
+Direction des MINES de TOUBA
+Direction Regionale de la Protection Sociale
+Dispensaire
+Dispensaire de BOUNA
+Dispensaire de Gnintitoigui 1
+Dispensaire de Gnippi 2
+Dispensaire de noukpoudou
+Dispensaire de Tié-N'Diékro
+Dispensaire Medico-Scolaire
+Dispensaire Rural
+Dispensaire Rural d'Iguela
+Dispensaire Rural de Bogofa
+Dispensaire Rural de Gnakaradigui
+Dispensaire Rural de Kaflandé
+Dispensaire Rural de Sanguinari
+Dispensaire Rural de Tefrodouo
+Dispensaire Rural de Zangue
+Dispensaire Soeurs Salésiennes
+Dispensaire Urbain de BOUNA
+Dispensaire Urbain de Gagnoa
+District sanitaire Aboisso
+District Sanitaire Akoupe
+District Sanitaire d'Aboisso
+District Sanitaire de Boundiali
+District Sanitaire de Sakassou
+District Sanitaire de Tiapoum
+DRPS de Soubre
+Eloma de Gonzag
+Enica
+EPP Garage KM17
+Espace Bio médical Robinson International
+Espace réservé au future hôpital internationale de Yamoussoukro
+FACE Palais de Justice D'Odienne
+Formation Sanitaire D'Attecoube
+Formation sanitaire municipal de Zimbabwe
+Formation Sanitaire Urbaine de Dar Es Salam
+FOYER des Jeunes
+FOYER des Jeunes Affery
+FOYER des Jeunes de Bounda
+FOYER des Jeunes de Diawala
+FOYER des Jeunes de ORESS Krobou
+FOYER des Jeunes de SAGO
+FOYER des Jeunes Marcory
+FOYER Polivalent
+FSU-COM Aliodan
+FSU COM Andokoi
+FSU COM Niangon SUD
+FSU COM PORT BOUET 2
+FSU COM Wassakara
+FSU GESCO
+FSU KOUTE
+FSU Koweit
+FSU MICAO
+FSU TOIT ROUGE
+Garage auto
+Grande Endemie
+Grande Mairie de DALOA
+Grande pharmacie
+Grande Pharmacie Appaul SARL
+Grande Pharmacie Commerce
+Grande Pharmacie de l'Agneby
+Grande pharmacie de l'autoroute
+Grande Pharmacie des Garages
+Grande Pharmacie du Commerce-Plateau
+Grande Pharmacie du Denguele
+Grande Pharmacie du Jubilé
+Grande Pharmacie du Sud-Ouest SARL
+Grande Pharmacie Seweke
+Grande Pharmacie TSF de Bouake
+Grande Pharmcie de Gremian
+Grandes Endemies
+Groupe médical de l'amitié
+Groupe Scolaire BROBO
+Groupe Scolaire Djebonoua
+Hã”pital Général de Toulepleu
+Hã”pital Général Seguelon
+HM-SP
+Hôpital AFO Sud
+Hôpital Baptiste de Ferkessedougou
+Hôpital d'Arrah
+Hopital de Botro
+Hôpital de Diegonefla
+Hôpital de Gbagba
+Hôpital de Gbon
+Hôpital de Guiberoua
+Hôpital de Kaniasso
+Hopital de la cité exploitation
+Hôpital de la Police Nationale du Plateau
+Hôpital de police du Plateau
+Hopital de toumodi
+Hôpital de Vavoua
+Hôpital de Yakoli
+Hôpital des Fonctionnaires
+Hôpital Général
+Hôpital Général Adjame
+Hôpital Général Agnibilekrou
+Hôpital Général Bettie
+Hôpital Général Bonoua
+Hôpital Général BUYO
+Hopital Général d'Abobo
+Hôpital Général D'Adiake
+Hôpital général d'Adjamé
+Hôpital Général d'Agnibilekro
+Hopital General d'Alépé
+Hôpital Général D'Anyama
+Hopital General d'Anyama;Hopital general d'Anyama
+Hôpital Général D'Ayame
+Hôpital général d'azopé
+Hôpital Général D'OUME
+Hôpital Général de Bangolo
+Hôpital général de Bingerville
+Hôpital Général de Bocanda
+Hôpital Général de Bonoua
+Hôpital Général de BOUNA
+Hôpital Général de Daoukro
+Hôpital Général de Dikodougou
+Hôpital général de Doropo
+Hôpital Géneral de Duékoué
+Hôpital Général de Ferkessedougou
+Hôpital Général de Fresco
+Hôpital Général de Gagnoa
+Hôpital Général de Gbeleban
+Hopital General de Grand-Bassam
+Hôpital Général de Grand-Lahou
+Hôpital Général de GUEYO
+Hopital général de Guiglo
+Hôpital général de Guitry
+Hôpital Général de ISSIA
+Hôpital Général de KANI
+Hôpital Général de KONG
+Hôpital Général de KORO
+Hopital Général de Kouibly
+Hôpital général de Koumassi
+Hôpital Général de KOUN-FAO
+Hôpital Général de Lakota
+Hôpital Général de Madinani
+Hôpital Général de Mafere
+Hôpital Général de Mankono
+Hôpital général de Marcory
+Hôpital Général de Méagui
+Hôpital Général de Minignan
+Hôpital Général de Ouangolodougou
+Hôpital Général de Ouaninou
+Hopital Général de Oumé
+Hôpital général de Port-Bouët
+Hôpital Général de Samatiguila
+Hopital général de Sassandra
+Hôpital Général de Sinematiali
+Hôpital Général de Sinfra
+Hôpital Général de Soubre
+Hôpital général de Taabo
+Hôpital général de Tabou
+Hôpital Général de TANDA
+Hôpital Général de Tehini
+Hôpital général de Tiapoum
+Hôpital Général de Tiassalé
+Hôpital général de Tiebissou
+Hôpital Général de Transua
+Hôpital Général de Treicheville
+Hôpital Général de Treichville
+Hôpital Général de Vavoua
+Hôpital général de Yopougon-Attié
+Hôpital Général de Zoukougbeu
+Hôpital Général GRAND Bassam
+Hôpital Général Nassian
+Hôpital Général Sakassou
+Hôpital Général TAI�
+Hôpital Général Tiapoum
+Hôpital Général Yakasse Attobrou
+Hopital Generale
+Hôpital Générale d'Adiaké
+Hôpital Générale d'Agboville
+Hôpital Houphouët-Boigny
+Hopital HPD Dabou
+Hôpital Islamique de Daloa
+Hôpital MARIA Grasia de Yakasse Feyasse
+Hôpital Materno-Infantile Akwaba-Catalunya
+Hôpital Mère-Enfant de Bingerville
+Hopital Militaire
+Hôpital Militaire d'Abidjan
+Hôpital Militaire D'Adjame
+Hôpital municipal de Vridi
+Hôpital Pangolin Koumassi
+Hôpital préfectoral de Boundiali
+Hôpital psychiatrique de Bingerville
+Hôpital Psychiatrique de Bouaké
+Hôpital Régional de Divo
+Hopital Toit Rouge
+INFAS de Treichville
+Infirmerie
+Infirmerie GSPM
+Infirmerie guyonal
+Infirmerie INPHB Centre
+Infirmerie le levin
+Infirmerie les Soeurs STE Catherine
+infirmerie Medical
+Infirmerie Privée
+Infirmerie Privée d'Abattoir
+Infirmerie privée du bien-être
+Infirmerie Privée Kaoka
+Infirmerie Privée sans Frontière
+Infirmerie Privés Le Temps
+Infirmerie Saint Chekinael
+INHP Treichville
+Inspection du Travail
+Inspection du Travail 1
+Inspection du Travail 2
+Institut d'hygène publique de san pedro
+Institut des Aveugles
+Institut Medicale IAMC Santé
+Institut National d'hygiène publique
+Institut national d'hygiène publique Antenne Yopougon
+Institut National d'Hygiène Publique de Treichville
+Institut National de l'Hygiène Publique
+Jéhovah Rapha
+Kann'Sy
+Kassidy
+LA Grande Pharmacie de Gbagba
+La maison des chiens
+La Nouvelle Clinique Remah
+La paix de Daoukro
+LA Pharmacie du FORUM
+Labo de prothèse dentaire
+Labo dentaire
+Labo Prothèse Dentaire Coco
+Laboratoire de Prothèse Dentaire
+Laboratoire Dentaire
+Laboratoire Dentaire Fadkady
+Laboratoire Moderne Prothèse Dentaire
+Lafia
+Les 7 colonnes
+Les Béatitudes
+Les Catleyas
+Lokaha 2
+LYCEE Hotelier
+Mamy Adjoa
+Massarana Marcory
+Maternité
+Maternité Badéya
+Maternité d'Attecoubé
+Maternité d'Attiekoi
+Maternite de Dioulabougou
+Maternité de Kotiakoffikro
+Maternité de Natio Kobadara
+Maternité de Sinématiali
+Maternité de Tié-N'Diékro
+Maternité de Yorobodi
+Maternité Kennedy 2
+Maternité Municipale Deleguée de Zimbabwe
+Maternite ORLY de DALOA
+Maternité Urbaine de Williamsville
+MaximumtBl Group
+Mediatheque
+Mediatheque Attecoube
+Medico DAR ES SALAM
+Médico-Scolaire
+Medico Scolaire DAR ES SALAM de Bouake
+Medico-Scolaire de Duekoue
+Medico Scolaire de SAN PEDRO
+Medico Scolaire Oumé
+MINI CITE Financiere Agboville
+Ministere de la Construction de DALOA
+Montana
+Moya
+Mugefci de Bouafle
+Mugefci de DALOA
+Nature et Santé Animale
+Notre dame du refuge
+Nouvelle Clinique d'Adjame
+Nouvelle Clinique Farah
+Nouvelle Pharmacie Abobo Belleville
+Nouvelle Pharmacie Bethesda
+Nouvelle Pharmacie Canaan
+Nouvelle Pharmacie D'Affery
+Nouvelle Pharmacie de Beoumi
+Nouvelle Pharmacie de Bettie
+nouvelle pharmacie de bonon
+Nouvelle Pharmacie de BOUNA
+Nouvelle Pharmacie de BUYO
+Nouvelle Pharmacie de Jacqueville
+Nouvelle Pharmacie de L'Eternel Ouelle
+Nouvelle Pharmacie de la CITE
+Nouvelle Pharmacie de la VIE
+Nouvelle Pharmacie de N'Douci
+Nouvelle Pharmacie de Sokoura
+Nouvelle pharmacie des 220 logements
+Nouvelle Pharmacie des Savanes
+Nouvelle Pharmacie du Boulvard
+Nouvelle Pharmacie du Carrefour
+Nouvelle Pharmacie du Djuablin
+Nouvelle Pharmacie du NIENE (SARLU)
+Nouvelle Pharmacie du Palais des Sports
+Nouvelle Pharmacie du PHARE
+Nouvelle Pharmacie du Soleil
+Nouvelle Pharmacie DUNIA
+Nouvelle Pharmacie KETTE
+Nouvelle Pharmacie la Colombe de MAN
+Nouvelle Pharmacie Le Soleil
+Nouvelle Pharmacie Matene
+Nouvelle Pharmacie Micao
+Nouvelle Pharmacie Miria
+Nouvelle Pharmacie Nanan Yamoussou
+Nouvelle Pharmacie NISSI
+Nouvelle Pharmacie NOTRE DAME du Refuge
+Nouvelle Pharmacie Principale D'Abobote
+Nouvelle Polyclinique du Centre
+Nouvelle Proveci SA
+Ong Eveil
+Ong Ivoire Santé
+Paharmacie Degarde
+Parmacie de Bietry
+Passeport
+Passeport DJIBI
+Permis CGI PONT HB Treichville
+Permis CGI Treichville VGE
+Petit Hôpital
+Phamacie Le Roc
+Pharamaci Chigata
+Pharmacie 2 plateaux agban
+Pharmacie 220 Logements
+Pharmacie Abobo Baoulé
+Pharmacie Abobo Grand Marché
+Pharmacie ABOBO SANTE
+Pharmacie ABOBO Sogefiha
+Pharmacie Aboboté
+Pharmacie Aboh
+Pharmacie Aboussouan
+Pharmacie Abya
+Pharmacie Actuelle
+Pharmacie Adjamé Latin
+Pharmacie Adzope
+Pharmacie Afia
+Pharmacie Agoua
+Pharmacie Ahouane
+Pharmacie Aimess
+Pharmacie Air France 1
+Pharmacie Akadjoba
+Pharmacie Akandje
+Pharmacie Akwaba
+Pharmacie Alicia
+Pharmacie Aliodan
+Pharmacie Alors
+Pharmacie Alpha 16
+Pharmacie Amaryllis
+Pharmacie Amina
+Pharmacie Amitie
+Pharmacie Anador
+Pharmacie Ananeraie
+Pharmacie Anaud
+Pharmacie Andy
+Pharmacie Aneaud
+Pharmacie Angré
+Pharmacie Aniaman
+Pharmacie ANIEL
+Pharmacie Animan
+Pharmacie Antilope
+Pharmacie Appaul
+Pharmacie Appromprounou
+Pharmacie Arc-en-ciel
+Pharmacie Arnica
+Pharmacie Artémia
+Pharmacie Arums
+Pharmacie Assena
+Pharmacie Aurore
+Pharmacie Avenue 8
+Pharmacie Avenue Chardy
+Pharmacie Avicenne
+Pharmacie Awale
+Pharmacie Ayatha
+Pharmacie Azito
+Pharmacie Azur
+Pharmacie Babakan
+Pharmacie Bagoué
+Pharmacie Baïty
+Pharmacie balnéaire
+Pharmacie Bardot 2000
+Pharmacie BD du Cameroun
+Pharmacie Bel-Air
+Pharmacie Bel Horizon
+Pharmacie Belle Cité
+Pharmacie Belle Epine
+Pharmacie Belleville Treichville
+Pharmacie Beniabie
+Pharmacie Beraca
+Pharmacie Berakha
+Pharmacie Berekyah SARL.U
+Pharmacie bethanie
+Pharmacie Bethel
+Pharmacie Bethel Attoban
+Pharmacie Bethesda
+Pharmacie Bethesda de Sangouine
+Pharmacie Beyniouah
+Pharmacie Biabou Mosquée
+Pharmacie Bien-être
+Pharmacie Bienabie
+Pharmacie Blockhauss
+Pharmacie Boaz
+Pharmacie Bokosso Nouvelle
+pharmacie bon pasteur
+Pharmacie bondoukou marché
+Pharmacie Bouandougou
+Pharmacie Boulevard de France
+Pharmacie Boulevard Mitterand
+Pharmacie Boulevard Y4
+Pharmacie Bsa
+Pharmacie campement
+Pharmacie Canaan
+Pharmacie Carrefour Boby
+Pharmacie Carrefour Koweit
+Pharmacie Carrefour N'Dotré
+Pharmacie Carrefour Santé
+Pharmacie Carrefour Songon Dagbé
+Pharmacie Celia
+Pharmacie Cellule Saine
+Pharmacie Cellule Sainte
+Pharmacie centrale
+Pharmacie Centrale Angré
+Pharmacie Centrale Attecoube
+Pharmacie Centrale DIVO
+Pharmacie Centrale Plateau
+Pharmacie Cephas
+Pharmacie chatelet
+Pharmacie Chè N'Talé
+Pharmacie Chenain
+Pharmacie Chicaya
+Pharmacie Chigata
+Pharmacie Chinoise
+Pharmacie Cité Olympique
+Pharmacie Cités Synacassi
+Pharmacie Climbié
+Pharmacie Clinique Chinoise
+Pharmacie Coeurs UNIS
+Pharmacie Colombe
+Pharmacie Comoe
+Pharmacie Cosmos
+Pharmacie d'Adjamé-Santé
+Pharmacie d'Agban
+Pharmacie D'Alepe
+Pharmacie d'Andokoi
+Pharmacie D'Arrah
+Pharmacie d'Arras
+Pharmacie d'Attécoubé
+Pharmacie d'Attinguié
+Pharmacie d'Huberson
+Pharmacie d'Orly 1
+Pharmacie D'OUME SARL-U
+Pharmacie Dar-Es Salam
+Pharmacie de Abobo Clouetcha
+Pharmacie de Bangolo
+Pharmacie de Barhyo
+Pharmacie de Bietry
+Pharmacie de Blockhauss
+Pharmacie de Bocanda
+Pharmacie de Bongouanou
+Pharmacie de Bonon
+Pharmacie de Bonoua
+Pharmacie de Bounounim
+Pharmacie de Cocody
+Pharmacie de Dabakala
+Pharmacie de Daoukro
+Pharmacie de Dimbokro
+Pharmacie de Duekoue
+Pharmacie de FERKE
+Pharmacie de Gagnoa
+Pharmacie de Gbapleu Nouvelle
+Pharmacie de Gesco
+Pharmacie de Gognoa
+Pharmacie de Guézon
+Pharmacie de Guiglo
+Pharmacie de Guitry
+Pharmacie de Heremankono-Garo
+Pharmacie de Koumassi
+Pharmacie de l'amitié
+Pharmacie de L'Amitie (daoukro)
+Pharmacie de l'Antenne
+Pharmacie de l'Archange
+Pharmacie de L'Entente
+Pharmacie de l'Étoile
+Pharmacie de L'Etoile SARL U
+Pharmacie de L'Immaculee
+Pharmacie de L'Indenie
+Pharmacie de l'INJS
+Pharmacie de L'Oasis de PAIX
+Pharmacie de l'Oree
+Pharmacie de la 7ᵉ Tranche
+Pharmacie de la Bia
+Pharmacie de la caserne
+Pharmacie de la Cathédrale
+Pharmacie de la Cité
+Pharmacie De La Cité Cocody
+Pharmacie de la Cité Verte
+Pharmacie de la Corniche
+Pharmacie de la Djibi
+Pharmacie de la fondation
+Pharmacie de la gare
+Pharmacie de la GARE D'Adiake
+Pharmacie de la GARE de Duekoue
+Pharmacie de la Gare-Sud
+Pharmacie de la Grande Mosquée
+Pharmacie de la Mairie
+Pharmacie de la mosquée
+Pharmacie de la Mosquee D'Adjame
+Pharmacie de la Mosquee de Soubre
+Pharmacie de la Paix
+Pharmacie de la PAIX de Logouale
+Pharmacie de la palmeraie
+Pharmacie de la Place
+Pharmacie de la Providence
+Pharmacie de la République
+Pharmacie de la Riviera 2
+Pharmacie de la Sogefiha
+Pharmacie de la TENE
+Pharmacie de la Vie
+Pharmacie de la Zone 3
+Pharmacie de Mongaha SARL U
+Pharmacie de N'Gatakro
+Pharmacie de Niangon Lokoa
+Pharmacie de NOTRE DAME
+Pharmacie de Port-Bouet
+Pharmacie de Prikro
+Pharmacie de Sinfra
+Pharmacie de Sion
+Pharmacie de Sokoura
+Pharmacie de Songon
+Pharmacie de TAI
+Pharmacie de terre rouge
+Pharmacie de Tiebissou
+Pharmacie de Vierge du SIGNE
+Pharmacie de Yamoussoukro
+Pharmacie de Yaou
+Pharmacie de Zouan-Hounien
+Pharmacie de Zoukougbeu
+Pharmacie Delore
+Pharmacie Derrière rail
+Pharmacie des 2 Plateaux
+Pharmacie des 3 "Ô
+Pharmacie des 3 Ponts
+Pharmacie des 4 Étages
+Pharmacie des allées
+Pharmacie des Antilopes
+Pharmacie des Arts
+Pharmacie des Champs
+Pharmacie des Districts Sanitaires
+Pharmacie des espérances
+Pharmacie des finances
+Pharmacie des forêts
+Pharmacie des Gares
+Pharmacie des Grâces
+Pharmacie des Halles
+Pharmacie des lacs
+Pharmacie des Lagunes
+Pharmacie des Lagunes SARLU de DABOU
+Pharmacie des Laureades
+Pharmacie des Laureats
+Pharmacie des mosquées
+Pharmacie des Nations
+Pharmacie des plages
+Pharmacie des Sables
+Pharmacie des trois mosques
+Pharmacie Desbrons
+Pharmacie Diététique
+Pharmacie Dioulabougou SANTE Gagnoa
+Pharmacie Divine Miséricorde
+Pharmacie Divine Providence
+Pharmacie Djigui
+Pharmacie Do
+Pharmacie DOUHA
+Pharmacie du 14
+Pharmacie du 16ème
+Pharmacie du Banco
+Pharmacie du Bien Être
+Pharmacie du Bonheur
+Pharmacie du Bonheur SARL
+Pharmacie du Caducee Moderne
+Pharmacie du canal
+Pharmacie du Carrefour
+Pharmacie du Carrefour Ancienne Gendarmerie Anyama
+Pharmacie du cenacle
+Pharmacie du centre
+Pharmacie du Chã‚teau
+Pharmacie du Chã‚teau SARL
+Pharmacie du château
+Pharmacie du château Angré
+Pharmacie du Château d'Eau
+Pharmacie du Cinéma Boissy
+Pharmacie du Commerce
+Pharmacie du Commerce Abengourou
+Pharmacie du Commerce Man
+Pharmacie du Denguélé
+Pharmacie du District sanitaire
+Pharmacie du forum
+Pharmacie du futur
+Pharmacie du Gbeke
+Pharmacie du Golf
+Pharmacie du Grand Marché
+Pharmacie du GRAND Marche DALOA
+Pharmacie du jubilé et
+Pharmacie du Jubillé
+Pharmacie du Kafigue
+Pharmacie du Lac
+Pharmacie du lavage
+Pharmacie du Levant
+Pharmacie du Littoral
+Pharmacie du Longchamp
+Pharmacie du Lycée Technique
+Pharmacie du Marais
+Pharmacie du marché
+Pharmacie du Marche Akeikoi
+Pharmacie du Marche D'Abengourou
+Pharmacie du Marche DABOU SARL
+Pharmacie du Marche de Bingerville
+Pharmacie du Marche de Gagnoa
+Pharmacie du Marche de GROS de Bouake
+Pharmacie du Marche de Guiglo
+Pharmacie du Marche DIVO
+Pharmacie du memorial
+Pharmacie du mont Korhogo
+Pharmacie du NORD
+Pharmacie du NORD SARL
+Pharmacie du Palais de Justice
+Pharmacie du Palais de Justice du Plateau
+Pharmacie du Parvis
+Pharmacie du petit Marché
+Pharmacie du Progrès
+Pharmacie du Rond Point
+Pharmacie du ROND POINT Attecoube
+Pharmacie du Rond-Point du CHU
+Pharmacie du ROND POINT Odienne
+Pharmacie du Sanwi
+Pharmacie du Sud-Ouest
+Pharmacie du Triomphe
+Pharmacie du Vallon
+Pharmacie du zanzan
+Pharmacie Dunia
+Pharmacie Eau Vive
+Pharmacie Ebathe
+Pharmacie Eben-Ezer SARL U
+Pharmacie EBENA
+Pharmacie Ebenezer
+Pharmacie Eden
+Pharmacie Ehilie
+Pharmacie EL KABOD
+Pharmacie El-Nissi
+Pharmacie El-Olam
+Pharmacie Eliashib Toumodi
+Pharmacie Eliora
+Pharmacie Elite
+Pharmacie Elkanah
+Pharmacie ELOMA de Gonzag
+Pharmacie emerade
+Pharmacie EMS Santé
+Pharmacie Enica
+Pharmacie Ephrata
+Pharmacie Epiphanie
+Pharmacie Erginal
+Pharmacie Espace Santé
+Pharmacie et laboratoire Boulevard Cadre
+Pharmacie et Laboratoire LAFIA SARL
+Pharmacie et laboratoire Maison Blanche
+Pharmacie Firdaous
+Pharmacie Flora
+Pharmacie France-Afrique
+Pharmacie Fresco
+Pharmacie Galilée
+Pharmacie Garages
+Pharmacie Garahio
+Pharmacie GARE de HIRE
+Pharmacie Gaudo
+Pharmacie Gbédé
+Pharmacie Ghandi
+Pharmacie GMC
+Pharmacie Gnimah
+Pharmacie GORLA de Sinematiali
+Pharmacie Grand marché
+Pharmacie Hadassa
+Pharmacie Havila de SIFIE
+Pharmacie Hermes
+Pharmacie Horeb
+Pharmacie Hosanna
+Pharmacie II Plateaux-Agban
+Pharmacie Illman
+Pharmacie Immaculee
+Pharmacie In Challah
+Pharmacie Independance
+Pharmacie Inox
+Pharmacie Iroko
+Pharmacie J LOG
+Pharmacie Jehova-Jire
+Pharmacie Jericho
+Pharmacie JLog
+Pharmacie Jubilé
+Pharmacie K. Boilot
+Pharmacie KABOD
+Pharmacie Kahira
+Pharmacie kakoumani
+Pharmacie Kamelia
+Pharmacie Kannien SARL
+Pharmacie KATA de Bayota
+Pharmacie Keliam
+Pharmacie Kênêya
+Pharmacie Keneya Madinani
+Pharmacie Khaira
+Pharmacie Khianelli
+Pharmacie Khianelly
+Pharmacie Koko
+Pharmacie Kokoman-Vié
+Pharmacie KOKOMAN-VIE SARL U
+Pharmacie Koralie
+Pharmacie Koro
+Pharmacie Kouté
+Pharmacie l'Amitié de Yopougon
+Pharmacie la colombe
+Pharmacie La fatih
+Pharmacie La Mé
+Pharmacie la PAIX
+Pharmacie la Providence
+Pharmacie la Redemption SARL-U
+Pharmacie La vierge du signe
+Pharmacie Labia
+Pharmacie Lagoma
+Pharmacie Lanvia
+Pharmacie Laoulo
+Pharmacie Las Palmas
+Pharmacie Latrille
+Pharmacie Laurier 9
+Pharmacie Le Bélier
+Pharmacie Le Jourdain
+Pharmacie le Labelle D'Anyama
+Pharmacie Le Meridien
+Pharmacie Le Réel
+Pharmacie le ROC
+Pharmacie Leila
+Pharmacie LEM
+Pharmacie Les 7 Colonnes
+Pharmacie les ANGES de Gabiadji
+Pharmacie les ANGES - Gabidji
+Pharmacie Les Arcades
+Pharmacie Les Archanges
+Pharmacie les ARUMS
+Pharmacie Les Beatitudes
+Pharmacie les Catleyas
+Pharmacie Les Ecluses
+Pharmacie les Elias
+Pharmacie Les Elysées
+Pharmacie les Harmonies
+Pharmacie les Hortensias
+Pharmacie Les jardins d'Eden
+Pharmacie Les Merveilles
+Pharmacie Les Mimosnas
+Pharmacie Les Oliviers
+Pharmacie Les phalènes
+Pharmacie les Remblais
+Pharmacie Les Rosiers
+Pharmacie Les Sept Lys
+Pharmacie Les Tulipes
+Pharmacie Liberté de Bouaké
+Pharmacie Liberte de Bouake SARLU
+Pharmacie Littoral
+Pharmacie Lobia
+Pharmacie Luminance K
+Pharmacie LYCEE CLUB MAN
+Pharmacie Lymanya
+Pharmacie Lymanya Man
+Pharmacie Macy-ya
+Pharmacie Magnificat
+Pharmacie Mairie Nord
+Pharmacie Makissi
+Pharmacie Malika
+Pharmacie Malon
+Pharmacie Mamy Adjoa
+Pharmacie Mandiana
+Pharmacie marché
+Pharmacie Marché de Gros
+Pharmacie Marche de Sakassou
+Pharmacie Marché Gouro
+Pharmacie Marlyns
+Pharmacie Maroc
+Pharmacie Massarana
+Pharmacie Matene
+Pharmacie MATHE
+Pharmacie Mayess
+Pharmacie Mazuet
+Pharmacie Medicament Chinoise
+Pharmacie Megane
+Pharmacie Mermoz
+Pharmacie Merouane
+Pharmacie Mesano
+Pharmacie Metropole
+Pharmacie Milieu hevie
+Pharmacie Miséricorde
+Pharmacie Moaye
+Pharmacie MOAYE Agboville
+Pharmacie MOAYE N'Zianoua
+Pharmacie Moderne
+Pharmacie Moderne de KOUN-FAO
+Pharmacie Moderne de Ouangolo SARLU
+Pharmacie Moderne de Ouragahio
+Pharmacie Moderne de Seguela
+Pharmacie Moderne HIRE
+Pharmacie Moderne Kennedy
+Pharmacie Mokeyville
+Pharmacie Monastère
+Pharmacie Monsochi
+Pharmacie Mont Carmel
+Pharmacie Morofé
+Pharmacie MOYA Abengourou
+Pharmacie N'Dotré
+Pharmacie Nabenou
+Pharmacie Nankoko
+Pharmacie Naousse
+Pharmacie Nassara
+Pharmacie Ndotré
+Pharmacie Niacadie
+Pharmacie Niangon Nord
+Pharmacie Niangon sud
+Pharmacie Nikibel
+Pharmacie NIKLA
+Pharmacie Nitoro
+Pharmacie Noemie
+Pharmacie Notre-Dame
+Pharmacie Notre-Dame d'Afrique
+Pharmacie Notre-Dame de l'Incarnation
+Pharmacie NOTRE DAME de la Delivrance
+Pharmacie Notre-Dame de la paix
+Pharmacie NOTRE DAME du GRAND SIGNE
+Pharmacie Nour
+Pharmacie NOUR Kadija
+Pharmacie Nouram
+Pharmacie Nouveau Quartier
+Pharmacie Nouvelle
+Pharmacie Nouvelle Blolequin
+Pharmacie Nouvelle de Bianouan SARLU
+Pharmacie Nouvelle du Château
+Pharmacie Nouvelle Pergola
+Pharmacie Noya
+Pharmacie Ocean
+Pharmacie Ode
+Pharmacie Odelia
+Pharmacie Ogoudou
+Pharmacie olympique
+Pharmacie Orchid
+Pharmacie Ouangolo Marche
+Pharmacie palais de justice
+Pharmacie Palmeraie
+Pharmacie Paloma
+Pharmacie pefina
+Pharmacie Peniel
+Pharmacie Perusia
+Pharmacie Phenix
+Pharmacie Plateau Dokui
+Pharmacie Port-Bouët II
+Pharmacie principale
+Pharmacie Principale de Bingerville
+Pharmacie Principale de Dikodougou
+Pharmacie Principale de FERKE
+Pharmacie Principale Korhogo
+Pharmacie Principale Sikensi
+Pharmacie Privée Chinois
+Pharmacie Prodomo
+Pharmacie Prolife
+Pharmacie Providence
+Pharmacie Providence Bouafle
+Pharmacie Providence de Satama-Sokoura
+Pharmacie Providence Nouvelle
+Pharmacie Providence Soubre SARL-U
+Pharmacie PTT
+Pharmacie Quartier Bayard
+Pharmacie Quartier Divo
+Pharmacie Quartier France
+Pharmacie Quartier Francophonie
+Pharmacie Quartier Huberson SARL
+Pharmacie Racines
+Pharmacie Rahman
+Pharmacie Rapha
+Pharmacie Rehoboth
+Pharmacie rehoboth de buyo
+Pharmacie REINE des ANGES Azaguie
+Pharmacie Résidence Abobo PK18
+Pharmacie rive gauche
+Pharmacie Riviera III
+Pharmacie ROCHE
+Pharmacie Roma d'Anoumabo
+Pharmacie Rosiers
+Pharmacie Route Akeikoi
+Pharmacie Route d'Alépé
+Pharmacie ROUTE d ALEPE SARLU
+Pharmacie Route D'Anyama
+Pharmacie Route d'Issia
+Pharmacie ROUTE de Bassam
+Pharmacie Roxanne
+Pharmacie Roy
+Pharmacie Rue 12
+Pharmacie Sacré-cœur
+Pharmacie SAFIR Assistance
+Pharmacie Saint Amans
+Pharmacie Saint Atanase
+Pharmacie Saint Gil
+Pharmacie Saint Sauveur
+Pharmacie Saint Silvestre
+Pharmacie Saint Viateur Palmeraie
+Pharmacie Sainte-Agathe
+Pharmacie Sainte-Catherine
+Pharmacie Sainte Claudine
+Pharmacie Sainte Emmanuella
+Pharmacie Sainte-Famille
+Pharmacie Sainte Famille de Nazareth
+Pharmacie Sainte Harmony
+Pharmacie Sainte Odile
+Pharmacie Sainte Pauline
+Pharmacie Sainte Plus
+Pharmacie Sainte Trinite
+Pharmacie SALAM de la Grande Mosque Korhogo
+Pharmacie Sanitas
+Pharmacie Santa Caterina
+Pharmacie Santé
+Pharmacie SANTE de VIE
+Pharmacie Santé Pour Tous
+Pharmacie Schékina
+Pharmacie Schiba
+Pharmacie Sebroko
+Pharmacie Segaï
+Pharmacie Sekle
+Pharmacie Selmer
+Pharmacie Sénève
+Pharmacie Shalom
+Pharmacie Shalom de NOE
+Pharmacie Sideci extension
+Pharmacie Siporex
+Pharmacie Slalom
+Pharmacie Sokoura
+Pharmacie Soleil
+Pharmacie Sopim
+Pharmacie souraley
+Pharmacie Spring
+Pharmacie St Come et Damien
+Pharmacie St Emmanuella
+Pharmacie Ste Dorothée
+Pharmacie STE Harmony
+Pharmacie STE Madelaine NIMBO 18 LGTS
+Pharmacie Tchergnim
+Pharmacie TEHIA
+Pharmacie Tehoua
+Pharmacie Tera
+Pharmacie Theodora
+Pharmacie Tiacoh
+Pharmacie Tizra
+Pharmacie Toits-Rouges
+Pharmacie TSF
+Pharmacie Val D'Oise
+Pharmacie Vallon
+Pharmacie Wahon
+Pharmacie Wakouboué
+Pharmacie Wassakara
+Pharmacie Wassia
+Pharmacie Wiliwangha
+Pharmacie Williamsville
+Pharmacie Williamsville SARL
+pharmacie xiliwangha
+Pharmacie Yacine
+Pharmacie Yarapha
+Pharmacie Yélé
+Pharmacie YENI
+Pharmacie Yotiky
+Pharmacie Zeulayet
+Pharmacie Zone Industrielle
+Pharmacir Iris
+Pharmacopée Chinoise et Africaine
+Pharmarcie Des Jardins
+Pharmarcie Les perles
+Pharrmacie Tereza
+PMI Bingerville
+PMI DALOA
+PMI de Guitry
+PMI MAN
+Poly Clinic Deux Plateaux
+Polyclinique Danga
+Polyclinique de l'Indenié
+Polyclinique de Yopougon
+Polyclinique Groupe Médical du Plateau
+Polyclinique Kennedy
+Polyclinique La Sisangue
+Polyclinique Le Panthéon Médical
+Polyclinique Nouvelle de Belleville
+Polyclinique Sacré-Cœur
+Polyclinique Sainte Fraternité
+Pont d'Anoumabo
+Produits Chinois
+Protection Maternelle et Infantile
+Protection Maternelle et Infantile (PMI) Yamoussoukro
+Prothèse dentaire
+Quartier Ebrié
+Rehoboth du Stade
+Route de Bassam
+Saint sauveur
+Sainte famille
+Sainte Marte
+SALLE Annexe Boulangerie de Feremandougou
+Service de Santé Scolaire et Universitaire II Nimbo
+Service Scolaire et Universitaire Bouaké 3
+Service TECH Mairie ARRAS 2
+Service Technique MAIRE de ARRAH
+Service Technique Mairie de Seguela
+SIEGE Mugefci
+SOUS Precfecture de DOGBO
+SOUS Precture de N'Guessankro
+SOUS Prefectre de Kanoroba
+SOUS Prefecyure de TAI
+Terminus Centre Pilote
+Tiebissou
+UFR Sciences Médicales d'Abidjan
+Vétérinaire

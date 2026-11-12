@@ -1,0 +1,103 @@
+# institutions.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : manual/institutions.txt
+AFOR
+Agence de gestion des routes
+Agence Emploi Jeunes
+Agence foncière rurale
+Ageroute
+ARTCI
+Assemblée nationale
+Autorité de régulation des télécommunications de Côte d'Ivoire
+Banque centrale des États de l'Afrique de l'Ouest
+BCEAO
+Caisse générale de retraite des agents de l'État
+Caisse nationale d'assurance maladie
+Caisse nationale de prévoyance sociale
+Centre de promotion des investissements en Côte d'Ivoire
+Cepici
+CGRAE
+CHU d'Angré
+CHU de Bouaké
+CHU de Cocody
+CHU de Treichville
+CHU de Yopougon
+CMU
+CNAM
+CNPS
+Commission électorale indépendante
+Conseil constitutionnel
+Conseil économique, social, environnemental et culturel
+Cour d'appel d'Abidjan
+Cour d'appel de Bouaké
+Cour des comptes
+Cour suprême
+Couverture maladie universelle
+DGI
+Direction départementale de la Santé
+Direction générale de la Fonction publique
+Direction générale des Douanes
+Direction générale des Impôts
+Direction régionale de l'Éducation nationale
+District autonome d'Abidjan
+District autonome de Yamoussoukro
+DREN
+École nationale d'administration
+École normale supérieure
+Gendarmerie nationale
+Haute Autorité pour la Bonne Gouvernance
+INP-HB
+Institut national de la statistique
+Institut national de santé publique
+Institut national polytechnique Félix Houphouët-Boigny
+Institut Pasteur de Côte d'Ivoire
+Mairie d'Abobo
+Mairie de Bouaké
+Mairie de Cocody
+Mairie de Korhogo
+Mairie de San-Pédro
+Mairie de Yopougon
+Mairie du Plateau
+Médiateur de la République
+Ministère de l'Agriculture et du Développement rural
+Ministère de l'Économie et des Finances
+Ministère de l'Éducation nationale et de l'Alphabétisation
+Ministère de l'Emploi et de la Protection sociale
+Ministère de l'Environnement et du Développement durable
+Ministère de l'Équipement et de l'Entretien routier
+Ministère de l'Hydraulique
+Ministère de l'Intérieur et de la Sécurité
+Ministère de la Communication
+Ministère de la Culture et de la Francophonie
+Ministère de la Défense
+Ministère de la Fonction publique
+Ministère de la Promotion de la Jeunesse
+Ministère des Affaires étrangères
+Ministère des Eaux et Forêts
+Ministère des Mines, du Pétrole et de l'Énergie
+Ministère des Ressources animales et halieutiques
+Ministère des Sports
+Ministère des Transports
+Ministère du Budget et du Portefeuille de l'État
+Ministère du Commerce et de l'Industrie
+Ministère du Tourisme
+Office national de l'état civil et de l'identification
+Office national de la protection civile
+ONECI
+Police nationale
+Port autonome d'Abidjan
+Port autonome de San-Pédro
+Préfecture de police d'Abidjan
+Présidence de la République
+Primature
+Radiodiffusion Télévision Ivoirienne
+RTI
+Sénat
+Trésor public
+Tribunal de commerce d'Abidjan
+Tribunal de première instance d'Abidjan-Plateau
+Tribunal de première instance de Yopougon
+Université Alassane Ouattara
+Université Félix Houphouët-Boigny
+Université Jean Lorougnon Guédé
+Université Nangui Abrogoua
+Université Peleforo Gon Coulibaly

@@ -1,0 +1,40 @@
+{
+  "model": "v1",
+  "onnx_sha256": "5ea5d5259b28344f8eef369eb1a121ac65a268c37c9391bbc2d23b5ff0e4fc51",
+  "dataset": "synthetic",
+  "file": "test.jsonl",
+  "file_sha256": "f9349b709edf8d60e6bbfeef8873efa599a4da5e53e4657c3b2a7db5a8877555",
+  "blocking": true,
+  "results": {
+    "ci": {
+      "cases": 2000,
+      "strict": {
+        "PER": {
+          "precision": 0.8969,
+          "recall": 0.9676,
+          "f1": 0.9309,
+          "support": 1699
+        },
+        "ORG": {
+          "precision": 0.8413,
+          "recall": 0.9,
+          "f1": 0.8696,
+          "support": 1060
+        },
+        "LOC": {
+          "precision": 0.7614,
+          "recall": 0.7555,
+          "f1": 0.7584,
+          "support": 908
+        },
+        "micro": {
+          "precision": 0.849,
+          "recall": 0.8956,
+          "f1": 0.8717,
+          "support": 3667
+        }
+      },
+      "masking_rate": 0.9801
+    }
+  }
+}

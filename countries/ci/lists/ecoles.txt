@@ -1,0 +1,1181 @@
+# ecoles.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), établissements secondaires ; établissements scolaires d'Abidjan (Licence Ouverte 2.0)
+Academie des Professionnels de L'Education ABOBO
+Academie du ROI de Gloire DABOU
+Academie Kanien Agboville
+Académie universitaire internationale des sciences sociales (AUNIS)
+ADOI Centrale Electronique (ACE) Yopougon CITE
+Afrique Formation Koumassi
+Afrique Formation Marcory
+Agitel-Formation
+ALT Formation- Académie Libre de Technologies
+BEM Abidjan Bordeaux École de Management
+BGL Technology Youpougon
+C.E.S.G.T Koumassi
+C.E.S.T du Kettin Akoupe
+C.E.T.F. NOTRE DAME de la PAIX Treichville
+C.N.P.T.E. Abidjan
+C.N.P.T.E. Bouake
+C.N.P.T.E. DALOA
+C.T KOTOA Tiebissou
+CBCG Treichville
+Centre ALPHA Koumassi
+Centre d'animation et de formation pédagogique de Yamoussoukro
+Centre de Formation et Perfectionnement Plateau
+Centre de la petite enfance du programme (koumassi)
+Centre de protection de la petite enfance (Cocody)
+Centre Évangélique Bouafle
+Centre Horloger Koumassi
+Centre international de formation à distance
+Centre ivoirien de recherche et d'études juridiques
+Centre Polytechnique Yamoussoukro
+Centre Technique KOTOA Treichville
+Centre universitaire professionnalisé d'Abidjan
+CETC Treichville
+CETF Cocody
+CETI Marcory (ZONE-4C)
+CFAV Grand-Bassam
+CFP Bimbresso
+CMP Ebiapa Ebilassokro
+Collège Aboussouan Bongouanou
+Collège Adeska Katiola
+Collège Adventiste Abidjan
+Collège Adventiste Abidjan Marcory
+Collège Adventiste Bouake
+Collège Adventiste DIVO
+Collège Agnonkou Yopougon
+Collège Ahianot Lakota
+Collège Ahianot Yopougon
+Collège AHILÉ Port-Bouet
+Collège Ajavon et DAVI Koumassi
+Collège Akanji Yopougon
+Collège Akanza N'Douci
+Collège AKATI OUME
+Collège Akonda DIVO
+Collège ALABA Adiake
+Collège ALANI Beoumi
+Collège ALE AHIN Yakasse Attobrou
+Collège Amignon DIVO
+Collège Anacardier Dabakala
+Collège Anador ABOBO
+Collège Anador d'Abobo
+Collège Anador Yopougon
+Collège Anapie ALEPE
+Collège Anatole France Grand-Bassam
+Collège ANOMA Nandjui Anyama
+Collège Anoman Nandjui Anyama
+Collège Anouanze Didievi
+Collège Antilope DALOA
+Collège Artistique Abengourou
+Collège Ascension Daoukro
+Collège Assakra Guitry
+Collège Assoho Gagnoa
+Collège Atlantique SAN PEDRO
+Collège Autoroute du NORD Yopougon GESCO
+Collège AVE Gracia ABOBO
+Collège BAD Anyama
+Collège BAD de Koumassi
+Collège BAD Gohitafla
+Collège BAD Kouibly
+Collège BAD KOUN-FAO
+Collège BAD N'Douci
+Collège BAD Ouangolo
+Collège BAD Seguela
+Collège BAD Soubre
+Collège BAD Tieningboue
+Collège Bahikro ABOBO
+Collège Baptiste MONT SINAI Koumassi
+Collège Berethe Marcory
+Collège Bethel Affery
+Collège Bethleem Korhogo
+Collège Betsaleel Anyama
+Collège BIA Bouafle
+Collège Bianka Yopougon
+Collège Bocabo et Associes ABOBO
+Collège Bokpli Bocanda
+Collège Bougainville ZONE-4C Marcory
+Collège Canaan ARRAH
+Collège Carnot Niangon-Yopougon
+Collège CATH. NOTRE DAME de la Visitation YAKRO
+Collège Catholique Jeunes Filles Beoumi
+Collège Catholique Kirmann Abengourou
+Collège Catholique les Figuiers
+Collège Catholique MGR Kirmann DALOA
+Collège Catholique ND de Toutes les Graces Agnibil
+Collège Catholique NOTRE DAME D'Evron Lakota
+Collège Catholique Odienne
+Collège Catholique SAINT Viateur Bouake
+Collège Catholique Saints Martyrs de L'Ouganda MAN
+Collège Challenge Ouragahio
+Collège Chateaubriand DABOU
+Collège Chemin de Gloire ABOBO
+Collège CIEL Pluriel Yopougon
+Collège CIPIM Yopougon
+Collège Classique KEMA Yopougon
+Collège Commandant Cousteau
+Collège Communaute ABOBO Anador
+Collège COMPA Adzope
+Collège Concorde Senghor Toumodi
+Collège Confessionnel Doulos 3 Duekoue
+Collège Confessionnel PRIVE Islamique Marcory
+Collège d BAZ de Yopougon - Andokoi
+Collège D. BAZ Yopougon
+Collège D'Enseignement Secondaire Koumassi
+Collège D'Enseignement Secondaire Technique Logoua
+Collège d'orientation de Cocody
+Collège de Developppement des ETATS D'Afrique ABEN
+Collège de France ABOBO
+Collège de L' Amitie HIRE
+Collège de la PAIX Gagnoa
+Collège Decroly Agboville
+Collège Dee-Legnan ZAGNE
+Collège DEGRE Lakota
+Collège Demeneke HIRE
+Collège Denguele Anyama
+Collège Departemental Lakota
+Collège des Enseignants Toumodi
+Collège des Jeunes Filles SINGA YOP. TOITS Rouges
+Collège des Lagunes GRAND LAHOU
+Collège des Professeurs D'Enseignement Secondaire
+Collège des Professionnels de L'Enseignement SECON
+Collège des PROFS Niable
+Collège Descartes ZONE-4C Marcory
+Collège Diderot ABOBO
+Collège DIETY (Ex-Collège Les Acacias) DALOA
+Collège Djassaye Niangoran Adjame
+Collège Djessou ABOBO
+Collège DJIBI Sassandra
+Collège Djoble Cyprien San-Pedro
+Collège DL Kanzeon Yopougon
+Collège Dorian Yopougon CAMP Militaire
+Collège du PARC Adjame
+Collège du PARC BOUNA
+Collège du Plateau
+Collège DYNAN ABOBO
+Collège Eburnie Cocody
+Collège Eburnie Cocody ANGRE
+Collège EDEN Agboville
+Collège ELITE DALOA
+Collège ELITE Zoukougbeu
+Collège EMERY Yopougon
+Collège Emmaûs Bongouanou
+Collège Emmaus Yopougon Jerusalem
+Collège Enfant JESUS Gagnoa
+Collège Enko Riviera
+Collège ENOC Tiebissou
+Collège Entente Gagnoa
+Collège Etramphet Ouelle
+Collège Eulalie BLAH ABOBO Cloetcha
+Collège Eureka Sikensi
+Collège Excellence Soubre
+Collège Excellence Yopougon
+Collège Eyemon Niangoran Agboville
+Collège F. VAVI DAIRO Didizo DIVO
+Collège France-Afrique Gagnoa
+Collège Frantz FANON Koumassi
+Collège Fraternite Gagnoa
+Collège Frelec Scolaire Yopougon
+Collège Galile Yopougon
+Collège Gandhi Yamoussoukro
+Collège GBAO San-Pedro
+Collège Gbao-Sebo Meagui
+Collège Gededon Marcory
+Collège GOSEN
+Collège GOSEU ABOBO
+Collège Grebalo Guiberoua
+Collège GSR Riviera Golf
+Collège Guchanrolain de Yopougon
+Collège Guchanrolain Yopougon
+Collège Haroun Tazieff ABOBO
+Collège Harris MEMEL FOTE Meagui
+Collège Heleis 2 Yamoussoukro
+Collège Heleis Yamoussoukro
+Collège Honnenefrey Sikensi
+Collège Houphouet Faitai Bongouanou
+Collège I.P.E.S Yopougon
+Collège I.T.E.S ABOBO
+Collège IBC ABOBO
+Collège IFPG Ferkessedougou
+Collège IMES Broukro Bouake
+Collège IMEX Yopougon
+Collège INABO ISSIA
+Collège institut Froebel de Marcory
+Collège International Niangoran BOUAH
+Collège International NSIT WORD DALOA
+Collège Iris 1 Abobo
+Collège Iris 2 Abobo
+Collège Iris 2 Avocatier
+Collège IRIS ABOBO
+Collège IRIS-I ABOBO Kennedy
+Collège IRIS-II ABOBO Avocatier
+Collège ISTP Yopougon
+Collège Ivoire Daoukro
+Collège JUAN Carlos Mankono
+Collège JUAN Carlos (N°2) Gohitafla
+Collège K. L. Djedri Yamoussoukro
+Collège KADJE Yopougon
+Collège KANOU Yopougon
+Collège KANTE DONDO Zuenoula
+Collège KEMA Cocody
+Collège Kraffa Adagra Sikensi
+Collège KROU KASSA Hermakono
+Collège L'Avenir Bouake
+Collège L'Effort Yopougon
+Collège L'Intelligent DIVO
+Collège la Bagoue Yopougon
+Collège la BELLE Etoile Abobote-Extension
+Collège la BELLE Etoile Gbokedia
+Collège la Benediction Dimbokro
+Collège la BONNE Etoile de BONON
+Collège la BONNE Etoile Meagui
+Collège la BONNE Etoile Soubre
+Collège la BONNE Semence TAGO-2 Gagnoa
+Collège la BONNE Semence TAGO Adzope
+Collège la Colombe Koumassi
+Collège la Concorde Bouafle
+Collège la Fayette San-Pedro
+Collège la Fondation SKL Yopougon
+Collège la Joconde RIVIERA-II Cocody
+Collège la Maison de BAMBI Bouake
+Collège la Marahoue BONON
+Collège la Moisson Gonate
+Collège la Nature ABOBO
+Collège la Nouvelle Alliance Dimbokro
+Collège la PAIX Toulepleu
+Collège la Passerelle Zuenoula
+Collège la Performance Bouake
+Collège la Pérouse
+Collège la Perouse Cocody Bessikoi
+Collège la Prairie Yopougon
+Collège la Providence Dimbokro
+Collège la Reference BONON
+Collège la Renaissance Bouake
+Collège la Reussite Agboville
+Collège la Reussite Mafere
+Collège la Reussite Zoukougbeu
+Collège la RUCHE San-Pedro
+Collège la Sangoue Diegonefla
+Collège la Silhouette Port-Bouet
+Collège la Sorbonne Yopougon
+Collège la Voliere Marcory
+Collège Lafissou Dimbokro
+Collège Lagnon Korhogo
+Collège LAHA BROBO
+Collège Laplace ABOBO Akeikoi
+Collège Lasano Seguela
+Collège Latteki
+Collège Latteki ABOBO
+Collège le BON Berger DIVO
+Collège le Challenge Dimbokro
+Collège le Classique San-Pedro
+Collège le Conquerant Bingerville
+Collège le Destin ABOBO
+Collège le Figuier
+Collège le Formateur Gagnoa
+Collège le GRAND II Adjame (EX-LA Concorde)
+Collège le JOUR DIVO
+Collège le Jourdain Aboisso
+Collège le Jourdain Bouake
+Collège le KHAN Didievi
+Collège le MAHOU ABOBO
+Collège le MANEY Bangolo
+Collège le Neophyte Koumassi
+Collège le Palmier Zouan-Hounien
+Collège le Pantheon Williamsville
+Collège le Parthenon ABOBO
+Collège le Pedagogue Azaguie
+Collège le Pedagogue Yamoussoukro
+Collège le PETIT Champion ABOBO
+Collège le PETIT Collège Koumassi
+Collège le Phenix Riviera
+Collège le Phoenix de la Marahoue Bouafle
+Collège le President Yopougon
+Collège le Professionnel Duekoue
+Collège le Provincial ABOBO Plateau-Dokui
+Collège le Renouveau Lakota
+Collège le Rocher ISSIA
+Collège le RODIN Yopougon
+Collège le ROI des ROIS Koumassi
+Collège le Rosier
+Collège le SAINT des Saints Soubre
+Collège le Savoir Zuenoula
+Collège le Souverain Yopougon
+Collège le Succes TABOU
+Collège le Worodougou Seguela
+Collège Lecagnon Danane
+Collège Lemania 2-Plateaux
+Collège les 3 A Yopougon Andokoi
+Collège les Acacias DALOA
+Collège les Alliances Gagnoa
+Collège les Arcanes Yopougon
+Collège les AS ABOBO
+Collège les AS ABOBO Colatier
+Collège les ATLAS Anyama
+Collège les Bourgeons
+Collège les Cactus BONON
+Collège les COURS Sociaux ABOBO
+Collège les Elites OUME
+Collège les Elites Seguela
+Collège les Elites Zoukougbeu
+Collège les ELUS TABOU
+Collège les Elysees ABOBO
+Collège les Etoiles de SAMO
+Collège les Etoiles du FUTUR DALOA
+Collège Les falaises
+Collège les Falaises Abobo-Sagbe
+Collège les Freres Jumeaux Zuenoula
+Collège les Graces ABOBO
+Collège les Heures Claires Bouake
+Collège les Lutins San-Pedro
+Collège les Mignons Yopougon
+Collège les Oliviers PORT BOUET
+Collège les Orchidees ABOBO
+Collège les Palmes Cocody
+Collège les PHALENES-I Yopougon
+Collège les PHALENES-II Yopougon
+Collège les Pigeons Yopougon
+Collège les Pingouins ABOBO Sogefiha
+Collège les Saints ANGES Yopougon
+Collège les Tchoya Adzope
+Collège Loniya Korhogo
+Collège LOUBO Grand-Zattry
+Collège Lumiere Azaguie
+Collège Mahoussa Koumassi
+Collège MALE Gbinde ABOBO Akeikoi
+Collège Mallet Gonzagueville
+Collège Marchange San-Pedro
+Collège Mathania Yopougon
+Collège Merajea
+Collège Mermoz BONON
+Collège Minerva Yopougon
+Collège MITSA Yopougon
+Collège Mitspa Yopougon
+Collège Mitterand Yopougon
+Collège Moderne Abengourou
+Collège Moderne ABOBO PK-18
+Collège Moderne Aboisso
+Collège Moderne Abongoua Dimbokro
+Collège Moderne Adjame Harris
+Collège Moderne Adzope
+Collège Moderne Affienou
+Collège Moderne Agboville
+Collège Moderne Agnibilekro
+Collège Moderne Ahigbe-Koffikro Aboisso
+Collège Moderne Ahouanou DABOU
+Collège Moderne Angoda Yamoussoukro
+Collège Moderne Aniassue
+Collège Moderne Apprompronou
+Collège Moderne Assikoi
+Collège Moderne Attiegouakro
+Collège Moderne Autoroute Treichville
+Collège Moderne Azaguie
+Collège Moderne BAD Koumassi
+Collège Moderne Bangolo
+Collège Moderne Bayota
+Collège Moderne Bediala DALOA
+Collège Moderne Bianouan
+Collège Moderne Bingerville
+Collège Moderne Bondoukou
+Collège Moderne Bonieredougou
+Collège Moderne Bouafle
+Collège Moderne Cocody
+Collège moderne d'Abobo
+Collège moderne d'Adjamé
+Collège Moderne DALOA
+Collège moderne de Bingerville
+Collège moderne de l'autoroute de Treichville
+Collège moderne de Yopougon
+Collège Moderne Descartes
+Collège Moderne Dimbokro
+Collège Moderne Dinguira
+Collège Moderne DIVO
+Collège Moderne Dribouo
+Collège moderne du Plateau
+Collège Moderne Ebilassokro
+Collège Moderne EDER Koumassi
+Collège Moderne Eureka Sikensi
+Collège Moderne Excellence Sikensi
+Collège Moderne Gadouan DALOA
+Collège Moderne Gagnoa
+Collège Moderne Gboguhe DALOA
+Collège Moderne Gnagbodougnoa Gagnoa
+Collège Moderne Grand-Bassam
+Collège Moderne Grand-Zatry
+Collège Moderne I Yamoussoukro
+Collège Moderne II Yamoussoukro
+Collège Moderne ILE VERTE (C. Moderne PRIVE Jacque
+Collège Moderne Jeunes Filles Bouake
+Collège Moderne Jeunes Filles Yopougon
+Collège Moderne Katiola
+Collège Moderne KFW Grand-Zattry
+Collège Moderne KFW GUEYO
+Collège Moderne KFW Meagui
+Collège Moderne KOKO Bouake
+Collège Moderne KOLIA
+Collège Moderne Korhogo
+Collège Moderne Kossou
+Collège Moderne Kpouebo
+Collège moderne la colombe de Koumassi
+Collège Moderne la PAIX Yopougon
+Collège Moderne Lakota
+Collège Moderne le Privilege Daoukro
+Collège Moderne le Rosier ABOBO
+Collège Moderne les Ardennes ABOBO Akeikoi
+Collège Moderne MAN
+Collège Moderne Molonouble
+Collège Moderne Morondo
+Collège Moderne Mouahe Daoukro
+Collège Moderne NIMBO Bouake
+Collège Moderne Niofoin Korhogo
+Collège Moderne Odienne
+Collège Moderne Ouaninou
+Collège Moderne PEHE Guiglo
+Collège Moderne Pinda-Boroko Bondoukou
+Collège Moderne Plateau
+Collège Moderne Privé Gonfreville Bouake
+Collège Moderne PRIVE Kononfla Sinfra
+Collège Moderne PRIVE Watezo Saioua
+Collège Moderne RABE Sikensi
+Collège Moderne Sainte UNION ABOBO
+Collège Moderne San-Pedro
+Collège Moderne Sarhala
+Collège Moderne Sassandra
+Collège Moderne SIFIE
+Collège Moderne Tabagne
+Collège Moderne TABOU
+Collège Moderne TANDA
+Collège Moderne Tanguelan
+Collège Moderne Tankesse
+Collège Moderne Tortiya
+Collège Moderne Toumodi
+Collège Moderne Toupah DABOU
+Collège Moderne TSF Bouake
+Collège Moderne UCADA Akoupe
+Collège Moderne Yakasse-Feyasse
+Collège Moderne Yezimala Bondoukou
+Collège Moderne Yopougon
+Collège Montaigne Marcory
+Collège Montherlant Adjame
+Collège Morija Treichville
+Collège Mucres KOUN-FAO
+Collège MUEFI Soubre
+Collège Municipal Affery
+Collège Municipal Anoumaba Dimbokro
+Collège Municipal Assueffry
+Collège Municipal Bettie
+Collège Municipal Bin-Houye
+Collège Municipal Blolequin
+Collège Municipal BONON
+Collège Municipal BROBO
+Collège Municipal BUYO
+Collège Municipal Danane
+Collège Municipal Dianra
+Collège Municipal Diawala
+Collège Municipal Didievi
+Collège Municipal Diegonefla
+Collège Municipal Dikodougou
+Collège Municipal Djebonoua
+Collège Municipal Djekanou
+Collège Municipal GBON
+Collège Municipal Gbonne
+Collège Municipal GRABO
+Collège Municipal Grand-Bereby
+Collège Municipal H K B Niakaramandougou
+Collège Municipal HIRE
+Collège Municipal KANI
+Collège Municipal Kassere
+Collège Municipal Kokumbo
+Collège Municipal KONG
+Collège Municipal Kononfla
+Collège Municipal KORO
+Collège Municipal Kounahiri
+Collège Municipal Logouale
+Collège Municipal Madinani
+Collège Municipal Mahapleu
+Collège Municipal MAN
+Collège Municipal Minignan
+Collège Municipal Montezo
+Collège Municipal NAPIE
+Collège Municipal Nassian
+Collège Municipal Nielle
+Collège Municipal Prikro
+Collège Municipal Rubino
+Collège Municipal Saioua
+Collège Municipal Samatiguila
+Collège Municipal Sandegue
+Collège Municipal Satama-Sokoro
+Collège Municipal Seguelon
+Collège Municipal Sinematiali
+Collège Municipal Sinfra
+Collège Municipal Sipilou
+Collège Municipal Sirasso
+Collège Municipal Sohouo Korhogo
+Collège Municipal TAABO
+Collège Municipal Tafire
+Collège Municipal TAI
+Collège Municipal Tiapoum
+Collège Municipal TIEME
+Collège Municipal Tiemelekro
+Collège Municipal Tiendiekro
+Collège Municipal Transua
+Collège Municipal Yakasse-Attobrou
+Collège Municipal Yamoussoukro
+Collège Municipal Zikisso
+Collège Municipal Zouan-Hounien
+Collège Municipal Zoukougbeu
+Collège MUPES Agnibilekrou
+Collège MUPES HIRE
+Collège MUTSU - HITO BONON
+Collège MUVEP TANDA
+Collège N'Guessan Marmane Vavoua
+Collège N'Kouan Akoupe
+Collège N'Siflouwa Daoukro
+Collège N'Sikan Didievi
+Collège N'ZI COMOE Dimbokro
+Collège Nadjate Yopougon
+Collège NADRO la Source DIVO
+Collège NANAN Agnini Agnibilekrou
+Collège NAWA Soubre
+Collège Neophyte VRIDI
+Collège Newton de Yopougon
+Collège Nogolama Anyama
+Collège NOTRE DAME D'Afrique Bietry
+Collège Notre Dame d'Afrique de Bietry
+Collège NOTRE DAME D'Assomption MONGA ALEPE
+Collège NOTRE DAME de L'Assomption DALOA
+Collège NOTRE DAME de L'Harmonie 1 ABOBO
+Collège NOTRE DAME de L'Indenie Abengourou
+Collège NOTRE DAME de la PAIX Abadjin-Koute
+Collège Notre-Dame de la Paix du Plateau
+Collège NOTRE DAME de la PAIX Tiassale
+Collège NOTRE DAME de N'ZI Dimbokro
+Collège NOTRE DAME de Secours 3 Tiemelekro
+Collège NOTRE DAME des LACS 1 Yamoussoukro
+Collège NOTRE DAME des LACS 2 Yamoussoukro
+Collège NOTRE DAME des Lagunes Port-Bouet
+Collège NOTRE DAME du Bandama Bouafle
+Collège NOTRE DAME du Rosaire Gagnoa
+Collège NOTRE DAME du Secours ABOBO
+Collège NOTRE DAME du Secours Rubino
+Collège NOTRE DAME Plateau
+Collège NOTRE DAME Sikensi
+Collège NOTRE DAME Sinfra
+Collège Novalime Yopougon
+Collège OCEAN Cocody
+Collège Orieux N'Douci
+Collège ORION DALOA
+Collège Penitholony Yopougon
+Collège Pentholony
+Collège Phoenix de la Marahoue Bouafle
+Collège Prestige Bocanda
+Collège PRIVE A.B.C Koumassi
+Collège PRIVE Abdallah Dabakala
+Collège privé Akanji
+Collège PRIVE Atlantic DIVO
+Collège PRIVE Bianka Yopougon
+Collège PRIVE BILL GATES Tiebissou
+Collège privé Bougainville
+Collège PRIVE de Rubino
+Collège PRIVE des LACS Grand-Lahou
+Collège PRIVE des Professeurs Tabagne
+Collège PRIVE Diawar MAN
+Collège PRIVE Djebonoua
+Collège PRIVE Djehoule Diddey Ouragahio
+Collège PRIVE du KAN Didievi
+Collège PRIVE du KAN Tiebissou
+Collège PRIVE Ehivet Bonoua
+Collège PRIVE Excellence Bouafle
+Collège PRIVE Galilee Yopougon
+Collège Privé Ivoiro Canadien d'Intégration de Cocody Angré
+Collège PRIVE Juliette Recamier Danane
+Collège PRIVE Kiyali Ferkessedougou
+Collège PRIVE Kothoh les Lumieres Meagui
+Collège PRIVE Kpassa PORT BOUET
+Collège PRIVE la Rennaissance Yopougon
+Collège PRIVE la Source Yopougon
+Collège PRIVE LAHA BROBO
+Collège PRIVE le Belier PORT BOUET
+Collège PRIVE le Chandelier DABOU
+Collège PRIVE le Serment Cocody
+Collège PRIVE LEGRE Sassandra
+Collège PRIVE les Archanges Attecoube
+Collège PRIVE Marseh Diegonefla
+Collège PRIVE Mothes Yopougon
+Collège PRIVE N'Dovia Toumodi
+Collège PRIVE OBAMA Guiglo
+Collège PRIVE Sainte OLIVE
+Collège privé shalom du Plateau
+Collège PRIVE TANDA
+Collège PRIVE Wabeme de Zikisso
+Collège PRIVE Yapoga OKEI Akoupe
+Collège Pythagore Gagnoa
+Collège RABE GUEYO
+Collège RABE Lakota
+Collège Racine DIVO
+Collège Reference CORES Sinfra
+Collège REINE Noufan Abengourou
+Collège Remblais DABOU
+Collège ROYAL Indenie Abengourou
+Collège SABA et FILS Yopougon
+Collège SAFOP ZONE-4C Marcory
+Collège Saguidiba Yopougon
+Collège SAINT Chalmel YOP NIANGON-SUD
+Collège SAINT Chalmel Yopougon-Niangon-Sud
+Collège SAINT Charmel Yopougon
+Collège SAINT CYR Port-Bouet
+Collège SAINT Cyrille Bingerville
+Collège SAINT EBER Facobly
+Collège SAINT EDER ABOBO Belle-Ville
+Collège SAINT EDER Anyama Belle-Ville
+Collège SAINT Exupery Port-Bouet
+Collège SAINT Math-Legrand Kouibly
+Collège SAINT Sauveur MEMNI
+Collège SAINT Sylver Yopougon
+Collège Saint Viateur
+Collège SAINT Viateur Cocody
+Collège Saint Viateur d'Abidjan
+Collège Sainte Alliance Koumassi
+Collège Sainte Annick ABOBO
+Collège Sainte Annick Yopougon
+Collège Sainte Famille Bouake
+Collège Sainte Famille TAABO
+Collège Sainte FOI ABOBO
+Collège Sainte Foi d'Abidjan
+Collège Sainte Lumiere ABOBO
+Collège Sainte NANCY Anyama
+Collège Sainte NANCY Marcory
+Collège Sainte Sassoh NAOMI ABOBO
+Collège Sainte Trinite ISSIA
+Collège Sakanoko Losseni Korhogo
+Collège SAPLI Setingo Bondoukou
+Collège Sebaco Yopougon
+Collège Secondaire Chemin de Gloire ABOBO
+Collège SEGBE Yopougon
+Collège SEIBA Biankouma
+Collège Sekala Guiglo
+Collège Selmath HIRE
+Collège SEPI Yopougon
+Collège SIBY ALEPE
+Collège SIBY Mankono
+Collège SINGA-II Yopougon
+Collège SINGA Yopougon-Camp Militaire
+Collège Social Dimbokro
+Collège Social les Resolus Koumassi
+Collège Socrate Sinfra
+Collège Solidarite Adjame
+Collège SONA Yopougon
+Collège STE Famille ABOBO
+Collège Sylvana ABOBO
+Collège Tchiouly Yopougon Abobo-Doume Jerusalem
+Collège Thales Formation Yopougon
+Collège Thanon Namanko
+Collège Thiouly Yopougon Jerusalem
+Collège Treich-Laplene Treichville
+Collège Uffonze Affery
+Collège Venezua Cocody
+Collège Vignon Duekoue
+Collège Voltaire Marcory
+Collège Voltaire Treichville
+Collège WALI Yopougon
+Collège Watezo Saioua
+Collège WAZY School ISSIA
+Collège YADA Clement(i. E. G. E. P. Yopougon)
+Collège YDY Yopougon
+Collège YVAC Anyama
+Collège ZADY Gagnoa
+Collège Zeademan SAINT Bertin Zoukougbeu
+Collège Ziademan ST Bertin Guessabo
+Collge Municipal KANI
+Commandant Cousteau (Cocody 2 Plateaux)
+Complexe Scolaire I.G.E.S. Yopougon
+Coopes San-Pedro
+Cours Castaing
+COURS Castaing Plateau
+Cours Lamartine (école française)
+COURS Lamartine Marcory
+COURS le Professionnel Treichville
+COURS LOBA Adjame
+Cours Loko
+COURS LOKO Koumassi
+COURS LOKO Marcory
+COURS Nogues Adjame
+COURS ORION DALOA
+COURS Pigier Plateau
+COURS SANOH DALOA
+COURS Secondaire Assemble de DIEU San-Pedro
+COURS Secondaire Assemble de DIEU Soubre
+COURS Secondaire Catholique Aboisso
+COURS Secondaire Catholique Bingerville
+Cours secondaire catholique de Yopougon (moyen séminaire)
+Cours secondaire catholique petit séminaire de Bingerville
+COURS Secondaire Catholique Yopougon KOUTE
+COURS Secondaire Entente Grand-Lahou
+COURS Secondaire Général et Technique Montesqieux
+COURS Secondaire Général et Technique Montesquieu
+COURS Secondaire GL les Cultives Yopougon Wassakar
+COURS Secondaire la Reference Guiglo
+COURS Secondaire le Millenaire Agboville
+COURS Secondaire le Prestige Zouan-Hounien
+COURS Secondaire LEBE Lakota
+Cours secondaire méthodiste de Cocody
+Cours secondaire méthodiste du Plateaucollège collège la vendière
+COURS Secondaire Méthodiste Koumassi
+COURS Secondaire Premonition Sikensi
+COURS Secondaire Protestant BONON
+COURS Secondaire Protestant CMA Yamoussoukro
+COURS Secondaire Protestant Cocody
+COURS Secondaire Protestant DABOU
+COURS Secondaire Protestant Niangon Yopougon
+COURS Secondaire Protestant Plateau
+COURS Secondaire Protestant Yopougon KOUTE
+COURS Secondaire Sociaux Goumere(bondoukou)
+COURS Secondaire Solidarite Guitry
+COURS Secondaire UNION Tiassale
+Cours Sévigné (école française)
+COURS Sociaux Techniques et Professionnels Korhogo
+COURS Supérieur de Bureautique et de Secretariat P
+CPES Soubre
+CPTI Yopougon
+CSM Cocody
+CSM Plateau
+CSM Yopougon
+E.e.s.g.t.p. la Sorbonne Yopougon Anananeraie
+ECOLE de Formation Technique et Professionnelle AB
+École des métiers de la communication (EFAP)
+ECOLE des Techniques et de Specialites Yopougon
+ECOLE des Techniques et des Specialites II- Platea
+École du 43e BIMA (école française)
+École la Volière de Biétry
+École le nid de Cocody
+École Les papillons II Plateaux
+École les pitchounes
+École les sept nains
+École libanaise en Cote d'Ivoire (ELCI) zone 4
+ECOLE Libanaise en COTE D'Ivoire Koumassi
+ECOLE Libanaise en COTE D'Ivoire Marcory
+École Maternelle La Rosette
+École nationale d'administration (Côte d'Ivoire)
+École normale supérieure (Côte d'Ivoire)
+École Notre-Dame d'Afrique
+École Notre-Dame des Apôtres
+ECOLE Nouvelle Ivoirienne Adjame (EX Collège ZOBI
+École Nouvelle Ivoirienne Cocody Angré. [ENICA]
+École nouvelle supérieure d'ingénieurs et de technologies
+École primaire catholique Notre Dame de Treichville
+École primaire Etimoé
+École primaire Makoré
+École primaire militaire
+Ecole primaire Vridi Chapelle
+Ecole primaire Vridi Cité
+École primaire Vridi Collectif
+École primaire Vridi Lagune
+École secondaire Etimoé
+École secondaire Makoré
+ECOLE Supérieur Technique et Commercial Marcory
+École Supérieure d'interprétariat et de Traduction (ESIT)
+École supérieure de commerce Castaing
+École supérieure des professions immobilières
+Edufor Yopougon Residentiel
+EMPT
+EPP Liberté Adjamé
+EPP Marcory 1
+EPP Paillet Adjamé
+Epv les Collinettes
+ESGI Yamoussoukro
+ESIC Afrique Bouake
+Esic-Afrique Plateau
+Etablissement D'Enseig. TECH. et Professionnel YOP
+Etablissement D'Enseignement Technique et Moderne
+Etablissements Gloris Yopougon
+établissements privés gloris
+Eurelec Enseignement Général Riviera -III
+Eurelec ZONE-4 Marcory
+Faculté universitaire privée d'Abidjan (FUPA)
+Fondation Trazie HUET Attecoube
+fUSOS Cours Sociaux Abobo
+G.S.I.E Aboisso
+Garderie Bébé-Calin
+Gecos Formation
+GOUPE Scolaire Ahirko Sassandra
+Groupe Afrique Formation Korhogo
+Groupe ASK Yopougon
+Groupe CSI Pôle Polytechnique (Riviera Bonoumin)
+Groupe E.t.s-Edufor
+Groupe Écoles d'Ingénieurs HETEC
+Groupe Education TOUS International Meagui
+Groupe ESCGE du Plateau
+Groupe HOREB ABOBO
+Groupe ISAM DIVO
+Groupe ITSAT Yopougon
+Groupe les 3A Yopougon Andokoi
+Groupe Management Informatique SPORT et ARST COCOD
+Groupe MISA Cocody
+Groupe Scolaire Agouazin Daoukro
+Groupe Scolaire Akonda N'Douci
+Groupe Scolaire Akounda Yopougon
+Groupe Scolaire AL Ghadir SAN PEDRO
+Groupe scolaire Alghadir-Bietry
+Groupe scolaire Alghadir-Riviera
+Groupe Scolaire ALPHA Marcory
+Groupe Scolaire ALY Chigata Korhogo
+Groupe Scolaire ANAFI DABOU
+Groupe Scolaire ANY Christoph OUME
+Groupe Scolaire ARC en CIEL ABOBO
+Groupe scolaire Arc-en-Ciel du Plateau Dokui
+Groupe Scolaire Archimede Yamoussoukro
+Groupe Scolaire Atlantique Port-Bouet
+Groupe scolaire Avicenne
+Groupe Scolaire Avicenne Cocody
+Groupe Scolaire AYEWA Yopougon MAROC
+Groupe Scolaire Badiana Yopougon
+Groupe Scolaire Bahikro ABOBO
+Groupe Scolaire Barack OBAMA ABOBO PK 18
+Groupe Scolaire Bethesda Port-Bouet
+Groupe scolaire bilingue Les Papillons (Angré 7e tranche)
+Groupe Scolaire BOHOU Zuenoula
+Groupe Scolaire CALAO Korhogo
+Groupe Scolaire Celeste Port-Bouet Adjouffou
+Groupe Scolaire Cerdacom ABOBO Sogefiha
+Groupe Scolaire Commandant Cousteau Cocody Ii-Plat
+Groupe Scolaire Communaute 2 ABOBO
+Groupe Scolaire Comolah les Petits ANGES GRAND-LAH
+Groupe scolaire de Cocody-Riviera
+Groupe Scolaire des ART des Metiers
+Groupe Scolaire des Professionnels de L'Education
+Groupe Scolaire DIETO Port-Bouet
+Groupe Scolaire DOZO Soubre
+Groupe scolaire Dubass
+Groupe Scolaire Dubass (Riviera-Faya, route de Bingerville, Abidjan)
+Groupe Scolaire Ebenezer San-Pedro
+Groupe Scolaire EL Itratou-Tahira ABOBO
+Groupe Scolaire Elevation Jacqueville
+Groupe Scolaire ELITE DABOU
+Groupe Scolaire Entente Koumassi
+Groupe scolaire EPD (Education.Paix.Développement) d'Abobo
+Groupe Scolaire Flambeau Adjame Williasville
+Groupe Scolaire FLORA DALOA
+Groupe Scolaire Fraternite
+Groupe Scolaire Fraternite Kononfla
+Groupe scolaire Gandhi Yopougon Toits Rouges
+Groupe Scolaire Gbadje ABOBO
+Groupe Scolaire Gbaegui Yopougon
+Groupe Scolaire Germinal Yopougon Niangon
+Groupe Scolaire Gnakon Yopougon
+Groupe Scolaire Guehable ABOBO
+Groupe Scolaire Harmonie Yopougon
+Groupe Scolaire IFAT Yopougon
+Groupe Scolaire International de L'Amitie Yopougon
+Groupe Scolaire Kwagniss MAVRO Yopougon
+Groupe Scolaire L'Ardoise RIVIERA-III
+Groupe Scolaire la Farandole Ii-Plateaux
+Groupe Scolaire la Methode Yopougon
+Groupe Scolaire la PAIX Anyama Belleville
+Groupe Scolaire la RUCHE Cocody Ii-Plateaux
+Groupe Scolaire la Source Koumassi
+Groupe Scolaire Larousse ABOBO
+Groupe Scolaire le Berger-2 Bouake (ZONE Industri
+Groupe Scolaire le BON Samaritain Koumassi
+Groupe Scolaire le FELIN Yopougon
+Groupe Scolaire le LABEL Vavoua
+Groupe Scolaire le Parthenon ABOBO
+Groupe Scolaire le Pelletier Anyama
+Groupe Scolaire le Savant 2 Yopougon
+Groupe Scolaire le Savant Yopougon
+Groupe Scolaire Legrand ABOBO
+Groupe scolaire les Anges Blancs Marcory
+Groupe Scolaire les ANGES de L'Eternel Lakota
+Groupe Scolaire les ANGES des TOITS Rouges Yopoug
+Groupe Scolaire les ANGES Gadouan
+Groupe Scolaire les Bambinos DALOA
+Groupe Scolaire les Benoits DIVO
+Groupe Scolaire les Botaniques du Mitterand ABOBO
+Groupe Scolaire les Coccinelles ABOBO
+Groupe Scolaire les Dauphins Ii-Plateaux
+Groupe Scolaire les Elites ABOBO
+Groupe Scolaire les Erudits ALEPE
+Groupe Scolaire les Falaises SARL Anyama Akoupe Z
+Groupe scolaire les Hirondelles Abobo Sagbé
+Groupe scolaire les Industriels Yopougon Zone industrielle Micao
+Groupe Scolaire Les Laureades
+Groupe Scolaire les Lauriers Sinfra
+Groupe scolaire les Papillons - Abidjan 2 plateaux
+Groupe Scolaire les Petits Soleils Yopougon
+Groupe Scolaire les Pingoins ABOBO
+Groupe Scolaire les Professionnels Bondoukou
+Groupe Scolaire les Roitelets PORT BOUET
+Groupe Scolaire les Seraphins Yopougon
+Groupe Scolaire les Sirenes Grand-Bereby
+Groupe Scolaire Markange Soubre
+Groupe Scolaire Mathemessan et Freres Port-Bouet
+Groupe Scolaire Moliere ABOBO
+Groupe Scolaire MU.V.E.P. TANDA
+Groupe Scolaire NANTI ABOBO
+Groupe Scolaire Newton Yopougon
+Groupe scolaire Offoumou de Yopougon
+Groupe Scolaire Prince de la PAIX Yopougon
+Groupe Scolaire Privé les Béatitudes PORT-BO
+Groupe Scolaire SAFAK Cocody
+Groupe Scolaire SAINT-CYR Abobo-Doume
+Groupe Scolaire SAINT CYR de Gonzagueville PORT-BO
+Groupe Scolaire Sainte Famille Yopougon
+Groupe Scolaire Sainte Revelation PORT BOUET
+Groupe Scolaire Selodesir ABOBO
+Groupe Scolaire SYS DIVO
+Groupe Scolaire Thanon Namanko Ii-Plateaux
+Groupe Scolaire UNION ISSIA
+Groupe Scolaire Vatican 2 Yopougon
+Groupe Scolaire Yeweliba Ferkessedougou
+Groupe Scolaire Zoukou Gbeuly DALOA
+Groupe Socio-Communal Bonoua
+GS ISEP Sinfra
+GS le NID des Colombes ABOBO
+GS les Hirondelles ABOBO
+GS les Lauriers Sinfra
+Gsma-Iscoba Adzope
+HETEC ABOBO
+I.E.T.P. Dimbokro
+I.F.P.G. Korhogo
+I.S.C.P.T Cocody
+I.T.S.P. Adjame
+IEGS ABOBO
+IEGS (ex Pouchkine) ABOBO
+IETA Adzope
+IETP Dimbokro
+IFAT Yopougon
+IFED DALOA
+IMEX la BONNE Semence TAGO Soubre
+IMT le Savoir ABOBO
+Instac Yopougon
+Instec (école de commerce)
+Institut BON SEL Yopougon
+Institut Classique le PICOU Bangolo
+Institut D'Enseignement Général AS Pouchkine AGOU
+Institut D'Enseignement Général et Technique (IEGT
+Institut D'Enseignement Secondaire EDEN Yamoussouk
+Institut D'Enseignement Technique et Général ABOBO
+Institut D'Enseignement Technique et Professionnel
+Institut de Formation Professionnelle des Affaires
+Institut de Formation Technique et Général MAN
+Institut des ARTS et Metiers Koumassi
+Institut ENS. GEN et Epanouissement Yopougon
+Institut Froebel
+Institut Froebel Marcory
+Institut GAMMA Bouake
+Institut Général Secondaire et Technique Yopougon
+Institut Geniocratique Dagaud N. Cocody
+Institut International de Formation Yopougon
+Institut le Cogito Formation ABOBO
+Institut Libanais d'Enseignement (I.L.E.)
+Institut Libanais D'Enseignement Treichville
+Institut LKM Anananeraie Yopougon
+Institut LKM de Yopougon
+Institut Moderne Athena San-Pedro
+Institut Moderne D'Enseignement Général Yopougon
+Institut Moderne du Savoir Yopougon
+Institut Moderne Mouetchema D. Sakila Yopougon
+Institut NAKOI Agboville
+Institut Offoumou d'enseignement supérieur (IESTO) à Yopougon
+Institut OYÔFÔ Sikensi
+Institut Panafricain de Formation Cocody
+Institut Polytechnique Scolaire Dougoue San-Pedro
+Institut Polytechnique Scolaire Duekoue
+Institut PRIVE ECBK MAN
+Institut Sacre-Coeur D'Adjame (ISCA)
+Institut Sainte Collette Koumassi
+Institut Samake Adjame
+Institut Scolaire Challenge Diegonefla
+Institut Scolaire Galilee Cocody
+Institut Scolaire Kangah Wadjas Aboisso Assouba
+Institut Scolaire la Couronne Abengourou
+Institut Scolaire la Source Guiberoua
+Institut scolaire Lavoisier
+Institut Scolaire Lavoisier Cocody Ii-Plateaux-Ang
+Institut Scolaire PRIVE Malachie Adjame
+Institut Scolaire ROSEE Divine ABOBO
+Institut Scolaire ROSEE Divine ABOBO Belleville
+Institut Scolaire SAINT Cyrille Yopougon
+Institut Scolaire Vassouma Yopougon
+Institut Secondaire Akounda Ouelle
+Institut Secondaire Awawla San-Pedro
+Institut Secondaire le Social Duekoue
+Institut Secondaire les Nouveaux Horizons ABOBO
+Institut Secondaire les Pedagogues San-Pedro
+Institut Secondaire MAMIE Adjouata Prikro
+Institut Secondaire Prelude Tiassale
+Institut Secondaire Prestige Toumodi
+Institut Secondaire PRIVE Deconthy Yopougon Wassac
+Institut Secondaire Technique et Professionn
+Institut Secondaire Technique la Colombe Koumassi
+Institut Secondaire Technique les ANGES Yopougon
+Institut Supérieur D'Enseignement Technique et PRO
+Institut Supérieur D'Informatique et D'Electroniqu
+Institut supérieur de technologie de Côte d'Ivoire (IST-CI)
+Institut universitaire d'Abidjan (IUA)
+Institut VOGUY Yopougon
+International Language Office (INLOF) Cocody
+IPAG
+ISAM (technique) Abidjan Plateau
+ISG la Colombe Koumassi
+ISPAM Port-Bouet
+ITES Ii-Plateaux
+Jeanifa school de Cocody-Angré
+Lycée Ajavon
+LYCEE Classique Abidjan
+LYCEE Classique Bouake
+Lycée classique d'Abidjan
+Lycée Cours Lamartine
+Lycée de garçons de Bingerville
+LYCEE Departemental Abengourou
+LYCEE Garcons Bingerville
+Lycée Hôtelier d'Abidjan
+LYCEE Houphouet Boigny Korhogo
+Lycée La Colombe
+LYCEE MAMIE Faitai Bingerville
+Lycée Mamie Faitai de Bingerville
+LYCEE MIXTE A Yamoussoukro
+LYCEE MIXTE B Yamoussoukro
+LYCEE Moderne 1 ABOBO
+LYCEE Moderne 1 Agboville
+LYCEE Moderne 1 Bondoukou
+LYCEE Moderne 1 Bouafle
+LYCEE Moderne 1 DALOA
+LYCEE Moderne 1 Daoukro
+LYCEE Moderne 1 DIVO
+LYCEE Moderne 1 Gagnoa
+LYCEE Moderne 1 Grand-Bassam
+LYCEE Moderne 1 Soubre
+LYCEE Moderne 2 ABOBO
+LYCEE Moderne 2 Agboville
+LYCEE Moderne 2 Bondoukou
+LYCEE Moderne 2 Bouafle
+LYCEE Moderne 2 Bouake
+LYCEE Moderne 2 DALOA
+LYCEE Moderne 2 Daoukro
+LYCEE Moderne 2 DIVO
+LYCEE Moderne 2 Gagnoa
+LYCEE Moderne 2 GRAND Bassam
+LYCEE Moderne 2 Soubre
+LYCEE Moderne 3 DALOA
+LYCEE Moderne 4 DALOA
+LYCEE Moderne Abengourou
+LYCEE Moderne Aboisso
+LYCEE Moderne Adjame 220 LGTS
+Lycee moderne Adjamé Harris
+LYCEE Moderne Adzope
+LYCEE Moderne Agnibilekrou
+LYCEE Moderne AGOU
+LYCEE Moderne Akoupe
+LYCEE Moderne ALEPE
+LYCEE Moderne Anyama
+LYCEE Moderne ARRAH
+LYCEE Moderne BAD AYAME
+LYCEE Moderne Bangolo
+LYCEE Moderne Belleville Bouake
+LYCEE Moderne Beoumi
+LYCEE Moderne Biankouma
+LYCEE Moderne Bocanda
+LYCEE Moderne Bongouanou
+LYCEE Moderne Bonoua
+LYCEE Moderne BOTRO
+LYCEE Moderne BOUNA
+LYCEE Moderne Boundiali
+LYCEE Moderne Cocody ANGRE
+Lycée moderne d Adjamé 220 logements
+Lycée moderne d'Angré
+LYCEE Moderne Dabakala
+LYCEE Moderne Danane
+Lycée Moderne de Bonoua
+Lycée moderne de jeunes filles de Yopougon
+Lycée moderne de Koumassi
+Lycée moderne de Port-Bouët
+Lycée moderne de Treichville
+LYCEE Moderne Didievi
+LYCEE Moderne Dimbokro
+LYCEE Moderne Duekoue
+LYCEE Moderne Facobly
+LYCEE Moderne Ferkessedougou
+LYCEE Moderne Fresco
+LYCEE Moderne Grand-Lahou
+LYCEE Moderne Guiglo
+LYCEE Moderne Guitry
+LYCEE Moderne Inagohi de San-Pedro
+LYCEE Moderne ISSIA
+LYCEE Moderne Jeunes Filles Bouake
+LYCEE Moderne Katiola
+LYCEE Moderne Korhogo
+LYCEE Moderne Koumassi
+LYCEE Moderne Lakota
+Lycée moderne Le Mahou
+LYCEE Moderne Leboutou DABOU
+LYCEE Moderne MAN
+LYCEE Moderne Odienne
+LYCEE Moderne OUME
+LYCEE Moderne Port-Bouet
+LYCEE Moderne Sakassou
+LYCEE Moderne Sassandra
+LYCEE Moderne Seguela
+LYCEE Moderne Sinfra
+LYCEE Moderne Songon
+LYCEE Moderne Tengrela
+LYCEE Moderne Tiassale
+LYCEE Moderne Toulepleu
+LYCEE Moderne Toumodi
+LYCEE Moderne Treichville
+LYCEE Moderne Vavoua
+Lycée moderne Yopougon-Andokoi
+LYCEE Moderne Ziguitie KOUTO
+LYCEE Moderne Zuenoula
+LYCEE Municipal 1 Attecoube
+LYCEE Municipal 1 Koumassi
+LYCEE Municipal 1 San-Pedro
+LYCEE Municipal 2 Attecoube
+LYCEE Municipal 2 Koumassi
+LYCEE Municipal 2 San-Pedro
+LYCEE Municipal ABOBO
+LYCEE Municipal Adiake
+LYCEE Municipal Adjame-Williamville
+LYCEE Municipal Bonoua
+Lycée municipal d'Adjamé
+Lycée municipal d'Attécoubé
+Lycée Municipal de Bonoua
+Lycée municipal de Koumassi
+Lycée municipal de Marcory
+Lycée municipal de Port-Bouët
+LYCEE Municipal DIABO
+LYCEE Municipal Guiberoua
+LYCEE Municipal ISSIA
+LYCEE Municipal Jacqueville
+LYCEE Municipal Khalil DALOA
+LYCEE Municipal Korhogo
+LYCEE Municipal Mafere
+LYCEE Municipal Mankono
+LYCEE Municipal Marcory
+LYCEE Municipal Ouragahio
+LYCEE Municipal Port-Bouet
+LYCEE Municipal Saioua
+LYCEE Municipal Sikensi
+LYCEE Municipal TANDA
+LYCEE Municipal Yopougon-Niangon
+LYCEE Professionnel Hotelier Abidjan
+LYCEE Professionnel Jacqueville
+LYCEE Professionnel Yopougon
+Lycée Saint Viateur d'Abidjan
+LYCEE Scientifique Yamoussoukro
+LYCEE Technique Cocody
+Lycée technique d'Abidjan
+Lycée technique de Yopougon
+LYCEE Technique Yopougon
+Mutuelle des Professionnels de L'Education Aboisso
+NOTRE DAME du Secours Abobo-Sagbe
+Pensionnat Protestant Jeunes Filles Anyama
+TgMaster University
+Université catholique de l'Afrique de l'Ouest
+Université de l'Alliance Chrétienne d'Abidjan (UACA)
+Université de l'atlantique
+Université De (Man)
+Université française d'Abidjan
+Université internationale de Grand-Bassam
+Université internationale des sciences sociales Hampate-Ba
+Université Internationale Privée d'Abidjan (UIPA)
+Université Nord-Sud
+Université tertiaire et technologique LOKO (UTT LOKO)

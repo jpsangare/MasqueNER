@@ -1,0 +1,2280 @@
+# entreprises.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), données issues d'OpenStreetMap (ODbL, © contributeurs OpenStreetMap) : banques, hôtels, restaurants
+# source : data.gouv.ci (data354-CI), consignataires et manutentionnaires agréés, opérateurs pétroliers, chaînes de télévision (Licence Ouverte 2.0)
+# source : manual/entreprises.txt
+111 Restaurant Lounge
+2 poteaux
+7 INFO
+8 POOL
+A+ivoire
+A la Marocaine
+Abbata restaurant
+Abidjan café
+Abidjan Spa
+Abidjan Terminal
+Aboli
+Ackant
+ACP beach Restaurant
+Adamo
+Adiman hotel
+Advans
+Advans CI
+Advans Côte d'Ivoire
+Africa first bank
+African Queen Lodge
+African Queen's
+African Sands Lodge
+Afriki Village
+Afrikland Hôtel
+Afriland First Bank
+After work
+AGBA Services
+Agence Banque Atlantique
+Agence BFA
+Agence BHCI Yopougon
+Agence BIAO
+Agence Bicici
+Agence Celpaid
+Agence Commerce - Bank of Africa
+Agence Coopec
+Agence Ecobank
+Agence Française de Développement
+Agence Money Gram
+Agence Moneygram
+Agence NSIA
+Agence Orange
+Agence Orange Money
+Agence principale CNCE
+Agence SIB
+Agence Société ivoirienne de Banque
+Agence Versus Bank
+AGEPS-CI
+Agir-Ci
+Ahinifie
+Ahiwo
+Aigism Seamen's Club
+Air Côte d'Ivoire
+Aklomianbla
+Akparo
+Akpasmandi
+Akwaba Yopougon
+Al Hadj Boucherie Snack Pizza
+Al-Jawad
+Al Nour 2 (Plats Sénégalais)
+Al sayad
+Aliekro Hôtel
+Alios Finance Côte d'Ivoire
+Alizée Club
+Allianz Côte d'Ivoire
+Allocodrome
+Allocodrome de la Palmeraie
+Allocodrome - Maquis de l'Atlantique
+Allocodrome N'Dotré
+Allocodrome Planet
+Allocodrome Roc
+Allou Hôtel
+Allya
+Alocodrome
+Am In AT A
+Amado laguna
+Amahoule
+Ambiance d'Interieur
+AMICI-SN
+Amifa CI Abobo
+Amika
+Ana Dodge
+Anadarko
+Ancien hôtel Balmer
+Ancienne Paillote
+angre chawama
+angre la shich
+ANzVERGURE
+aquis resto le Refuge
+Arc en ciel
+Armement SIREM
+ARN Hôtel
+Assena
+Assoyam Beach
+Asthoria Palace
+Athena Shipping SA
+Atiéké de Femmes
+Atiéké poisson
+Atiékédrome
+Atlantic Microfinance
+ATLANTIC-SA
+Atlantique
+Atlantique Assurances
+Atlantique Cash
+Atlas Assurance
+Attiéké poisson
+attiéké poisson grilé
+Attiékédrome
+Au Blanc Rouge
+Au braisé
+Au cabri
+Au Cabri Grillé
+Au Petit Boudha
+Au Poisson
+Au village
+Auberge
+Auberge Akwaba
+Auberge Beau Séjour
+Auberge du bonheur
+Auberge du compte
+Auberge du municipal
+Auberge inn
+Auberge la Bonne Étoile
+Auberge les 3 cocotiers Pv
+Auberge N'Zassa
+Auberge Verger
+Avance Prise d'Air Restaurant
+Avenue des stars restau bar
+Avion boum restaurant
+Azalaï Hotel Abidjan
+Azito Énergie
+Azito Palace
+Azito Palm Beach
+BACI
+Baie d'Allong
+Baie des romances
+Balady
+Bambou
+Banc of Africa
+Bank
+Bank of Africa
+Bank of Africa - Agence Bouaké
+Bank of Africa - Agence Latrille
+Bank of Africa - Agence Riviéra 3
+Bank of afrika
+Banque
+Banque Africaine de Développement
+Banque Atlantic Cash
+Banque Atlantique
+Banque Atlantique - Agence Aéroport
+Banque Atlantique - Agence Agnibilékrou
+Banque Atlantique - Agence Angré
+Banque Atlantique - Agence Vridi, Zone Industrielle
+Banque atlantique Côte d'Ivoire
+Banque Atlantique - Poste Yamoussoukro
+Banque BDU-ci
+Banque Bicici
+Banque BNI
+Banque Cofipa
+Banque Coopec
+Banque d'Abidjan
+Banque INP
+Banque Nationale d'Investissement - Agence Daloa
+Banque nationale d'investissements
+Banque NSIA
+Banque Of Africa
+banque populaire
+Banque populaire de Côte d'Ivoire
+Banque Populaire de Man
+Banque SIB
+Baobab
+Baobab Côte d'Ivoire
+Baobab Crédit Epargne et Bien Plus
+Baobab - cuisine italienne
+bar des profs
+Bar Lounge Le Café Crème
+Bar Restaurant Eclipse
+Bar/restaurant Inbox
+Bar Resto
+Bar vert
+Barre des Profeseurs
+BCEAO
+BCEAO - Agence auxiliaire de Bouaké
+BCEAO San Pédro
+BDA
+Be Select
+Be Shine
+Beau séjour
+Beaujolais
+beignets
+Bekanty
+Bektaş kebap
+Bel éden restaurant
+Bel'Vie
+Bemoso
+Berenice
+Beyrouth
+BGFI Bank
+BHCI
+BHCI - Agence Bouaké
+Biao
+BIAO CI
+Bicici
+Bicici Abobo Cité Policière
+Bicici - Agence Gagnoa
+Bicici - Agence Marcory Zone 4
+Bicici - Agence PlaYce
+Bicici - Agence Vridi
+Bicici sud
+Bigot Ivoire Hôtel
+Biptfop
+Birango
+Bistrot Restaurant
+Black and White
+Blaukaus
+Blondy
+Bluebay hôtel
+BMS CI
+Bni
+BNI - Agence Agnibilékrou
+BNI - Agence Bonoua
+BNI - Agence Commerce
+BNI agence Gagnoa
+BNI - Agence II Plateaux Latrille
+BNI - Agence Marcory Zone 4
+BNP Dabou
+Boblin la Mer
+Bon Goût
+Bon Placali
+Bon sens restaurant
+Bongoh
+Bonheur
+Bonheur D'Afrique Restaurant
+Boulangerie au Rendez-vous
+boulangerie du gâteau
+Boulevard des arts
+Bouquet Startimes
+Boutique
+Bridge Bank
+Bridge Bank Group
+Bridge Banque Groupe
+BridgeBank
+BRS
+Bsic
+BSIC - Agence de Treichville Nanan Yamousso
+Bsic Banque Sahelo-Saharienne
+BSIC (Banque Sahelo-Saharienne pour l'investissement et le Commerce)
+BSIC Plateau
+Bureau de change
+Bureau De Change D'Argent
+Bureau De Change Manuel
+Burval Corporate
+Buvette
+C'Est Doux Dêh
+C'est du Bon
+C la vie
+Cac Compagnie Africaine de Credit
+Cacao Boh
+CAEMA-CI
+Café (Aboki)
+Café Braisé
+Café charley's 2019 restaurant
+Café Express
+Café Op'tit Restaurant
+Café Restaurant
+Café Resto de la Paix
+Café Royal
+Cafétariat
+Caféteria
+Cafétéria (Aboki)
+Cafétéria Université
+Caisse d'Épargne
+Caisse populaire du zanzan
+Cajoux
+CAMP-CI LINE
+Campement
+Canal+côte D'Ivoire
+Cantine Scolaire
+Cantine Scolaire Oumé 1
+Cap Lahou
+Capitol Hôtel
+Capricio
+Carena
+Cargill Côte d'Ivoire
+Casa Africa
+Casa Ufficio Afrique Abidjan
+cash express
+Cash premium transfert d'argent
+Cave
+Cave la primature
+Cave La Renaissance
+Cave restaurant
+Cave resto
+CECP
+CECP - Agence Angré
+CECP Attecoubé
+CECP de Daoukro
+Cefis caisse d'epargne et de financement social
+Celpaid
+Centre De Santé El Bethel
+Centre medico-social de la paix
+CF Consultants
+Chambre des Hotes L'Immaculée
+Champs Elysées
+Chawarma
+Chawarma le Printemps
+Chiba Restaurant
+Chic Restaurant Sénégalais la Teranga
+Chigata
+Choquant
+CIAM
+Cidoma
+CIE
+Cimaco
+Cimaco Shipping
+Cimaf Côte d'Ivoire
+Ciprel
+Cité des anges
+CLAM-CI
+Class' Hôtel
+Classe A
+Climbié d'Assinie
+Clos fleuris
+Club des Amis
+CMB-ABJ
+CMNP
+Cnce
+cocody Hotel belle cote
+Coconut Grove
+Coconut Grove Lodge
+Coconut's City Lodge
+Coki Plage
+Colibri
+Comatra
+Compagnie Africaine de Credit
+Compagnie Africaine De Crédit Banque
+Compagnie Africaine de Credit CAC
+Compagnie ivoirienne d'électricité
+Complex Hôtelier Mandoux
+Complexe Gbeke II
+Complexe Hôtel Apassa
+Complexe Hôtelier
+complexe Hôtelier Curtina
+Complexe hôtelier Dahoua
+Complexe hôtelier Grand Roi
+Complexe hotelier le nouveau montreuil
+Complexe Hôtelier le Pacifique de Bouaflé
+Complexe Hôtelier Le Ruby
+Complexe Hôtelier Ofotel
+Complexe Hôtelier Oule
+Complexe Hotelier Sebroko
+Complexe Hoteliere Ixora
+Complexe Le Gbeke
+Complexe Nafanan
+Complexe Oriental
+Complexe rond point
+Complexe wilson
+Complexes De Restauration
+Complexes Hôteliers Limah
+Complexes Maquis
+Conciergerie Hotels Achenbach
+Conservatoire National des Arts et Métiers
+Cool Mafia
+COOPE Bayota
+Coopec
+Coopec Agboville
+Coopec - Agence Daloa
+Coopec Agence Djibi
+Coopec Ananeraie
+Coopec Angre
+Coopec Attecoube
+Coopec Bondoukou
+Coopec Dioulabougou
+Coopec Doug
+Coopec Duékoué
+Coopec Grand-Bassam
+Coopec Marcory
+Coopec Sakassou
+Coopec Sinématiali
+Coopec Sinfra
+Coopec Treichville
+Coopec Yamoussoukro
+Coopérative d'Epargne Et De Crédit
+Coopérative d'Epargnes et de Credits
+Copa d'elio
+Copacabana
+copec
+COPEC bingerville
+Copharmed
+Coris Bank
+Coris Bank - Agence de Marcory
+Coris Bank - Agence de Treichville
+Coris Bank International
+Coris Bank - Siège
+Coris banque
+CorisBank
+Côte d'Ivoire
+Coucoué Lodge
+Country food
+Country Grill
+CP1
+Crabe Braisé
+Crédit du Nord
+Crédit FEF
+Crédit-Fef Epargne des Femmes
+Crédit Populaire Des Femmes de Côte d'Ivoire
+Crêperie bretonne
+Cuisine Locale
+Cypa
+Da Carmen
+Dauphin Beach
+Décanat de l'UPGC de Kgo
+Degny Plage Hôtel
+Delhi Darbar
+Delices des Arts
+Délices du Vietnam
+Délices et Saveurs
+Détente Beach
+Détente Hôtel 2*
+Diamond
+Diamond Bank
+Direct Cash
+Disco restau
+Distributeur automatique BNI
+Djahakro yofê
+Djôlo
+Dolce Vita
+Domaine Bini
+Domaine Bini Lagune
+Dream Hotel
+Dunamis
+Duplex
+Duvick
+Dwitch
+EAM
+Échotel Akraya
+Eco-Transit
+Ecobank
+Ecobank - Agence Angoulvant
+Ecobank - Agence Angré
+Ecobank - Agence Bel Air
+Ecobank - Agence Boulevard de Marseille
+Ecobank - Agence Boulevard des Martyrs
+Ecobank - Agence Boulevard Houphouët-Boigny
+Ecobank - Agence Boulevard Latrille
+Ecobank - Agence Cité des Arts
+Ecobank - Agence Dokui
+Ecobank - Agence Grand Bassam
+Ecobank - Agence Nanan Yamousso
+Ecobank - Agence Plateau Sud
+Ecobank - Agence Riviera 3
+Ecobank - Agence Vallon
+Ecobank - Agence Yamoussoukro
+Ecobank Côte d'Ivoire
+Ecobank de la cité san Pedro
+Ecobank VGE
+Ecotel Tourago
+Éden
+Eden Cafe
+Eden City
+Éden Palace
+Egyptienne
+Ej industrie
+Eka-Benya
+EKA BENYA S.A
+EKA Benyageodis
+El Colombo
+El Sayad
+Émergence Hotel
+Empire State of Mind
+Endeavour Mining
+ENI
+Enjera
+Enka Flash Hôtel
+Espace
+Espace 331
+Espace Abidjan Continue
+Espace Akye Daloa
+Espace Bananier
+espace BIAO
+Espace c'est doux deh
+Espace Cinecool
+Espace Coca Cola
+Espace Côté Jardin
+Espace coupe faim
+Espace Crystal
+Espace de Restauration
+Espace De Vente De Poulet Braisé
+Espace dominical
+Espace Événementiel
+Espace Événementiel l'Amazonie Plus
+Espace Foani
+Espace Fotamania
+Espace Gaby
+Espace Gastronique Harmonie
+Espace gastronomie et événementiel Ayadci
+Espace Gastronomique
+Espace gastronomique de Blockhaus
+Espace Gastronomique Eden
+Espace gastronomique événementiel la Sorroh
+Espace Gastronomique Fikiss
+Espace gastronomique la Synthèse
+espace gastronomique le systeme
+Espace Gastronomique O'Reel
+Espace JOMA (atieke poisson poulet riz)
+Espace Kignon Restaurant et Hôtel
+Espace La Bonne Compagnie
+Espace La Plage
+Espace Manvy Hôtel
+Espace Maquis
+Espace Marché Marcothy
+Espace Mima
+Espace Moure
+Espace Nao
+Espace Nikif
+Espace OBV
+Espace OBV Toit Rouge
+Espace Opera
+Espace Plein Air
+Espace Regal
+Espace restau au kedjenou
+Espace restaurant
+Espace Resto piscine
+Espace Sinai
+Espace transfert d'argent
+Espace Vert Blanc
+Etablissements Wallace
+ETGE Center
+Etoile du Sud
+EXEL-CI
+Exell Finances
+EXXON
+Fabrication d'attiéké
+Fah t'as
+Fanon
+Farafina
+FDS
+Ferké Hôtel Iroko
+Fidra
+Filtisac
+Finance projet
+Fino cremio
+Five Guys
+Flabougou (village peul)
+Flag
+Flagelle kong
+Flooz
+Flyers
+Food Nation - Indian Cuisine
+Foxtrot
+Foyer Hôtel Infinity
+Fraternité Matin
+Fredy's Bio Plantation
+Free Time, restaurant bar
+Freeman Hotel
+G&Z Restaurant Glacier
+Gabadrom
+Gabardrome
+Gabardrome Chaud
+Gabi chaud (porcs au four)
+Garba
+Garba Center
+Garba chaud
+Garba chaud La Baterie
+Garba Choco
+Garbadrôme
+Garbadrome: La manne chaude
+Garbadrome Synali
+Garbadromme
+Garbadromme de Pailler
+garbadrum
+Garbardrome
+Gastronomie
+GEODIS-CI
+German Le Bavarois
+GETMA-CI
+Glacier Amoré
+Glacier le Bourgeois
+Glacier Le Monalisa
+Global Manutention
+Gloria
+Gloris Hotel
+GLS
+Gnanzou
+Gnatrowa Hotel
+Gozo la Belle
+GRA'YA MAPS
+GRD Moulin D'Abidjan
+Grillade
+Grillade et Tradition
+Groupe Cofina
+Groupe RTI
+GT BANK
+GT Bank - Agence Angré
+Guichet automatique BNI
+Guichet Ecobank
+Gwanda Resto
+H Aurel
+Hamburger House Plus
+Haut niveau
+Heden Golf Hôtel
+Heden Golf Hôtel Abidjan
+Heveas Club
+Hiam hotel
+Hippopotamus
+Hoberge de l ocean
+Holel le Gbeto
+Horizon
+Hot Snack Restaurant
+Hote Ivoire
+Hôtel 3G
+Hôtel 7 étoiles
+Hôtel A7
+Hôtel Abidjan
+Hôtel Abissa
+Hotel Aboussan
+HÔTEL ABRY
+Hôtel Aho
+Hôtel Akane
+Hotel Akrakro
+Hôtel Akwaba
+Hôtel Aladje
+Hôtel Alagon
+Hôtel Albatros
+Hôtel Aman Allaa
+Hôtel Amandjou
+Hôtel Ambe
+Hôtel Amitie
+Hôtel Amointrin
+Hôtel Anador
+Hotel Annah résidence
+Hotel Anouanze
+Hôtel Arc-En-Ciel
+Hotel Assam
+Hôtel Assandy
+Hôtel Assanvon
+Hôtel asseni
+Hotel assiny
+Hotel Atamal
+Hôtel Atego
+Hôtel Atlantic
+Hotel au nom des miens
+Hôtel au petit Paradis
+Hotel Avance
+Hôtel Awaney
+Hotel Ayomibié
+Hôtel Ayomibile
+Hôtel Bahia
+Hôtel Bakoua
+Hôtel Baledi
+Hotel Bananeraie
+Hôtel Banfora
+Hotel bar intimité
+Hotel Bar Restaurant le Ahaly
+Hotel bar restaurant oriental
+Hôtel Bassame
+Hôtel BB
+Hôtel Beau-Sejour
+Hôtel Bekanti
+Hôtel bekanty
+Hôtel Belair
+Hôtel Belihai
+Hôtel Belle Côte
+Hôtel Bellerose
+Hôtel Belvédère
+Hôtel Belview
+Hôtel Bema
+Hotel Bleoue
+Hotel Blinan
+Hôtel Blingué
+Hôtel Bogne
+Hôtel Bohi
+Hôtel Bon Berger 1
+Hôtel Bongouanou
+Hôtel Boya
+Hôtel Bristol
+Hôtel Buyo
+Hôtel CAA
+Hôtel Campement
+Hôtel Canaan
+Hôtel Canal
+Hôtel Candy Village
+Hôtel Cannelle
+Hôtel Cauris d'Or
+Hôtel CI2
+Hôtel climaco
+Hôtel Communal de Fronan
+Hôtel Concorde
+Hôtel Continental Le Bon Berger
+Hotel coumai
+Hôtel Croisière
+Hôtel CROU Le Lac
+Hôtel d'Akounougbé
+Hotel Damo
+Hotel de Fin pavé
+Hôtel de France
+Hôtel de l'Air
+Hôtel de l'Art
+Hôtel de l'Ouest
+Hôtel de la Cité
+Hôtel de la Cité Mermoz
+Hôtel de la Paix
+Hôtel de passe Soleil 2
+Hotel de Refuge
+Hotel de Vinci
+Hotel Degny
+Hotel Délice
+Hotel Deluxe
+Hôtel des Alpes
+Hôtel des Arts
+Hôtel des Cascades
+Hôtel des jardins
+Hôtel Deva
+Hôtel Djetoua
+Hôtel Djetran
+Hôtel Djibou
+Hôtel Djiboua
+Hôtel Djigui
+Hôtel Djongo
+Hotel Du 3eme Pont
+Hôtel du Centre
+Hôtel du Commerce
+Hôtel du LAC
+Hôtel du nord
+Hôtel du Roi
+Hôtel du Stade de Bouaké
+Hotel Duko
+Hôtel El vivo
+Hôtel Éléphant Bouna
+Hotel Elephanteaux
+Hotel Elite
+Hotel Enjaillement
+Hôtel Enotel plage
+Hôtel Entente
+Hôtel Escale
+Hotel Espace Harmonie
+Hotel Etizan
+Hôtel Étoile De La Paix
+Hôtel Étoile du Centre
+Hôtel Etranfê
+Hôtel Etranou
+Hôtel Eu gnon
+Hôtel Eucalyptus Anan
+Hôtel Exellence
+Hôtel Faiblezy
+Hôtel fais play 2
+Hotel Famien
+Hôtel Fanon
+Hotel Felibe
+Hôtel Fondi
+Hôtel Fondy
+Hôtel Frezam 2
+Hotel Frontière
+Hôtel Galo
+Hôtel Gbaoly 2
+Hôtel Gloria Theos
+Hôtel Gloris
+Hôtel Gnangnon
+Hôtel Gnoupalé
+Hôtel Goma
+Hôtel Grand roi
+Hôtel Granite
+Hotel Gueassmont
+Hotel Guibouo
+Hôtel Guide daloa
+Hotel Hacienda
+Hôtel Hamanieh
+Hôtel Hambol
+Hôtel Hanniel
+Hôtel Harmonie
+Hotel Hatahi
+Hotel Hekpan
+Hôtel Hélas
+Hôtel HIAM
+Hôtel Hibiscus
+Hôtel Hiram
+Hôtel Hkal'or
+Hôtel Holidays
+Hôtel Horeza
+Hôtel Horizon
+Hôtel HR
+Hôtel Hudson
+Hôtel Ibis Abidjan Marcory
+Hôtel Ibis - Plateau
+Hotel ID
+Hotel Ideal
+Hôtel Iman
+Hôtel Indenié
+Hôtel Iroko
+Hôtel Ivoire
+Hôtel Ivotel Indenié
+Hôtel Ixora
+Hotel Jemat
+Hôtel Jubilé
+Hotel Kahoti
+Hotel Kahoty
+Hôtel Kato
+Hôtel Kato 2
+Hôtel Kayeli
+hôtel Kenneth
+Hôtel Kess
+Hotel Kilimandjaro
+Hôtel Kimi
+Hôtel Kolia
+Hôtel KONA
+Hôtel KonanKro
+Hôtel Koral Beach
+Hôtel Kougbassa
+Hôtel Kpin-Min
+Hôtel La Baie des Sirènes
+Hôtel la Bonne Auberge
+Hôtel la Cachette
+Hôtel La Capitale
+Hôtel la chambre des hôtes
+Hôtel la Citadelle
+Hôtel La Cité De San Pédro
+Hôtel La Colombe
+Hôtel la consolatrice
+Hôtel la côtière
+Hôtel la falaise
+Hôtel La Forge
+Hotel la Labo
+Hôtel La Licorne
+Hôtel la maison blanche
+Hôtel - La Maison Excellence
+Hôtel La Nouvelle Pergola
+Hôtel La Paix
+Hôtel La Paix de Daoukro
+Hôtel La Palace
+Hôtel La Passade
+Hôtel la Primature
+Hôtel La Providence
+Hôtel La Référence
+Hotel La Réserve
+Hôtel la Résidence
+Hôtel La Source
+Hotel la Tolérance
+Hôtel La Vallée
+Hôtel La vie
+Hôtel La villégiature
+Hôtel Lafikpa
+Hotel Lagouly
+Hôtel Lagunaire
+Hôtel lawle
+Hotel Le Banquier
+Hôtel le Beau Séjour
+Hotel le Bomoi
+Hôtel Le Bonheur
+Hôtel le bouke
+Hôtel Le Byblos
+Hotel Le Campement
+Hôtel le Château
+Hôtel Le Citadin
+Hôtel le Concept
+Hôtel le Dauphin
+Hôtel Le Drédo
+Hotel le Dynamique
+Hôtel Le Flamboyant
+Hotel le Flani
+Hotel le forum des sénateurs
+Hôtel le Grand Roi
+Hôtel Le Granite
+Hôtel Le Kadjona
+Hotel Le Katoum
+Hotel le Koky
+Hôtel Le Majestique
+Hôtel Le Marly
+Hôtel Le Meridien
+Hôtel le Meridien Wena
+Hôtel le missionnaire
+Hotel le natal
+Hotel le nouveau fromager
+Hotel le nouveau montreuil
+Hôtel le Pacific
+Hôtel Le Palais
+Hôtel Le Paradis
+Hôtel Le Parc
+Hôtel le Parcours
+Hôtel Le Parrain
+Hôtel Le Pharaon
+Hôtel Le Plateau
+Hotel Le Pollet
+Hotel le Prestige
+Hôtel le refuge
+Hôtel le Relais
+Hôtel Le Riyo
+hôtel le rochet
+Hôtel le Royaume
+Hôtel Le Saphir
+Hôtel Le Tereso
+Hôtel le trésor
+Hôtel Le Wafou
+Hotel les 4 palmiers
+Hôtel les Alizés
+Hôtel les Anges
+Hotel les Cascades Soubré
+Hotel les freres unis
+Hotel Les Jardins
+Hôtel les Jardins d'Ivoire
+Hôtel les Olivers
+Hôtel Les Papillons
+Hotêl Les Résidences
+Hôtel Les Rosiers
+Hôtel les Rossiers
+Hotel les Tropics
+Hôtel Leveneur
+Hôtel Lewi
+Hôtel Liberté
+Hôtel Lotus
+Hôtel Lys des Vallées
+Hôtel Ma Joie
+Hotel Ma Residence
+Hôtel Madani
+Hôtel Mahoulé
+Hôtel Mamianou
+Hotel Mandou
+Hotel Manfla
+Hotel Manzan
+Hotel maquis bar
+Hotel maquis bar de mohoua
+Hotel Maquis Restaurant Ekiwa
+Hôtel Marahoué
+Hotel marathon
+Hotel Maria
+Hôtel Massa
+Hôtel Matignon
+Hôtel Matin Pêcheur
+Hôtel Medjha
+Hotel Memi
+Hôtel Mirabel
+Hôtel Mirabelle
+Hotel Mirador
+Hôtel Moaye
+Hotel Mognissan
+Hôtel Mohoussou
+Hôtel Mon Afrik
+Hotel Mon Reve
+Hôtel Mondesir
+Hôtel Mont Korhogo
+Hôtel Moris
+Hotel N'da assohou
+Hôtel N'Zaza
+Hôtel N'Zelibessai
+Hôtel Nadie
+Hôtel Nancy
+Hôtel Naniye
+Hôtel Nannan
+Hôtel Nazie
+Hotel Neshre
+Hôtel New Yirk
+Hotel Nôkii Pirê
+Hotel Non Stop
+Hôtel Nova
+Hôtel Novotel Abidjan
+Hôtel Obama
+Hôtel Ocean
+Hôtel Operako
+Hotel Pacha
+Hôtel Pacific
+Hotel Pacifik
+Hôtel Pacifique
+Hôtel Paillotes
+Hotel Palace
+Hôtel Palm Club
+Hotel Palmeraie
+Hôtel Palmier Bassam
+Hotel Papillon
+Hôtel Paradisiaque Bosia
+Hôtel Paris Village
+Hôtel Pavé
+Hôtel Phénicia
+Hôtel Pirogue
+Hotel Plaque
+Hotel Point Final
+Hotel Poro
+Hotel Pousada
+Hôtel Premium
+Hôtel Président
+Hôtel Prince
+Hôtel Printemps Bouaké
+Hotel Providence
+Hotel Pullman Abidjan
+Hôtel Quai 40
+Hôtel Relax
+Hôtel Résidence
+Hôtel Residence AHO
+Hôtel Residence Harmonie
+Hôtel Résidence Koriet
+Hotel residence kwagniss
+Hôtel Residence Lagunaire
+Hôtel Résidence le Paysan
+Hôtel Résidence le Prestige
+Hôtel Résidence Le Vaisseau
+Hôtel Résidence les villages
+Hôtel Résidence Sandy
+Hôtel Résidence SEMA
+Hôtel restau bar MSI village
+Hôtel-restaurant notre dame des pèlerins
+Hotel Rimax
+Hotel Royal
+Hôtel Royaume
+Hôtel Sababougnouman de Gbon
+Hotel Saizebo
+Hotel Santhoa
+Hotel Sanwi
+Hotel Sanwoussi
+Hôtel saphir
+Hotel Sarra
+Hotel Satellite Awane
+hôtel sénevé
+Hôtel Sheva
+Hôtel Sielike Bouaké
+Hôtel Sikemi
+Hôtel Sikewa
+Hôtel Soba
+Hôtel Sofia
+Hotel Sokoura
+Hôtel Soleil
+Hôtel Sonia
+Hôtel Sougoun
+Hôtel Sphinx
+Hôtel St famille
+Hôtel St JO
+Hôtel standing
+Hôtel Sucaf
+Hôtel Syndicats
+Hôtel Tam-Tam Annexe
+Hotel Taouli 2
+Hôtel Teneoure
+Hôtel Terminus
+Hôtel Thea
+Hôtel Tiama
+Hotel Vamy
+Hôtel Venusia
+Hotel victoria salimet
+Hôtel Village Krokrom
+Hôtel VIP
+Hôtel VTR
+Hotel Watehitre
+Hôtel X
+Hotel Yele
+Hôtel Zacan
+Hôtel Zamacom
+Hotel Zenith
+Hôtel Zotah
+Hoteli Iris
+HotelResidence Christy
+Hotels (economy)
+HP Resort
+Ibis
+ICM
+ideal pain
+Il Carpacio
+ILS
+Iman's Hotel
+Immeuble YOTA
+Impérial
+Indian By Nature
+Italian
+IVOIR Logistique
+Ivoire
+Ivoire Coton
+Ivoire Logistique
+Ivoire Marine Service
+Ivotel
+Jardin d'Eden
+Jardyland
+Jays
+Joe's Tacos
+Jumia Côte d'Ivoire
+Jungle restaurant lounge
+K'nou
+Kafolo lagoon
+Kafolo safari Lodge
+Kali's Restaurant Bar
+Karmen Résidence Hotel
+Katchana
+Kavakava
+Kaydan Groupe
+KB2 Limited
+Keiten
+Keneya Kaguy Trading
+Kiosque
+Kiosque Et Restaurant
+Kiosque Express
+Kiosque Spaghetti
+Kissian
+KODA Maritime
+Koral Beach Annexes
+Kosmos
+Kreno Resto
+Kumassan Shipping
+L'Aboussouan
+L'air
+l'Ambassadeur
+L'Art de Vivre Restaurant Lounge et Traiteur
+L'auberge
+L'auberge de Kong
+l'Automatic
+L'Endroit
+L'Escale
+L'Étoile Filante
+L'excellence
+L'Horizon
+L'Île Flottannte
+L'internat
+L'O à la bouche
+L'Oasis
+L'Océan
+L'oriantal
+L'Oriental
+L'ybane
+La 3
+La Automatic
+La Base au Cabri
+La Bassamoise
+La belle etoile
+La bodega
+La bonne cuisine
+La Bonne Fourchette
+La Boule Bleue
+La Brasserie
+La Brasserie des Arts
+La brise
+La Cafète
+La caisse d'épargne
+La Caisse d'Epargne - Agence Bonoua
+La canette soubre
+La Caravelle
+La Casa
+La Cocotte
+La Commanderie
+La Concorde
+la costa
+La Côtière
+La coupole
+La Croisette
+La différence
+La Dolce Vita
+La Dolce Vita 2
+La Fusion Restaurant Lounge
+La Gare du Nord Restaurant Lounge et Bar
+La Gorge D'Or
+La Gourmandise
+La Grignote
+La luciole
+La Madrague
+La main de Dieu
+La Maison de La Lagune
+La mangrove
+La Pagode
+La paillote
+La Paillote Jaune
+La Paillote, Restaurant Hotel Complexe Sportif
+La parenthèse
+La pelouse
+La Pergola
+La Petite Cour
+La Pizza di Sorrento
+La Playa
+La Preramanence
+La Providence
+La provincial
+La Référence
+La Renaissance
+La Residénce
+La Roche Noire
+La Rochelle
+La Roseraie des Tecks
+La Source du Guemon
+La table des princes
+La Table du Roi
+La Taverne Bassamoise
+La Taverne Romaine
+La Teranga
+La Terasse
+La Terrasse
+La Terrasse de Bassam
+La Terrasse de Jacqueville
+La Terrasse roi du Shisha
+La tour d'Ivoire
+La Tribune du Live
+La Verdure
+La villa la residence maquis
+La vitrine
+Laborex Côte d'Ivoire
+Laguna
+Lagune Transit ABJ
+Layalina
+Le 11 d'Or
+Le 912 du campus
+Le Bahia
+Le bambou
+Le Bandama
+Le Bardon
+Le Barracuda
+Le Bataclan
+Le Becely
+Le Beijing
+Le Bella Ciao
+Le Berger de Fouta
+Le Binguiste
+Le bois d'encens
+Le Bokadios
+Le Bon berger- Maquis Bar Grillage
+Le bon choix
+Le Bon Pont
+Le Bon Repos
+Le bourgeois
+Le Boya Bar
+Le Bremus
+Le Bureau
+Le campement
+Le Canari
+Le Capri
+Le carrefour de la Joie
+Le Chalet
+Le club Bambou
+Le Cp
+Le Créneau
+Le Cristal
+Le Cyclope Surfcamp
+Le Debarcadere
+Le Decoty
+Le Delice
+Le Départ
+Le Diadjely
+Le Dictionnaire
+Le Djama
+Le Duo
+Le Dystingo Beach
+Le Festin Restaurant Services Traiteur
+Le Flambeau
+le Flamboyant
+Le Forestier Maquis Resto
+Le Garden
+Le Grand Large
+Le Grand ouest
+Le Jardin d'Eden
+Le Jardin Gourmand
+Le Kallisté
+LE KARA KROU Écolodge Resto Bar
+Le King
+Le Kita
+le kivi
+Le Kossipo
+Le Kotibet
+Le Las Palmas
+Le Longchamp
+Le Manguier
+Le Maquis Aoudjouè(plein aire)
+Le Maracana
+Le Méchoui
+Le Millionnaire-Annexe
+Le Montana
+Le Montparnasse
+Le P'Tit Riche Restaurant
+Le Pacific
+Le palace
+Le Palier du Moronou
+Le Palmier
+Le Pam's Restaurant
+Le Paon
+Le pauvre a tord
+Le Paysan
+Le Peking
+Le Petit Bateau
+Le Petit Bouchon
+Le petit Café
+Le petit coin
+Le Petit Coin Du Zatro
+Le Phare Ouest
+Le pigeon vert
+Le Pili-pili
+Le Piment Doux
+Le Planteur
+Le Poisson
+Le prestige
+Le Quai, Restaurant Lounge Lavage auto
+Le Rallye
+Le ravin
+Le Regal
+Le Rocher
+Le rocher divo
+Le rocher toumodi
+Le Roi
+Le Royaume
+Le Savanna
+Le Select de la Bia
+Le singulier
+Le Ska
+Le Solarino
+Le Songhaï
+Le Soukalo
+Le special resto
+Le Stade de France
+Le Ti-Bouchon
+Le Toit d'Abidjan
+Le Toumodi
+Le Ty Breizh
+Le Wagon Maquis Resto
+Le Waimea
+Le wayofe
+Le Wharf
+Le Yipal
+Le Zénith
+Le Zouglou
+Lecanal Hotel
+Lemergence
+Lentre2
+Les 3 Délices Resto
+Les beatitudes
+Les bords du lac Tibériade
+Les Bulles d'Or
+Les Bungalows
+Les Confidences
+Les Coulisses
+Les Délices de Naman Yamousso
+Les délices de Sarra messan
+Les delices du stade
+Les deux manguiers
+Les Flamboyants
+Les Frontieres
+Les Graces
+Les Jardins d'Emmess
+Les Jardins d'Ivoire
+Les Marines de Babihana
+Les Orchidées
+Les perles
+Les Rtrouvailles
+Les sudios
+Les Vallons
+LIBYA OIL
+LIFE TV
+Little bagel
+Littoral
+loft lounge
+Lokoa
+Lonaci
+Lorenzo lounge
+Lumina resto cav
+Lynd Hôtel
+Ma Famille
+Mabico
+Madram Hotel
+Madrize Résidence et Spa
+Madumar
+MAERSK-CI
+Mafa
+Maffouet Hôtel
+Mahaba la cour des grands
+Maison blanche
+Maison des artisans
+Maison des Saveurs
+Maison du Combattant
+Maison mère
+Makosi et CO
+Mam Change
+Manawa Café
+Manhattan Suites
+Mantchan Hôtel
+Mantra Ivoire SA
+Maqui du peuple
+Maqui Restaurant Djo
+Maquis 106 1
+Maquis 150
+Maquis 24H Chrono
+Maquis Abiba
+Maquis Adoumin Beach
+Maquis Alleufia
+Maquis Ambassade
+Maquis Amicale
+Maquis Anoumabo Zouglou
+Maquis Avicam
+Maquis Bar Climatisé
+Maquis Bar Hotel Le Grand
+Maquis Bolikro
+Maquis Bolikro Nanan
+Maquis Burkina
+Maquis Burkina 1
+Maquis Burkina 2
+Maquis Burkina 3
+Maquis Campus 3
+Maquis central
+Maquis Champs Elysées
+Maquis Concorde
+Maquis Dabou Direct
+Maquis de la Bia
+Maquis de Lima Village
+Maquis Dieu
+Maquis du CCIA
+Maquis Ebrah Plage
+Maquis émergence
+Maquis Equinoxe
+Maquis Escale
+Maquis Espacé de Binguist
+Maquis Espace Gbeke
+Maquis Espace Moyé
+Maquis Espace Yakinuo
+Maquis Good Time
+Maquis Hakly
+Maquis Hambol
+Maquis Indenie plus
+Maquis Istamboul
+Maquis l'Alycia
+Maquis l'Opéra
+Maquis L139
+Maquis La Baronne
+Maquis La Denco
+Maquis la Fleur
+Maquis la Maison Blanche
+Maquis la PAIX
+Maquis La Plantation
+Maquis La Plateforme
+Maquis La Présidence
+Maquis Las Vegas
+Maquis le Bonheur
+Maquis le Dabou
+Maquis Le jardin d'Eden
+Maquis le Namoué Plus
+Maquis le Phenix
+Maquis le Quai
+Maquis Le Rendez-vous
+Maquis Le Repère du Centre
+Maquis Le Repos Du Ciel
+Maquis le Sérum
+Maquis le Stop
+Maquis Le Venis
+Maquis le Wallé
+Maquis Les 4 parasols
+Maquis les appatams
+Maquis Les délice du Virage
+Maquis Les Manguiers
+Maquis Les Retrouvailles
+Maquis Manchester
+Maquis Molo Molo
+Maquis Monaco
+Maquis Naturel Village
+Maquis NF
+Maquis Notre Dame
+Maquis NPA
+Maquis O'Baoulé
+Maquis O'baoulekro
+Maquis Pacifique
+Maquis Paradis
+Maquis Petit Bassam
+Maquis Petits animaux
+Maquis plein aire
+Maquis Point Final
+Maquis pourri
+Maquis restau
+Maquis Restau le Plaisir
+Maquis restau UTB
+Maquis Restaurant
+Maquis Restaurant 4G+
+Maquis Restaurant 844
+Maquis Restaurant Atchoro
+Maquis Restaurant Bienvenue à l'Etat Major
+Maquis Restaurant Côte d'Ivoire Complet
+Maquis Restaurant du Bonheur
+Maquis Restaurant Espace Trésor
+Maquis Restaurant Glacier
+Maquis Restaurant Îles Au Saveurs
+Maquis Restaurant Ivoire
+Maquis Restaurant L'Indenié
+Maquis Restaurant la Bonne Bierre
+Maquis Restaurant Le Bonus
+Maquis Restaurant Le Bourgeois
+Maquis restaurant le Dabou
+Maquis Restaurant le Petit Poto
+Maquis Restaurant Le Tribunal
+Maquis Restaurant les Delices
+Maquis Restaurant Olympia
+Maquis Restaurant Plein Air
+Maquis restaurant Poufire
+Maquis Restaurant Spécialités Africaines
+Maquis restaurant Vallée Encatado
+Maquis Resto
+Maquis-resto 20/20
+Maquis Resto: 22Heures
+Maquis resto Ahegouet
+Maquis Resto: Bon Coin
+Maquis Resto Class "A" Plus
+maquis resto Club des amis
+maquis resto Eden
+Maquis Resto la Croisade Plus
+Maquis Resto Lavigore
+Maquis resto Le couloir
+Maquis Resto Le Zouglou
+Maquis Resto les Delice du Boulevard
+Maquis Resto Mont Carmel
+Maquis Resto O Délice
+Maquis resto Palmier
+Maquis Resto: Soupe de Cabri
+Maquis Resto Z'Yeux Voient
+Maquis Select
+Maquis Super Poulet Show
+Maquis Temp Libre
+Maquis Tina
+Maquis Triskell
+Maquis Venise
+Maquis Vietnamien
+Maquis village
+Maquis vision plus
+Maquis Wattsap
+Maquis Zouglou
+Maquise Le Apatesmes
+Marcory Residentiel
+Marilin's espace
+Marrouche
+Massa-Hotel
+MATRAN-CI
+Mavy Hôtel
+Mcr o'champ
+Mediterraneo
+Melody Bar Restaurant
+Meme Resto
+Messina
+Meval Restaurant
+Miami Beach
+Microced
+Microcred
+Microcred agence Sanpedro
+Microcrédit FEF
+Microfinance
+microfinance Baobab
+Microfinance CAC
+Microfinance CMEC
+Microfinance YUP
+Midi club after work restau bar
+Miel Hôtel
+Mini restaurant
+Mitsou Beach Club
+MM Lounge
+Moekoua
+Mofri
+Mondesir
+Mondila
+Money Gram
+Money Gram - Western Union
+MoneyGram
+MoneyGram express
+Montana
+Moov Africa Côte d'Ivoire
+Movempik (Chawarma)
+Mövenpick Hotel Abidjan
+MOVIS
+MSC-CI
+MTN Côte d'Ivoire
+MTN Mobile Money
+Mtn Money
+Mucrefab
+Muguet
+Musée Bieth
+Musée des Civilisations de Côte d'Ivoire
+Musée des cultures contemporaines
+Musée National du Costume
+Myniel
+N'Sa Hôtel
+N'sonzombe
+N TARÉ
+N'Zi River Lodges
+N'zissiessou
+Nahoui Hôtel Balmer
+Nam Hôtel
+Nan Faya
+Navire Ivoire
+NAVITRANS-CI
+NCI
+Nefertiti
+Nella
+Nemelé Hotel
+Nestlé Côte d'Ivoire
+Nevaday
+Nieba Hôtel
+Ninika
+NO NAME
+Noce de Canna
+Non Stop
+Norima
+Notre Restaurant
+Nouvelle maison Bonoua
+Nouvelle Villa Mia
+Novelas Hôtel
+Novotel Abidjan
+Nsia
+NSIA agence Attécoubé
+NSIA - Agence Bounoua
+Nsia Assurance
+NSIA assurance Banque Oumé
+NSIA Assurances
+NSIA Banque
+NSIA Banque - Agence Abidjan Sud
+NSIA Banque - Agence Bouaké
+NSIA Banque - Agence Boulevard de la République
+NSIA Banque - Agence Cité des Arts
+NSIA Banque - Agence Daloa
+NSIA Banque - Agence Marcory
+NSIA Banque - Agence Riviéra 3
+NSIA Banque - Agence Yamoussoukro
+NSIA Banque et Western Union
+NSIA Bingerville
+NSIA VGE
+NSIA VRIDI
+Nuit de Saïgon
+Nushi le traiteur
+O'Bambou
+O'baoulé
+O'Good Food
+O'GoodFood
+Ô PAYS
+O'Porco
+O sole mio right position
+OBV Complex
+Océan Food
+Offrititi
+Olympe
+Onomo Hôtel Abidjan Airport
+OPHIR
+Optimum MEDIA CI
+Ora Bank
+Orabank
+Orabank et western union
+Orange Côte d'Ivoire
+Orange Money
+Orange, MTN, FLOOZ
+Orange MTN MOOV MONEY
+Ore Luxe Hotel
+osoro Beach
+Ouaga Gastronomie
+P&O Nedlloyd
+Pa¨tisserie Merveilles des LACS
+Pac Hôtel
+Pacifique Restaurant Bar
+Paillot
+Paillot 1
+Paillot 10
+Paillot 11
+Paillot 2
+Paillot 3
+Paillot 4
+Paillot 5
+Paillot 6
+Paillot 7
+Paillot 8
+Paillot 9
+Paillot d'Honneur
+Palauh
+Palm Beach
+Palma hotel
+Palmci
+Palme rock bich
+Pam-Pam
+Panaf
+Panorama Treichville
+Paradis Tropical
+Parassolier
+Parawelly hôtel
+Pasta e Pizza
+Pâtisserie du glacier canal+
+Peace love louange restaurant
+Peniel Beach
+Perseus Mining
+Petit Cocody
+Petit Merveille Sebroko
+Petit restauant
+Petit restaurant
+Petroci
+Petroci Holding
+Phénicia
+Phenix Hotel
+Pizza hut
+Pizza Tropicale (delicious!)
+Pizzeria Copa Cabana
+Pizzeria Solarino
+Placalidrome
+Placalie show
+Placcalidrome Bandjidrome
+Plada Hôtel
+Planète BMW
+Plein Air
+Plein Ciel
+Point MTN Mobile Money MoMo
+Point Orange Money
+Poisson braisé
+Pom'kanel
+Porc au four
+Poulet Braisé la Référence
+Poulet Doudou
+Poulet et poisson piqués
+Poulet Roi
+Première Agence de Micro Finance
+Première Agence de Microfinance Côte d'Ivoire
+Prestige hôtel
+Prestige Régal
+Prestige zouglou
+Progosa Shipping
+Prosuma
+Pullman Abidjan
+Quebess Hôtel Bar Climatisé
+Quick Cash
+Quick Resto
+R La Réserve, Restaurant Lounge
+Radio la voie du Zanzan
+Radisson Blu Abidjan Airport
+Radisson Blu Hotel, Abidjan Airport
+Rail Hôtel
+RAN Hôtel
+Raouda Finance
+Reastaurant La terrasse
+Refectoire
+refectoire annexe 1
+refectoire annexe2
+Rehoboth
+Relief
+Reoboth
+Reparateur
+Resaurant attieke poisson
+Resaurant Nour
+Resaurant Rayan
+Résidence Akil Borro
+Résidence Alafia
+Résidence Archange
+Residence Bada
+Résidence Berah
+Residence Berakah
+Résidence Bertille
+Residence Boursault
+Résidence Colline Alba
+Résidence de la Paix
+Residence Dippoka
+Résidence Eden Park
+Résidence Éden Park Yakro
+Residence Emlys Hôtel
+Résidence Ethan
+Résidence Harmonie
+Résidence Hôtel
+Résidence hôtel Akidom
+Résidence Hôtel Bergemady
+Residence Hotel Bon Samira
+Résidence Hôtel Coquette
+Résidence Hôtel Elephant
+Résidence hôtel Etranfê
+Résidence Hôtel Kelso
+Residence Hotel Maizi's
+Résidence Hotel Nirala bonoua
+Résidence Hôtel Riviera
+Résidence hotel Santa Adelina
+Résidence hôtel Top Net
+Résidence hôtel zagou
+Residence Inn
+Résidence Kaha
+Residence La Paix
+Résidence Les Cascades
+Résidence Limaniya 2pltx
+Résidence Mamikan
+Résidence Manzan
+Résidence N'Da
+Résidence Ohinéné
+Résidence Terano
+Résidence Yeli Hôtel
+Résidences Plein Sud
+Reso cave ivoire
+Restad
+Restau
+Restau buvette choco chezMarie france
+Restauant-Glacier Mika Chawarma
+Restaurant 20h vin by malika
+Restaurant 5 étoiles
+Restaurant Aboussouan
+Restaurant adjoukrou
+Restaurant Africain
+Restaurant Africain Bistrot
+Restaurant Africaine
+Restaurant: Akwaba
+Restaurant Al sultan
+Restaurant Alièfè
+Restaurant Alize Club
+Restaurant alloco
+Restaurant Amanos
+Restaurant Amona Orient
+Restaurant Anh-Thu
+Restaurant Archanges
+Restaurant assiny
+Restaurant Atieké Poisson
+Restaurant attieké
+Restaurant Attiéké Poisson
+Restaurant au 2 poulets
+Restaurant au Poisson
+Restaurant Ayakoi
+Restaurant Bamboula
+Restaurant bar la paillote riviera
+Restaurant Bar Le 712
+Restaurant Bar Le Delice
+Restaurant Bar le Pélican
+Restaurant Beverly
+Restaurant Big Buzz
+Restaurant Bistro
+Restaurant Bistrot
+Restaurant Bon Choix
+restaurant Bon goût
+restaurant borde au lac
+Restaurant Boualé
+Restaurant Brennus
+Restaurant BTI
+restaurant Buvette
+Restaurant buvette la Piramide
+Restaurant Buvette Petit à Petit
+Restaurant Byblos
+Restaurant Cabri Choco
+Restaurant Café Blanc
+Restaurant-café op'tit resto
+Restaurant Cavally
+Restaurant Cedeao
+Restaurant Centre commercial
+Restaurant Chawana Kossay
+Restaurant Chill Out
+Restaurant Chinois
+Restaurant Chou Pom
+Restaurant Coca Cola
+Restaurant Collines
+Restaurant Comme à la Maison
+Restaurant Complexe Rond Point
+Restaurant Complexe Siloé
+Restaurant Copa Délice
+Restaurant Côte d'Alsace
+Restaurant Cour d'Appel
+Restaurant Crou
+Restaurant Cuisine Locale
+Restaurant d
+Restaurant dakoupa
+Restaurant dans la barque
+Restaurant delices de gloire
+Restaurant Delices services
+Restaurant DG
+Restaurant Dinho
+restaurant du CHR
+Restaurant du CHU
+Restaurant du Club Tennis
+Restaurant du Geo-Beton
+Restaurant du marché
+Restaurant Ebenezer
+Restaurant Ebur Village
+Restaurant Eden
+Restaurant El Shaddat
+Restaurant Enseignants
+Restaurant Escal Plus
+Restaurant Espace 415
+Restaurant: Espace Anader
+Restaurant Espace Diaspora
+Restaurant: Espace Eden
+Restaurant Espace le Bohneur
+Restaurant Espace le Ravin
+Restaurant Espace Poulet
+Restaurant espace promo Winner
+Restaurant Et Bar
+Restaurant et Bistrot
+Restaurant et Cave
+Restaurant et Cave le Parlement
+Restaurant et Cave les Couters
+Restaurant Etoile Du Zanzan
+restaurant étudiant
+Restaurant Exausia
+Restaurant Fanzou
+Restaurant flober place
+Restaurant G.Z de la paix d'Attecoubé
+Restaurant Garbadrome
+Restaurant ghaneen
+restaurant INP-HB SUD
+Restaurant italien
+Restaurant ivoire
+Restaurant J Colimar
+Restaurant Kajazoma
+Restaurant Kartizo
+Restaurant Karusel
+Restaurant kiosque Agripaq
+Restaurant L'Africaine
+Restaurant L'Assiette Royale
+Restaurant l'Endroit
+Restaurant l'Entenne
+Restaurant l'Escal
+Restaurant La Baie Des Princes
+Restaurant La Cave
+Restaurant la decouverte
+Restaurant La Fossette
+Restaurant la Joie
+Restaurant La Main Delicieuse
+Restaurant la marmite d'or
+Restaurant la paillote gourmande
+Restaurant la Paix
+Restaurant la Prééminence
+Restaurant la Référence
+Restaurant la Route des Épices
+Restaurant La Saveur
+Restaurant la Seneve
+Restaurant la Shisha
+Restaurant La Terrasse
+Restaurant Lagunes
+Restaurant le Bananier
+Restaurant le bawin
+Restaurant Le Beaujolais
+Restaurant le binôme
+Restaurant Le Bistrot
+Restaurant Le Bonjour
+Restaurant le Campement
+Restaurant Le Chef
+Restaurant le Club des Amis
+Restaurant le glacier
+Restaurant le jardin des saveurs
+Restaurant Le Kessa
+Restaurant le lac
+Restaurant le Millano
+Restaurant le New Mahanathan
+Restaurant le Pakito
+Restaurant le Paon
+restaurant le petit coin
+Restaurant le Petit Matin
+Restaurant le refectoire
+Restaurant Le Regal
+Restaurant Le Reservoir Louguehi
+Restaurant Le roi
+Restaurant le Tablier de Moronou
+Restaurant le Talié du roi
+Restaurant Le Talier D'Or
+Restaurant le Titanic
+Restaurant le Village
+Restaurant le Vrai Gout
+Restaurant le Yipal
+Restaurant Lena
+Restaurant les palettes
+Restaurant Les Palmiers
+Restaurant les perles
+Restaurant Libanessee
+Restaurant Libano Sénegalais
+Restaurant Loss
+Restaurant Lounge
+Restaurant Lounge Snack bar
+Restaurant Lounge Yéclô
+Restaurant Mafiankan
+Restaurant- maquis
+restaurant maquis bassin
+Restaurant Maquis Bekanti
+Restaurant-Maquis la boussole
+Restaurant Maquis le Gbeke
+Restaurant- maquis le QG
+Restaurant Maquis Vicky
+Restaurant Marocain
+Restaurant matignon
+Restaurant Mont Carmel
+Restaurant Moye
+Restaurant N'zrama
+Restaurant Nanaba
+Restaurant Nandjelet
+Restaurant Nassanaba
+Restaurant O'bali lunch
+Restaurant Ô Baoulé
+Restaurant O'dabali
+Restaurant O'first
+Restaurant Ofalé
+Restaurant Orient
+Restaurant Ow'idj Coca cola
+Restaurant Paquinou
+Restaurant Patisserie Les Anges
+Restaurant Petit Bassam
+Restaurant Petit Dakar
+Restaurant phenix
+Restaurant Pierrade
+Restaurant placali
+Restaurant Plein Air
+Restaurant poulet Dechiré
+Restaurant Providence
+Restaurant Quartier
+Restaurant Rehoboth
+Restaurant Roi du Poulet
+Restaurant rt kiosque
+Restaurant Sankadiokro
+Restaurant Sankadiokro 2
+Restaurant Sanwi
+Restaurant Saveur d'Abidjan
+Restaurant Sénégalais
+Restaurant Sénegalais Touba
+Restaurant Senegalaise
+Restaurant Shana
+Restaurant Shekina
+Restaurant soleplus
+Restaurant soupe de cabri
+Restaurant Sous Teck
+Restaurant Sweet Garden
+Restaurant Terre Kuite
+Restaurant The Dream
+Restaurant Top Chef
+Restaurant Traditionel
+Restaurant traditionnel
+Restaurant Trationnelle
+Restaurant Trationnelle Garba
+Restaurant Trofé
+restaurant Ulcere de brulis
+Restaurant Vente de Poulet
+Restaurant Vietnamese Hao
+Restaurant Vietnamien
+Restaurant Vietnamien La Riziere
+Restaurant Wamh
+Restaurant WATT KANG
+Restaurant Wembley
+Restaurant What'S Up
+Restaurant Z'Air Fruité
+restaurant Zanzan
+restaurant zoblazo
+RestaurantAldar
+Restaurent
+Restaurent du plateau
+Resto
+Resto Aco
+Resto Adjoukrou
+Resto Africain
+Resto bar Caviar plus
+Resto bar étoile de la 7eme
+Resto Bar la Detente
+Resto Bar le 13H
+Resto-Bar Lylydié
+Resto Black Jack
+Resto buvette
+Resto cave
+Resto cave arc en ciel
+Resto cave la référence
+Resto couche-tard
+Resto de luf
+Resto et Lounge
+Resto l'escalier
+Resto la Gloire
+Resto Lebanos
+Resto vace
+Resto Verdy
+Resto Viande et Grillades
+Resto Vietnamien
+Resto yakeli
+Restorant Grin de sel
+Retaurant bar black star 6 etoiles
+Rip Curl
+Riya center
+Roc Hôtel
+Rodeo Jack
+Romano Lodge
+Royal Coffee, restaurant
+Royal Hôtel
+royaume des délices
+RTI 1
+RTI 2
+Rti-Bouake
+Saaka
+Saakan
+Sabbath plage
+SACI
+SAGA-CI
+Saint Cyr
+Sala restaurant
+SAMCI
+Samhotel
+Sanamar
+Sandwich coulisses
+Sangria restau
+SAPH
+Saphir Hôtel
+Sarala
+Sati
+Saveur d'Afrique
+Saveur des Iles
+SCCI
+SCESO
+SDV
+SDV-CI
+Seen hôtel Abidjan
+Seen Hotel Abidjan Plateau
+Sekedess
+Senat
+Senegalais
+Seoul
+Seramar
+Serigne Fallou
+Seventy-Four Restaurant
+Sgbci
+SGFPS-CI
+SGM (Ex-SORANO-CI)
+Shalom Pizzeria
+Shawarma Doumin
+Shekina Restaurant
+SHELL-CI
+Shilo Delice
+SHIP Abidjan Services
+Siamar
+SIAP
+Sib
+Sib Abengourou
+SIB - Agence
+SIB - Agence Agnibilékrou
+SIB - Agence Bouaké
+SIB - Agence Boulevard de Marseille
+SIB - Agence Djibi
+SIB - Agence Gagnoa
+SIB - Agence Riviéra 3
+SIB - Agence VGE
+SIB - Agence Yamoussoukro
+SIB - Agence Zone4
+SIB Gagnoa
+SIB Macory Residentiel
+SIB Societe Ivoirienne des Banques
+Sicodis
+Siège Crédit Access
+SIFAL
+SIFCA
+Silson Global Business (SGB)
+SIMAT
+Sipmar
+Sipo beach
+SIR
+Sitarail
+SITCO Coq
+SITCO Tajine
+SIVOM
+SMPA
+Société de distribution d'eau de la Côte d'Ivoire
+Société des transports abidjanais
+Société général Côte d'Ivoire
+Société générale Côte d'Ivoire
+Société générale Côte d'Ivoire Agence Agboville
+Société générale Côte d'Ivoire Agence Angré
+Société générale Côte d'Ivoire Agence Bel Air
+Société générale Côte d'Ivoire Agence Bietry
+Société générale Côte d'Ivoire Agence Boulevard des Martyrs
+Société générale Côte d'Ivoire Agence Boulevard Nanan Yamousso
+Société générale Côte d'Ivoire Agence Djibi
+Société générale Côte d'Ivoire Agence Pyramide
+Société générale Côte d'Ivoire Agence Sainte Famille
+Société générale Côte d'Ivoire Agence Vallon
+Société générale Côte d'Ivoire Agence Vridi
+Société générale Côte d'Ivoire Agence Yamoussoukro
+Société Générale de Côte d'Ivoire
+Société Ivoirienne de Banque
+Societé Ivoirienne de banque - Agence Commerce
+Société Ivoirienne de Banque (SIB)
+Société ivoirienne de raffinage
+Socimac
+Socopao
+Sodeci
+Sofia
+Sofitel Abidjan Hôtel Ivoire
+SOGEF
+Sogip/shipping
+Sogotiguy Abobo Belleville
+Solibra
+Songon Park
+Sonia Hôtel
+SOTRA
+Sous La Bâche
+Sous les Palmiers
+Spécialité thieb
+Sport
+Spring Time
+Standard Bank
+Standard Chartered - Siège
+Startimes MEDIA CI
+STEPC
+sucaf hotel
+Sucrivoire
+Sumaco
+Sunset Beach Bar
+Sunset Restaurant- Bar Lounge
+Sunu Assurances
+Super Chawama et Son Super Glacier
+Super Garba
+Super Garbadrome Le Maracana
+Super Maquis Centre Ivoire
+Super Maquis L'Escale
+Super Maquis Le Réseau
+Super Maquis LOM NAVA
+Super Maquis ONUCI
+SUPER Maritime
+Super Poisson
+Super Poulet Show
+Sweety
+Tablier d'Or
+Taboo
+Taco Stop
+Tantie Aba
+Tantie Sibata
+Taxi Brousse
+Tchapalodrome
+Tchokan hôtel
+Telenum CÔTE D'Ivoire
+Temp de la Dance
+temson
+Terminal Huiller
+TES KAG
+TGV
+The Address
+The Garden Lounge
+The King
+Ti'Ntia Hôtel
+Tiama Plus
+Timotel
+Tizra
+Top chef
+Top One
+TOTAL-CI
+TOTAL E&P
+TotalEnergies Côte d'Ivoire
+Tranfert d'Argent
+Treichotel
+Tresorerie principale de cocody
+Trident Shipping
+Trok Apéro
+Tropic Hotel
+Tropicana
+Tullow
+U-Street restaurant bar
+Uba
+Uba Africa
+Unilever Côte d'Ivoire
+United Bank for Africa
+Universal SHIP Suppliers
+Uniwax
+USC
+Usine de manioc
+Vasyland Le Chic Terroir
+Vendeur de Choukouya
+Vendeuse d'Atiéké Poissons
+Vendeuse d'attieke
+Vendeuse d'attiéke Poisson
+vendeuse dattieke
+Vente d'attiéké
+Vente d'attiéké poisson
+Vente De Poulet Braisé
+Vente de Viande
+Vente de viande et poisson
+Vente GARBA
+Versus Bank
+Versus Bank - Agence II Plateaux
+Vert Café
+Via Brazil
+Viande braisée
+Viet Phô
+Vietnamese Specialties
+Villa blanca
+Villa d'hôtes
+Villa ébène
+Villa Mia
+Villa Savoia
+Villa Tiba
+Village artisanal Aboudia
+Village traditionnel de Niofoin
+Vin sur 20
+Vinea
+VITOL
+Vivo Energy Côte d'Ivoire
+WAIBS
+Ward
+Wash Hôtel
+Wave
+Welcom
+Wend Waooga
+Werster union
+West Beach - Restaurant
+Western Union
+Western Union orange money
+White House Hôtel
+World Bank
+Yagnigue Sarl
+Yahweh Raah
+YARA-CI
+Yara Restaurant
+Yet Trading
+Zapatero
+Zénith
+Zenith Hôtel
+Zion Hotel
+Zoo d'Abidjan
+Zransah Hôtel

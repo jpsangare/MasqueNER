@@ -1,0 +1,52 @@
+# regions.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), circonscriptions administratives ; RGPH 2021 (Licence Ouverte 2.0)
+Agneby
+Agneby-Tiassa
+Baffing
+Bafing
+Bagoue
+Bas-Sassandra
+Belier
+Bere
+Bounkani
+Cavally
+Comoe
+Denguele
+Folon
+Fromager
+Gbeke
+Gbokle
+Gôh
+Gôh-Djiboua
+Gontougo
+Grands Ponts
+Guemon
+Hambol
+Haut-Sassandra
+Iffou
+Indenie-Djuablin
+Kabadougou
+Lacs
+Lagunes
+Lôh-Djiboua
+Marahoue
+Montagnes
+Moronou
+Moyen Cavally
+Moyen Comoe
+N'Zi
+N'Zi Comoe
+Nawa
+Poro
+San Pedro
+Sassandra-Marahoue
+Savanes
+Sud-Bandama
+Sud-Comoe
+Tchologo
+Tonkpi
+Vallee du Bandama
+Vallee du Bandaman
+Woroba
+Worodougou
+Zanzan

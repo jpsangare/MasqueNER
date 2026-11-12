@@ -1,0 +1,110 @@
+# Institutions et organismes publics ivoiriens, rédigés à la main (connaissances générales).
+Présidence de la République
+Primature
+Assemblée nationale
+Sénat
+Conseil constitutionnel
+Cour suprême
+Cour des comptes
+Conseil économique, social, environnemental et culturel
+Médiateur de la République
+Haute Autorité pour la Bonne Gouvernance
+Commission électorale indépendante
+Ministère de l'Intérieur et de la Sécurité
+Ministère de la Justice et des Droits de l'Homme
+Ministère de l'Économie et des Finances
+Ministère du Budget et du Portefeuille de l'État
+Ministère de la Santé, de l'Hygiène publique et de la Couverture maladie universelle
+Ministère de l'Éducation nationale et de l'Alphabétisation
+Ministère de l'Enseignement supérieur et de la Recherche scientifique
+Ministère de l'Agriculture et du Développement rural
+Ministère des Transports
+Ministère de l'Équipement et de l'Entretien routier
+Ministère de la Construction, du Logement et de l'Urbanisme
+Ministère de la Fonction publique
+Ministère de l'Emploi et de la Protection sociale
+Ministère de la Femme, de la Famille et de l'Enfant
+Ministère de la Solidarité et de la Lutte contre la pauvreté
+Ministère des Affaires étrangères
+Ministère de la Communication
+Ministère de la Transition numérique et de la Digitalisation
+Ministère des Mines, du Pétrole et de l'Énergie
+Ministère de l'Environnement et du Développement durable
+Ministère des Eaux et Forêts
+Ministère du Commerce et de l'Industrie
+Ministère de la Culture et de la Francophonie
+Ministère des Sports
+Ministère de la Promotion de la Jeunesse
+Ministère du Tourisme
+Ministère de l'Hydraulique
+Ministère des Ressources animales et halieutiques
+Ministère de la Défense
+Direction générale des Impôts
+DGI
+Direction générale des Douanes
+Direction générale du Trésor et de la Comptabilité publique
+Trésor public
+Direction générale de la Fonction publique
+Direction régionale de l'Éducation nationale
+DREN
+Direction départementale de la Santé
+Caisse nationale de prévoyance sociale
+CNPS
+Caisse générale de retraite des agents de l'État
+CGRAE
+Caisse nationale d'assurance maladie
+CNAM
+Couverture maladie universelle
+CMU
+Office national de l'état civil et de l'identification
+ONECI
+Autorité de régulation des télécommunications de Côte d'Ivoire
+ARTCI
+Agence Emploi Jeunes
+Agence de gestion des routes
+AGEROUTE
+Agence foncière rurale
+AFOR
+Office national de la protection civile
+Police nationale
+Gendarmerie nationale
+Préfecture de police d'Abidjan
+Tribunal de première instance d'Abidjan-Plateau
+Tribunal de première instance de Yopougon
+Tribunal de commerce d'Abidjan
+Cour d'appel d'Abidjan
+Cour d'appel de Bouaké
+Centre de promotion des investissements en Côte d'Ivoire
+CEPICI
+Institut national de la statistique
+Port autonome d'Abidjan
+Port autonome de San-Pédro
+CHU de Cocody
+CHU de Treichville
+CHU de Yopougon
+CHU de Bouaké
+CHU d'Angré
+Institut Pasteur de Côte d'Ivoire
+Institut national de santé publique
+Université Félix Houphouët-Boigny
+Université Nangui Abrogoua
+Université Alassane Ouattara
+Université Jean Lorougnon Guédé
+Université Peleforo Gon Coulibaly
+Institut national polytechnique Félix Houphouët-Boigny
+INP-HB
+École nationale d'administration
+École normale supérieure
+Radiodiffusion Télévision Ivoirienne
+RTI
+Banque centrale des États de l'Afrique de l'Ouest
+BCEAO
+District autonome d'Abidjan
+District autonome de Yamoussoukro
+Mairie du Plateau
+Mairie de Cocody
+Mairie de Yopougon
+Mairie d'Abobo
+Mairie de Bouaké
+Mairie de Korhogo
+Mairie de San-Pédro

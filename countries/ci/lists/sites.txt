@@ -1,0 +1,29 @@
+# sites.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), données issues d'OpenStreetMap (ODbL, © contributeurs OpenStreetMap) : parcs nationaux et réserves
+Boin National Park
+Forêt clasée de la Mabi
+Forêt clasée de la Yaya
+Forêt classée de Béki
+Forêt classée de Goulaleu
+Forêt Classée de la Niégré
+Forêt classée de N'Zodji
+Forêt Classée de Yaya
+Forêt Classée du Scio
+Parc National d'Azagny
+Parc National de la Comoé
+Parc National de la Marahoué
+Parc National de Taï
+Parc national des îles Ehotilé
+Parc National du Banco
+Parc national du Mont Péko
+Parc national du Mont Sangbé
+Réserve de faune d'Abokouamékro
+Réserve de faune du N'Zo
+Réserve du Haut Bandama
+Réserve intégrale du mont Nimba
+Réserve naturelle de Dalhiafleur
+Réserve naturelle de Mabi-Yaya
+Réserve naturelle intégrale du Mont Nimba
+Reserve Naturelle Scientifique De Lamto
+Réserve naturelle volontaire "N'Zl RIVER LODGE
+Réserve scientifique de Lamto

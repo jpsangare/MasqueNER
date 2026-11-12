@@ -1,0 +1,15 @@
+# Environnements et caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Données générées, modèles téléchargés ou entraînés : reproduits par les scripts, jamais versionnés
+data/
+artifacts/
+*.onnx
+*.safetensors
+*.bin
+
+# Rapports locaux qui pourraient citer des textes réels (corpus d'évaluation) : jamais versionnés
+reports/local/

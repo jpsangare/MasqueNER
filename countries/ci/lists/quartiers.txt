@@ -1,0 +1,268 @@
+# quartiers.txt — généré par countries/ci/build_lists.py le 2026-11-12
+# source : data.gouv.ci (data354-CI), sites radioélectriques (localités INS, Abidjan) ; prix des maisons à Abidjan (Licence Ouverte 2.0)
+# source : data.gouv.ci (data354-CI), données issues d'OpenStreetMap (ODbL, © contributeurs OpenStreetMap) : quartiers des établissements de santé
+220 Logements
+7ème Tranche
+Abadjin-Doume
+Abadjin-Koute
+Abatta
+Abattoir 2
+Abattoir 3
+Abety
+Abia Koumassi
+Abobo Baoule
+Abobo Centre
+Abobo Dokui
+Abobo Doume Residentiel
+Abobo Doume Village
+Abobo Nord
+Abobo Nord-Setu
+Abobo Sud 2e Tranche
+Abobo Sud 3e Tranche
+Abobote
+Adaimin
+Adiapoto 1
+Adiopo-Morono
+Adiopodoume
+Adjame Bingerville
+Adjame Nord
+Adjame Nord-Est Ou Bracodi
+Adjin
+Adjin-Telegraphe
+Adjouffou 2
+Aeroport
+Agban
+Agbekoi
+Aghien
+Aghien-Telegraphe
+Agnissakoi Avocatier
+Agoueto
+Ahoue
+Air France
+Akandje
+Akeikoi
+Akekoi
+Akouai-Agban
+Akouedo Ancien
+Akouedo-Attie
+Akouedo Nouveau
+Akouedo Village
+Akoupe-Zeudji
+Aliodan
+Allabra Sogefiha
+Allokoi
+Ambassade
+Anador
+Anani Amanou
+Ancien Quartier
+Andokoi
+Angre
+Anonkoi 3
+Anonkoi Koute
+Anono
+Anoumabo
+Antonin Dioulo
+Anyama-Adjame
+Arras 1
+Atingue
+Attecoube 3
+Attiekoi
+Attiguehi
+Attinguie
+Attoban
+Auguste Denise
+Avocatier N'Guessankoi
+Avorkatier
+Azaguie-Blida
+Azito
+Bago
+Banco 1 et 2
+Banco 2
+Bardot 3
+Bardot Marché
+Bardot18
+Beago
+Belle Ville
+Bietry
+Bimbresso
+Bloc 500
+Blockauss
+Bonoumin
+Bregbo
+Bromakote Ou Pellie Ville
+Caféier
+Camp Douane
+Camp Gendarmerie Indenie
+Camp Militaire
+Camp Sea
+Canebiere
+Carriere 2
+Cent Douze Hectares
+Champroux
+Château
+Chiens Mechants
+Chu
+Cité Administrative Immeuble Cgrae
+Cite des Arts
+Cite des Cadres
+Cite Esculape
+Cite Fairmont
+Cite Fonctionnaire
+Cité Nitoro
+Cite Policiere
+Cite Ran
+Clouetcha Kenedy
+Cnra
+Colas
+Commissariat 3
+Copraci Coprim
+Craone
+Dafci Cathedrale 2
+Danga
+Derahouan
+Derriere Wharf
+Deux Plateaux
+Deux Plateaux 1
+Deux Plateaux 2
+Deux Plateaux Est
+Digboué
+Dioulabougou
+Djibi
+Djorogobite
+Doyagouiné 2
+Ebimpe
+Ecoles
+Eeci Riviera
+El Mensour
+Elokate
+Garage
+Gare Sud Sodeci Gfci
+Gbeuli Ville
+Georges Kassi
+Gesco Manutention
+Gkokora
+Gnazoua
+Gonzagueville
+Grand Marche
+Grand Marché Extension
+Guebo 2
+Habitat Belle-Ville
+Habitat Extention
+Hibiscus
+Hôpital 1
+Hôpital 43e Bima
+Hôpital Grand Marche
+Ile Boulay
+Iles Bouley
+Indenie
+Irfa Anguededou
+Irho la Me
+Jean Baptiste Mockey
+Jean Folly
+Kablan Brou Fulgence
+Kennedy
+Kirman
+Km Marche
+Konan Raphael
+Kossihouen
+Kouassi Lenoir
+Koumassi Nord-Est 1
+Koumassi Nord-Est 2
+Koute Village
+Krogba
+Lac
+Lac Sonoco
+Lackman
+Lobia
+Lobia 1( Route de
+Locodjoro
+Lycée Technique
+M'Badon
+M'Bonoua
+M'Pouto Village
+Mairie 1
+Mairie 2
+Marcory Residentiel
+Maroc
+Maroc Anador
+Mbonoua
+Mbrou
+Mirador
+Mistro
+Mosquee
+Moussakro
+N'Pono
+Nematoulaye Djene Ecare
+Niangon Adjame
+Niangon Lokoa
+Niangon Nord
+Niangon Sud
+Nieky Bonjour
+Notre Dame
+Nouveau Quartier
+Paillet
+Palmeraie Genie 2000
+Palmindustrie Eloka
+Petit Bassam
+Petit Gbapleu
+Phare 3
+Pk50
+Plaque 1 et 2
+Plateau Dokui
+Port-Bouet 2
+Presso
+Prodomo Sopim Pangolin
+Progres
+Ran Defense Sodeci Insp
+Remblais
+Riviera
+Riviera 3-4-5
+Riviera Golf 1
+Riviera Golf 2
+Riviera Palmeraie
+Rti
+Sagbe Centre
+Sagbe Nord
+Sagbe Sud
+Saint-Joseph
+Sans-Manquer
+Santé 2 Mossikro
+Sebroko
+Seni Fofana
+Seweke 5
+Seyni Gueye
+Sicogi 1
+Sideci Riviera
+Sideci Zoo
+Sodeci-Filtisac
+Soderie
+Sogefiha Koute Municipalite
+Sogefiha Riviera 2
+Sogefiha Zone Industrielle
+Soleil
+Soleil 1
+Songon Dagbe
+Sopim Vallon
+St. Michel
+Stade
+Tazibouo
+Terre Rouge
+Thomasset
+Toit Rouge
+Université
+Val-Doyen
+Vieux Cocody
+Voltaire
+Vridi 3 École
+Vridi 3 Foyer
+Vridi Chapelle
+Williamsville 1
+Williamsville2
+Williamsville3 Ou Université Adjame
+Yobou Lambert
+Yopougon Attie
+Yopougon Santé
+Zimbabwe
+Zone 4
+Zone Industrielle
+Zone Portuaire

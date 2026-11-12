@@ -1,0 +1,99 @@
+# Modèles de phrases (français, Côte d'Ivoire). Une phrase par ligne.
+# Cases : {PER} nom de personne ; {LOC.<liste>} et {ORG.<liste>} (listes de country.yaml) ; {DATE} date en toutes
+# lettres et {NUM} nombre (écrits mais non étiquetés : ils relèvent de règles à part). Une ligne sans case est un exemple négatif (rien à détecter).
+#
+# Courriers et notes administratives
+Monsieur {PER}, domicilié à {LOC.quartiers}, est convoqué le {DATE} à la direction régionale de {LOC.villes}.
+Par la présente, je soussigné {PER}, agent en service auprès de {ORG.institutions}, atteste avoir reçu le dossier de Madame {PER}.
+Objet : demande de mutation de {PER} de {LOC.villes} vers {LOC.villes}.
+Les services de {ORG.institutions} informent Monsieur {PER} que sa demande a été enregistrée sous le numéro {NUM}.
+Le dossier de {PER} a été transmis à la mairie de {LOC.villes} le {DATE}.
+Il est porté à la connaissance du personnel que {PER} assurera l'intérim du chef de service à compter du {DATE}.
+Mme {PER}, secrétaire principale (structure : {ORG.institutions}), est chargée de la réception des courriers.
+Vu la demande de {PER} en date du {DATE}, la direction ({ORG.institutions}) décide ce qui suit.
+Le procès-verbal a été dressé en présence de {PER}, chef du village de {LOC.villages}, et de {PER}, notable.
+Le terrain litigieux, situé à {LOC.quartiers}, appartiendrait à la famille de {PER}.
+Le comité de gestion de l'établissement {ORG.ecoles} s'est réuni le {DATE} sous la présidence de {PER}.
+Monsieur le Directeur général de {ORG.entreprises}, nous accusons réception de votre offre du {DATE}.
+L'attestation de travail de {PER}, employé de {ORG.entreprises} à {LOC.villes}, est jointe au présent dossier.
+La commission a retenu l'offre de {ORG.entreprises} pour un montant de {NUM} francs CFA.
+M. {PER} et Mme {PER} sont désignés comme membres de la commission d'ouverture des plis.
+Le certificat médical délivré par l'établissement {ORG.sante} à {LOC.villes} confirme l'arrêt de travail de {PER}.
+Je vous transmets ci-joint le rapport de mission effectuée à {LOC.villes} et {LOC.villages} du {DATE} au {DATE}.
+L'agent {PER}, matricule {NUM}, est affecté à la sous-préfecture de {LOC.villes}.
+Le chef de service, {PER}, rappelle que les congés doivent être déposés avant le {DATE}.
+Ampliation : {ORG.institutions} ; {ORG.institutions} ; intéressé {PER}.
+La réunion de coordination se tiendra dans les locaux de {ORG.institutions}, quartier {LOC.quartiers}.
+Pour le Ministre et par délégation, le Directeur de cabinet {PER}.
+Le contrat de maintenance signé entre {ORG.institutions} et {ORG.entreprises} arrive à échéance le {DATE}.
+Le véhicule de service a été remis à {PER}, chauffeur à la direction régionale de {LOC.regions}.
+Le recensement des ménages de {LOC.villages}, sous-préfecture de {LOC.villes}, débutera en {DATE}.
+# Fiches et formulaires
+Nom : {PER} ; lieu de naissance : {LOC.villes} ; domicile : {LOC.quartiers}.
+Nom et prénoms : {PER}
+Personne à prévenir en cas d'urgence : {PER}, {LOC.quartiers}, {LOC.villes}.
+Employeur : {ORG.entreprises} ; lieu de travail : {LOC.villes}.
+Établissement fréquenté : {ORG.ecoles} ; classe de terminale.
+Parent ou tuteur : {PER}, commerçant à {LOC.villes}.
+Lieu de résidence : {LOC.quartiers}, commune de {LOC.villes}, région du {LOC.regions}.
+Bénéficiaire : {PER} ; structure de prise en charge : {ORG.sante}.
+Signataire : {PER}, directeur des ressources humaines de {ORG.entreprises}.
+Témoins : {PER} et {PER}, tous deux domiciliés à {LOC.villages}.
+# Courriels et messages
+Bonjour {PER}, je vous confirme la livraison des équipements à {LOC.quartiers} le {DATE}.
+Bonsoir Madame {PER}, merci de me renvoyer la facture de {ORG.entreprises} avant vendredi.
+Cher {PER}, la réunion avec {ORG.entreprises} est reportée au {DATE}.
+Salut {PER}, tu peux passer récupérer les documents chez moi à {LOC.quartiers} ?
+Bonjour, je suis {PER}, inscrit à l'établissement {ORG.ecoles}, et je souhaite effectuer un stage chez {ORG.entreprises}.
+Merci de contacter {PER} au service client de {ORG.entreprises} à {LOC.villes}.
+Je vous mets en copie {PER}, qui suit le dossier pour {ORG.institutions}.
+Comme convenu, {PER} vous attendra à l'entrée de l'établissement {ORG.sante} demain matin.
+Bonjour à tous, {PER} rejoint notre équipe de {LOC.villes} à partir du {DATE}.
+Félicitations à {PER} pour son admission au concours organisé par {ORG.institutions}.
+Rappel : la visite du site de {LOC.villages} avec {PER} est prévue le {DATE}.
+# Demandes à un assistant d'IA
+Rédige une lettre de recommandation pour {PER}, qui a travaillé trois ans chez {ORG.entreprises}.
+Peux-tu résumer ce rapport sur l'électrification de {LOC.villages} et {LOC.villages} ?
+Écris un courrier au maire de {LOC.villes} pour signaler l'état de la route vers {LOC.villages}.
+Aide-moi à répondre à {PER}, qui conteste la facture de {ORG.entreprises}.
+Corrige ce texte : mon fils {PER} est inscrit en classe de 6e, établissement {ORG.ecoles}.
+Traduis en anglais : {PER} représentera {ORG.institutions} à la conférence de {LOC.villes}.
+Fais un tableau des dépenses de la mission à {LOC.villes} réalisée par {PER} et {PER}.
+Prépare un discours pour l'inauguration du centre de santé de {LOC.villages} par {PER}.
+J'habite à {LOC.quartiers} et je cherche une clinique proche, par exemple {ORG.sante}, que me conseilles-tu ?
+Rédige une plainte contre {ORG.entreprises} pour une coupure non annoncée à {LOC.quartiers}.
+Explique à {PER} comment s'inscrire auprès de {ORG.institutions} depuis {LOC.villes}.
+Propose un plan de formation pour les agents de {ORG.institutions} de la région du {LOC.regions}.
+Mon voisin {PER} veut ouvrir un maquis à {LOC.quartiers}, quelles démarches faire auprès de la mairie de {LOC.villes} ?
+# Écrits informels (souvent sans majuscules ni accents)
+on se voit a {LOC.quartiers} demain avec {PER}
+{PER} dit que le car pour {LOC.villes} part a 6h
+appelle {PER} pour le terrain de {LOC.villages}
+je suis chez {PER} a {LOC.quartiers}, viens me chercher
+le petit de {PER} est malade on l'a amene a {ORG.sante}
+# Presse et récits
+Originaire de {LOC.villages}, {PER} a fait toute sa carrière chez {ORG.entreprises}.
+Le ministre a reçu {PER}, président du conseil régional du {LOC.regions}, le {DATE}.
+Les élèves de l'établissement {ORG.ecoles} ont visité le site « {LOC.sites} » en compagnie de {PER}.
+Le match opposant les équipes de {LOC.villes} et de {LOC.villes} aura lieu le {DATE}.
+Selon {PER}, porte-parole de {ORG.entreprises}, les travaux à {LOC.quartiers} dureront six mois.
+Le {DATE}, une délégation de {ORG.institutions} conduite par {PER} s'est rendue à {LOC.villes}.
+La cérémonie de remise de diplômes de l'établissement {ORG.ecoles} s'est tenue à {LOC.villes} en présence de {PER}.
+De fortes pluies ont touché {LOC.quartiers} et {LOC.quartiers}, selon {ORG.institutions}.
+# Exemples négatifs : rien à masquer
+Le directeur général rappelle que les congés annuels doivent être planifiés avant la fin du mois.
+Monsieur le Ministre, j'ai l'honneur de solliciter votre bienveillance pour une autorisation d'absence.
+Objet : Note de service relative à la sécurité des bâtiments administratifs.
+La Direction des Ressources humaines informe l'ensemble du personnel de la tenue d'une réunion.
+Merci de transmettre les pièces justificatives au service comptable dans les meilleurs délais.
+Le Procès-Verbal de la séance est approuvé à l'unanimité des membres présents.
+Rédige un message pour remercier mon équipe après la fin du projet.
+Peux-tu m'expliquer la différence entre un arrêté et une décision administrative ?
+Le Conseil des ministres s'est réuni ce mercredi sous la présidence du Chef de l'État.
+Bonjour, je voudrais savoir quels documents fournir pour une demande d'extrait d'acte de naissance.
+VU la Constitution ; VU le décret portant organisation du ministère ; ARRÊTE :
+Article 1 : Le présent arrêté prend effet à compter de sa date de signature.
+La Commission Technique a procédé à l'analyse des offres reçues dans les délais.
+Le Chef de Service Informatique est chargé de l'exécution de la présente décision.
+Fais-moi une liste de courses pour la semaine avec des plats ivoiriens.
+salut ça va ? on se retrouve au bureau demain matin

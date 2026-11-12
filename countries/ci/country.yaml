@@ -1,0 +1,46 @@
+# Côte d'Ivoire. Ajouter un pays = copier ce dossier et l'adapter ; aucun code commun à modifier.
+code: ci
+name: Côte d'Ivoire
+languages: [fr]
+
+# Listes (lists/<fichier>.txt) → type d'entité. Dans les modèles de phrases, {LOC.villes} tire dans villes.txt.
+# Les prénoms et noms ne s'utilisent pas seuls : ils composent {PER} selon person_formats.
+lists:
+  prenoms: PER
+  noms: PER
+  villes: LOC
+  regions: LOC
+  quartiers: LOC
+  villages: LOC
+  sites: LOC
+  institutions: ORG
+  entreprises: ORG
+  sante: ORG
+  ecoles: ORG
+
+# Formes d'un nom de personne et leur poids. {NOM} = nom de famille en capitales ; {prenoms} = 1 à 3 prénoms.
+# Usage ivoirien : nom de famille d'abord dans l'administration, souvent en capitales.
+person_formats:
+  "{nom} {prenoms}": 4
+  "{NOM} {prenoms}": 3
+  "{prenom} {nom}": 3
+  "{prenom} {NOM}": 1
+  "{nom}": 1
+  "{prenom}": 1
+
+sources:
+  - name: data.gouv.ci (producteur data354-CI)
+    url: https://data.gouv.ci/
+    license: Licence Ouverte / Open Licence 2.0
+    used_for: villes, régions, localités INS (quartiers, villages), écoles, établissements CMU, entreprises agréées, chaînes de télévision
+  - name: OpenStreetMap, via data.gouv.ci
+    url: https://www.openstreetmap.org/copyright
+    license: ODbL 1.0 (© contributeurs OpenStreetMap)
+    used_for: établissements de santé et leurs quartiers, banques, hôtels, restaurants, parcs et réserves
+  - name: Wikidata
+    url: https://www.wikidata.org/
+    license: CC0 1.0
+    used_for: prénoms (P735) et noms de famille (P734) portés par au moins deux personnalités ivoiriennes, mots isolés
+  - name: listes rédigées à la main (manual/)
+    license: même licence que le dépôt
+    used_for: prénoms et noms courants, institutions, entreprises connues

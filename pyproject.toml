@@ -1,0 +1,24 @@
+[project]
+name = "masquener"
+version = "0.0.0"
+description = "Affinage d'un modèle NER multilingue sur des données synthétiques par pays, pour le masquage de données personnelles"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "onnxruntime",
+  "tokenizers",
+  "huggingface-hub",
+  "pyarrow",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+# Entraînement et conversion (GPU Kaggle) ; inutile pour l'évaluation locale.
+train = ["torch", "transformers", "accelerate", "onnx"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
