@@ -1,71 +1,70 @@
 # MasqueNER
 
-Affinage du modèle NER multilingue `Davlan/distilbert-base-multilingual-cased-ner-hrl` (version ONNX
-`Xenova/…` à la révision `c2a4dbf5…`) pour mieux reconnaître les noms de personnes, de lieux et d'organisations
-propres à chaque pays. Un seul modèle multilingue, entraîné sur tous les pays de `countries/`, mesuré pays par pays.
+Fine-tuning of the multilingual NER model `Davlan/distilbert-base-multilingual-cased-ner-hrl` (ONNX version
+`Xenova/…` at revision `c2a4dbf5…`) to better recognize the names of people, places and organizations
+specific to each country. A single multilingual model, trained on all countries in `countries/`, measured country by country.
 
-Règles : aucune donnée personnelle réelle à l'entraînement (phrases synthétiques uniquement) ; étiquettes du modèle
-de départ inchangées ; corpus réels d'évaluation lus sur place, jamais copiés ni publiés.
+Rules: no real personal data in training (synthetic sentences only); base model labels left unchanged;
+real evaluation corpora are read in place, never copied or published.
 
-## Installation (Windows, sans GPU)
+## Installation (Windows, no GPU)
 
 ```bash
 uv sync
-uv run python -m masquener.reference      # modèle de départ, vérifié par SHA-256 → artifacts/reference/
+uv run python -m masquener.reference      # base model, verified by SHA-256 → artifacts/reference/
 uv run pytest
 ```
 
-## Mesure
+## Evaluation
 
 ```bash
 uv run python -m masquener.evaluate --model artifacts/reference --name reference gold conll
-uv run python -m masquener.evaluate --model artifacts/reference --name reference corpus CHEMIN/corpus-ci.json
+uv run python -m masquener.evaluate --model artifacts/reference --name reference corpus PATH/corpus-ci.json
 ```
 
-- `reports/<nom>/` : rapports versionnés (jeux publics).
-- `reports/local/<nom>/` : rapports sur corpus réels, ignorés par git, chiffres seulement.
-- `reports/reference/synthetic.json` : test synthétique des pays (voir ci-dessous).
+- `reports/<name>/`: versioned reports (public datasets).
+- `reports/local/<name>/`: reports on real corpora, ignored by git, figures only.
+- `reports/reference/synthetic.json`: synthetic country test (see below).
 
-## Données d'entraînement
+## Training data
 
 ```bash
-uv run python -m masquener.generate   # phrases pays → data/synthetic/{train,dev,test}.jsonl
-uv run python -m masquener.distill    # révision : CoNLL + WikiANN (texte seul) étiquetés par la référence → data/distill/
+uv run python -m masquener.generate   # country sentences → data/synthetic/{train,dev,test}.jsonl
+uv run python -m masquener.distill    # rehearsal: CoNLL + WikiANN (text only) labeled by the reference → data/distill/
 uv run python -m masquener.evaluate --model artifacts/reference --name reference synthetic
 ```
 
-- Chaque modèle de phrase et chaque ligne de liste appartient à un seul jeu (hachage stable, 80/10/10) : le test
-  synthétique ne contient que des phrases et des noms absents de l'entraînement.
-- Dates et nombres sont écrits mais non étiquetés : le modèle de départ ne prédit jamais DATE, et
-  ces données relèvent de règles à part (motifs).
-- Distillation : les étiquettes d'origine de CoNLL et WikiANN sont jetées ; seuls leurs jeux train et validation sont lus.
+- Each sentence template and each list entry belongs to exactly one split (stable hashing, 80/10/10): the synthetic
+  test set only contains sentences and names absent from training.
+- Dates and numbers are written but not labeled: the base model never predicts DATE, and this kind of data
+  is handled by separate rules (patterns).
+- Distillation: the original CoNLL and WikiANN labels are discarded; only their train and validation splits are read.
 
-## Entraînement (Kaggle, GPU)
+## Training (Kaggle, GPU)
 
-Dans un carnet Kaggle avec GPU et accès Internet, à la racine d'une copie du dépôt :
+In a Kaggle notebook with GPU and Internet access, at the root of a copy of the repository:
 
 ```bash
-pip install -q onnx onnxruntime && pip install -q -e . --no-deps   # garder torch et transformers de Kaggle
-python -m masquener.generate && python -m masquener.distill         # ou reprendre data/ déjà produit
-python -m masquener.train --name v1            # → artifacts/v1/ (format Xenova, ONNX quantifié comme la référence)
+pip install -q onnx onnxruntime && pip install -q -e . --no-deps   # keep Kaggle's torch and transformers
+python -m masquener.generate && python -m masquener.distill        # or reuse already generated data/
+python -m masquener.train --name v1                                # → artifacts/v1/ (Xenova format, quantized ONNX like the reference)
 ```
 
-Rapatrier `artifacts/v1/` (sans `v1-torch/`), puis mesurer et contrôler en local :
+Bring back `artifacts/v1/` (without `v1-torch/`), then evaluate and check locally:
 
 ```bash
 for d in conll masakhaner wikiann; do uv run python -m masquener.evaluate --model artifacts/v1 --name v1 gold $d; done
 uv run python -m masquener.evaluate --model artifacts/v1 --name v1 synthetic
-uv run python -m masquener.evaluate --model artifacts/v1 --name v1 corpus CHEMIN/corpus-ci.json   # chaque corpus réel
-uv run python -m masquener.gate --name v1     # ACCEPTÉ / REFUSÉ, seuil −0,5 pt sur chaque mesure bloquante
+uv run python -m masquener.evaluate --model artifacts/v1 --name v1 corpus PATH/corpus-ci.json   # each real corpus
+uv run python -m masquener.gate --name v1     # ACCEPTED / REJECTED, threshold −0.5 pt on each blocking metric
 ```
 
-Essai rapide sur processeur : `uv sync --extra train` puis `uv run python -m masquener.train --name essai --max-steps 4 --batch 8`.
+Quick CPU test: `uv sync --extra train` then `uv run python -m masquener.train --name test --max-steps 4 --batch 8`.
 
-## Licences
+## Licenses
 
-- Code : MIT (`LICENSE`).
-- Données des pays : licences de leurs sources ; listes issues d'OpenStreetMap sous ODbL 1.0 (`countries/LICENSE-DATA.md`).
-- Modèle affiné : dérivé de `Davlan/distilbert-base-multilingual-cased-ner-hrl` (AFL-3.0), diffusé sous AFL-3.0.
-- Non diffusés : `data/distill/` (contient du texte CoNLL 2003, Reuters, non redistribuable ; `masquener.distill` le
-  reconstruit), les corpus réels et `reports/local/`.
-
+- Code: MIT (`LICENSE`).
+- Country data: licenses of their sources; lists from OpenStreetMap under ODbL 1.0 (`countries/LICENSE-DATA.md`).
+- Fine-tuned model: derived from `Davlan/distilbert-base-multilingual-cased-ner-hrl` (AFL-3.0), released under AFL-3.0.
+- Not distributed: `data/distill/` (contains CoNLL 2003 Reuters text, which cannot be redistributed; `masquener.distill`
+  rebuilds it), the real corpora and `reports/local/`.
