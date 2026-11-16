@@ -61,6 +61,32 @@ uv run python -m masquener.gate --name v1     # ACCEPTED / REJECTED, threshold �
 
 Quick CPU test: `uv sync --extra train` then `uv run python -m masquener.train --name test --max-steps 4 --batch 8`.
 
+## Published versions
+
+| Version | Countries | Hugging Face | Revision | Status |
+|---|---|---|---|---|
+| v1 | Côte d'Ivoire | [`JPMSA1212/distilbert-ner-masquener`](https://huggingface.co/JPMSA1212/distilbert-ner-masquener) | `17efe1a7ee07d7074923c63f5a1280606f6b02e5` | ACCEPTED by `gate`; published ONNX identical to `artifacts/v1` (SHA-256 `5ea5d525…`) |
+
+v1, Ivorian control corpus: PER F1 0.46 → 0.74, masking rate 0.73 → 0.86; no regression on CoNLL, WikiANN or
+MasakhaNER. The evaluation is still narrow (25 fictional documents, some names also present in the training lists):
+it should be confirmed on a larger corpus.
+
+The published `tokenizer_config.json` (saved by transformers) differs from the Xenova reference one: check that it
+loads with transformers.js before using the model in a browser.
+
+## Adding a country
+
+1. Copy `countries/ci/` to `countries/<code>/` and adapt `country.yaml` (languages, lists → entity types, person
+   name formats), the `lists/` (public sources, license recorded in `countries/LICENSE-DATA.md`) and the sentence
+   templates `templates/<language>.txt`. No shared code needs to change.
+2. Build a control corpus for the country (realistic documents, with names **absent** from the training lists),
+   read in place and never copied into the repository.
+3. Regenerate the data (`generate`, `distill`), retrain on **all** countries (`train --name vN`), evaluate each
+   country and the public datasets, then run `gate --name vN --baseline v(N-1)`: no country already covered may
+   regress (by default, `gate` compares with `reference`).
+4. Publish to the same Hugging Face repository (new revision) and add a row to the table above. Applications that
+   pin a revision and file hashes must be updated for each new revision.
+
 ## Licenses
 
 - Code: MIT (`LICENSE`).
