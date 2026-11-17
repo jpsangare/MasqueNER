@@ -1,6 +1,9 @@
-# Modèles de phrases (français, Côte d'Ivoire). Une phrase par ligne.
+# Modèles de phrases (français, Côte d'Ivoire). Un modèle par ligne ; « \n » y marque un retour à la ligne (fiches,
+# courriels, en-têtes).
 # Cases : {PER} nom de personne ; {LOC.<liste>} et {ORG.<liste>} (listes de country.yaml) ; {DATE} date en toutes
 # lettres et {NUM} nombre (écrits mais non étiquetés : ils relèvent de règles à part). Une ligne sans case est un exemple négatif (rien à détecter).
+# Ne sont jamais des entités : libellés de champ (Matricule, Civilité, Nationalité…), formules de politesse (Bonjour,
+# Cordialement, Veuillez…), titres de document, services internes (Service des Affaires générales), nationalités.
 #
 # Courriers et notes administratives
 Monsieur {PER}, domicilié à {LOC.quartiers}, est convoqué le {DATE} à la direction régionale de {LOC.villes}.
@@ -97,3 +100,32 @@ La Commission Technique a procédé à l'analyse des offres reçues dans les dé
 Le Chef de Service Informatique est chargé de l'exécution de la présente décision.
 Fais-moi une liste de courses pour la semaine avec des plats ivoiriens.
 salut ça va ? on se retrouve au bureau demain matin
+# Documents en plusieurs lignes : fiches, courriels, notes (libellés et formules de politesse jamais étiquetés)
+FICHE INDIVIDUELLE DE RENSEIGNEMENTS\nNom et prénoms : {PER}\nCivilité : M.\nMatricule : {NUM}\nNé le : {DATE} à {LOC.villes}\nNationalité : Ivoirienne\nService : Direction des Ressources humaines
+FICHE DE SUIVI\nAgent : {PER}\nFonction : Chargée du suivi\nAffectation : {LOC.villes}\nStatut : EN ATTENTE\nObservations : néant
+Bénéficiaire : {PER}\nPériode : du {DATE} au {DATE}\nMontant : {NUM} FCFA\nVisa du chef de service :
+Civilité : Madame\nNom : {PER}\nNée le : {DATE}\nDomicile : {LOC.quartiers}, {LOC.villes}\nSituation matrimoniale : Mariée\nNationalité : Ivoirienne
+ATTESTATION DE TRAVAIL\n\nJe soussigné, {PER}, Directeur des Ressources humaines de {ORG.entreprises}, atteste que {PER}, matricule {NUM}, est employé au sein de notre société depuis le {DATE}.\n\nFait à {LOC.villes}, le {DATE}.\nLe Directeur
+Rédigé par : {PER}\nValidé par : {PER}\nCopie : {ORG.institutions}\nVu et approuvé
+Bonjour {PER},\n\nVeuillez trouver ci-joint le compte rendu de la réunion du {DATE}.\n\nCordialement,\n{PER}\n{ORG.entreprises}
+Bonjour,\n\nMerci pour votre retour. Je transmets le dossier à {PER} dès aujourd'hui.\n\nBien cordialement,\n{PER}
+Objet : Livraison du matériel\n\nMadame, Monsieur,\n\nNous vous informons que la livraison prévue à {LOC.quartiers} est reportée au {DATE}.\n\nVeuillez agréer nos salutations distinguées.\n\n{PER}\nResponsable logistique, {ORG.entreprises}
+NOTE DE SERVICE N° {NUM}\n\nIl est porté à la connaissance de l'ensemble du personnel que {PER} est nommé chef de service à compter du {DATE}.\n\nLe Directeur général\n{PER}
+Liste des participants :\n- {PER}, {ORG.institutions}\n- {PER}, {ORG.entreprises}\n- {PER}, mairie de {LOC.villes}
+Destinataire : {PER}\nAdresse : {LOC.quartiers}, {LOC.villes}\nExpéditeur : {ORG.entreprises}\nRéférence : {NUM}
+Bonsoir {PER},\nVu l'urgence, merci de me rappeler avant 18 h.\nBonne soirée,\n{PER}
+# Documents en plusieurs lignes, rien à masquer
+Nom :\nPrénoms :\nMatricule :\nDate de naissance :\nLieu de naissance :\nNationalité :\nSignature :
+Bonjour,\n\nVeuillez trouver ci-joint le document demandé.\n\nCordialement
+Bonjour à tous,\n\nLa réunion de demain est maintenue à 10 heures.\n\nMerci et bonne journée.
+PROCÈS-VERBAL DE RÉUNION\n\nOrdre du jour :\n1. Approbation du compte rendu\n2. Point sur les opérations\n3. Divers\n\nLa séance est ouverte à 9 heures.
+Visa du Directeur\n\nPour copie conforme\n\nAmpliations :\n- Archives\n- Intéressé
+Période : premier trimestre\nStatut : EN ATTENTE\nObservations : RAS\nMontant total : à préciser (FCFA)
+Civilité : Monsieur\nSituation matrimoniale : Célibataire\nNationalité : Ivoirienne\nNiveau d'études : Licence
+Rédigé par le service juridique\nVu et approuvé par la Direction\nCopie : Cellule d'Audit Financier
+Merci de votre compréhension.\nCordialement,\nLe Service des Affaires Générales
+FICHE DE POSTE\nIntitulé : Chargé du suivi des opérations\nRattachement : Direction du Personnel et de la Solde\nCatégorie : A3
+Opérations\nTotal des dépenses : voir annexe\nNé le : à compléter\nObservations : document en attente de signature
+Madame, Monsieur,\n\nVeuillez agréer l'expression de nos salutations distinguées.\n\nLa Direction
+Confidentiel\nNe pas diffuser\nVersion de travail du rapport annuel
+Cordialement,\nLe secrétariat

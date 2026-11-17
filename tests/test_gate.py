@@ -51,3 +51,13 @@ def test_corpus_org_and_wikiann_do_not_block(tmp_path, monkeypatch):
     assert failures(tmp_path, monkeypatch) == []
     write(tmp_path / "reports/local/new/corpus-ci.json", corpus(0.8, 0.7, 0.6, 0.89))
     assert len(failures(tmp_path, monkeypatch)) == 1
+
+
+def test_corpus_masking_precision_blocks(tmp_path, monkeypatch):
+    # Plus de noms trouvés, mais des mots ordinaires masqués à tort : refusé (cas de la v1).
+    write(tmp_path / "reports/local/reference/corpus-ci.json", {**corpus(0.4, 0.6, 0.1, 0.7), "masking_precision": 0.90})
+    write(tmp_path / "reports/local/new/corpus-ci.json", {**corpus(0.7, 0.65, 0.1, 0.85), "masking_precision": 0.84})
+    assert len(failures(tmp_path, monkeypatch)) == 1
+    # Mesure absente du nouveau rapport : bloquant aussi.
+    write(tmp_path / "reports/local/new/corpus-ci.json", corpus(0.7, 0.65, 0.1, 0.85))
+    assert len(failures(tmp_path, monkeypatch)) == 1

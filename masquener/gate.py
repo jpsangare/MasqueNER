@@ -6,8 +6,9 @@ Lit les rapports déjà produits par masquener.evaluate (reports/<nom>/ et repor
 mesure bloquante de la référence, le nouveau score à l'ancien. Seuil : −0,5 point de F1 (ou de taux de masquage).
 - jeux publics bloquants (conll, masakhaner) : F1 moyen sur les langues ; le détail par langue est affiché ;
 - phrases synthétiques : F1 de chaque pays ;
-- corpus réels (reports/local) : F1 PER, F1 LOC et taux de masquage. ORG n'y est pas bloquant (le corpus n'annote
-  pas les institutions, que le modèle doit pourtant trouver) ;
+- corpus réels (reports/local) : F1 PER, F1 LOC, taux de masquage et précision de masquage (part des masquages qui
+  touchent une valeur annotée : un mot ordinaire masqué à tort, « Bonjour », « Matricule », la fait baisser). ORG n'y
+  est pas bloquant (le corpus n'annote pas les institutions, que le modèle doit pourtant trouver) ;
 - wikiann : indicatif, affiché seulement.
 Une mesure de la référence sans équivalent pour le nouveau modèle est un échec. Code de sortie 1 si refusé.
 """
@@ -28,7 +29,10 @@ def measures(report: dict) -> tuple[dict[str, float], dict[str, float]]:
     """(mesures bloquantes, mesures indicatives) d'un rapport, sous forme nom → score."""
     if "corpus" in report:
         s = report["strict"]
-        return {"PER F1": s["PER"]["f1"], "LOC F1": s["LOC"]["f1"], "masquage": report["masking_rate"]}, {"ORG F1": s["ORG"]["f1"]}
+        block = {"PER F1": s["PER"]["f1"], "LOC F1": s["LOC"]["f1"], "masquage": report["masking_rate"]}
+        if "masking_precision" in report:
+            block["précision de masquage"] = report["masking_precision"]
+        return block, {"ORG F1": s["ORG"]["f1"]}
     r = report["results"]
     if report["dataset"] == "synthetic":
         return {f"{c} F1": v["strict"]["micro"]["f1"] for c, v in r.items()}, {f"{c} masquage": v["masking_rate"] for c, v in r.items()}

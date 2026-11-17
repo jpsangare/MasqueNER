@@ -3,6 +3,8 @@
     python -m masquener.generate [--train 20000] [--dev 1000] [--test 2000] [--seed 0]
 
 Chaque modèle de phrase voit ses cases remplies au hasard ; on connaît donc la position exacte de chaque entité.
+Un modèle peut tenir sur plusieurs lignes (« \n » : fiche, courriel, en-tête), et une petite part des phrases est
+écrite tout en minuscules (LOWERCASE_RATE).
 Sortie : data/synthetic/{train,dev,test}.jsonl, une phrase par ligne :
     {"id", "country", "lang", "template", "text", "entities": [[début, fin, type], ...]}
 (positions en caractères, fin exclue ; types PER, LOC, ORG).
@@ -33,6 +35,10 @@ SLOT = re.compile(r"\{([^}]+)\}")
 PERSON_PART = re.compile(r"\{(nom|NOM|prenom|prenoms)\}")
 # Nombre de prénoms pour {prenoms} et poids : un prénom le plus souvent, parfois deux ou trois.
 GIVEN_COUNT = {1: 5, 2: 4, 3: 1}
+# Part des phrases écrites tout en minuscules (messages tapés vite : « appelle james chez ford »), entités comprises.
+LOWERCASE_RATE = 0.05
+# Dans un modèle de phrase, « \n » marque un retour à la ligne : fiches, courriels, en-têtes sur plusieurs lignes.
+NEWLINE = "\\n"
 
 MONTHS = {
     "fr": "janvier février mars avril mai juin juillet août septembre octobre novembre décembre".split(),
@@ -105,6 +111,7 @@ def date(lang: str, rng: random.Random) -> str:
 
 def fill(template: str, country: Country, lang: str, rng: random.Random) -> tuple[str, list[list]]:
     """Remplit les cases ; renvoie le texte et ses entités (positions en caractères)."""
+    template = template.replace(NEWLINE, "\n")
     text, spans, at = "", [], 0
     for m in SLOT.finditer(template):
         text += template[at : m.start()]
@@ -138,6 +145,9 @@ def generate(split: str, n: int, seed: int) -> list[dict]:
         for i in range(n // len(groups) + (g < n % len(groups))):
             template = rng.choice(country.templates[lang])
             text, spans = fill(template, country, lang, rng)
+            # Minuscules : mêmes positions tant que chaque caractère garde sa longueur (vrai pour le français).
+            if rng.random() < LOWERCASE_RATE and len(text.lower()) == len(text):
+                text = text.lower()
             rows.append({"id": f"{country.code}-{lang}-{split}-{i}", "country": country.code, "lang": lang,
                          "template": template, "text": text, "entities": spans})  # fmt: skip
     return rows

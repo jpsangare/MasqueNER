@@ -23,7 +23,12 @@ uv run python -m masquener.evaluate --model artifacts/reference --name reference
 ```
 
 - `reports/<name>/`: versioned reports (public datasets).
-- `reports/local/<name>/`: reports on real corpora, ignored by git, figures only.
+- `reports/local/<name>/`: reports on real corpora, ignored by git, figures only. Accepted types:
+  `PERSONNE`/`LIEU`/`ORGANISATION` or `PER`/`LOC`/`ORG`; other annotated types (numbers, dates…) are not scored, but
+  a masked span that falls on them is not counted as spurious.
+- Corpora: besides F1 and masking rate, the **masking precision** (share of masked spans that touch an annotated
+  value) and the number of spurious spans. A model that finds more names but also hides “Bonjour”, “Matricule” or
+  “Nationalité” lowers it.
 - `reports/reference/synthetic.json`: synthetic country test (see below).
 
 ## Training data
@@ -57,6 +62,38 @@ for d in conll masakhaner wikiann; do uv run python -m masquener.evaluate --mode
 uv run python -m masquener.evaluate --model artifacts/v1 --name v1 synthetic
 uv run python -m masquener.evaluate --model artifacts/v1 --name v1 corpus PATH/corpus-ci.json   # each real corpus
 uv run python -m masquener.gate --name v1     # ACCEPTED / REJECTED, threshold −0.5 pt on each blocking metric
+```
+
+The gate only compares reports that exist for the baseline: evaluate the reference (and the previous version) on
+**the same** corpora and **the same** synthetic test as the candidate. Any change to sentence templates or lists
+changes the synthetic test produced by `generate`: re-evaluate `reference` and the previous version with
+`evaluate … synthetic`.
+
+**The gate measures the model alone.** An application using it adds its own rules and filters: a model accepted
+here must still be measured inside that application before being adopted there (v1, better on its own, hid more
+ordinary words once combined with an application's rules).
+
+## Version 2 (prepared, to be trained)
+
+Fixes the v1 shortcomings found in real use:
+
+- **Field labels and courtesy phrases taken for names** (“Matricule”, “Né”, “Civilité”, “Nationalité”, “Bonjour”,
+  “Cordialement”, “Veuillez”): v1 had only seen one-line sentences. Sentence templates now accept `\n`, and
+  multi-line forms, e-mails, notes and headers have been added, half of them with nothing to mask (about a quarter of
+  the training sentences).
+- **“SURNAME, Given names”** (“LEFORT, Éric”): a format missing from v1, which spilled over onto the next word.
+  Added to the country's person name formats.
+- **All-lowercase writing** (“ford”): 5% of the sentences are written entirely in lowercase, entities included.
+- **Gate**: masking precision is blocking on every corpus.
+
+```bash
+uv run python -m masquener.generate && uv run python -m masquener.distill
+# Kaggle: python -m masquener.train --name v2, then bring back artifacts/v2/
+for d in conll masakhaner wikiann; do uv run python -m masquener.evaluate --model artifacts/v2 --name v2 gold $d; done
+uv run python -m masquener.evaluate --model artifacts/v2 --name v2 synthetic
+uv run python -m masquener.evaluate --model artifacts/v2 --name v2 corpus PATH/corpus.json   # each corpus, as for reference and v1
+uv run python -m masquener.gate --name v2                  # against the reference
+uv run python -m masquener.gate --name v2 --baseline v1    # and against v1
 ```
 
 Quick CPU test: `uv sync --extra train` then `uv run python -m masquener.train --name test --max-steps 4 --batch 8`.

@@ -20,8 +20,9 @@ from .metrics import bio_spans, score
 from .onnx_ner import OnnxNer, char_spans
 from .reference import sha256
 
-# Types du corpus réel → étiquettes du modèle. Les autres types (numéros, dates…) relèvent des motifs.
-CORPUS_TYPES = {"PERSONNE": "PER", "LIEU": "LOC", "ORGANISATION": "ORG"}
+# Types du corpus réel → étiquettes du modèle (noms français ou déjà au format du modèle). Les autres types
+# (numéros, dates…) relèvent des motifs : ils ne sont pas notés, mais un masquage qui tombe dessus n'est pas une erreur.
+CORPUS_TYPES = {"PERSONNE": "PER", "LIEU": "LOC", "ORGANISATION": "ORG", "PER": "PER", "LOC": "LOC", "ORG": "ORG"}
 NER_TYPES = ("PER", "ORG", "LOC")
 
 
@@ -57,24 +58,50 @@ def gold_spans(case: dict) -> set:
     return {s for s in spans if not any(o != s and o[0] == s[0] and o[1] <= s[1] and s[2] <= o[2] for o in spans)}
 
 
-def text_scores(ner: OnnxNer, texts: list[str], gold: list[set], types: tuple[str, ...]) -> dict:
-    """Scores stricts (type et limites exacts) et taux de masquage (valeur entièrement couverte, quel que soit le type)."""
+def annotated_spans(case: dict) -> set:
+    """Positions de toutes les valeurs annotées du cas, de tout type (numéros, dates… compris)."""
+    spans = set()
+    for e in case["entities"]:
+        at = case["text"].find(e["text"])
+        while at >= 0:
+            spans.add((at, at + len(e["text"])))
+            at = case["text"].find(e["text"], at + 1)
+    return spans
+
+
+def text_scores(ner: OnnxNer, texts: list[str], gold: list[set], types: tuple[str, ...], annotated: list[set] | None = None) -> dict:
+    """Scores stricts (type et limites exacts), taux de masquage (valeur attendue entièrement couverte, quel que soit le
+    type) et précision de masquage (masquages qui touchent une valeur annotée, de tout type si `annotated` est donné).
+    Un masquage qui ne touche aucune valeur annotée est « en trop » : un mot ordinaire caché à tort (« Bonjour »)."""
     pred = [{s for s in char_spans(ner.spans(text)) if s[0] in types} for text in texts]
-    masked = expected = 0
-    for g, p in zip(gold, pred, strict=True):
+    annotated = annotated or [{(s, e) for _, s, e in g} for g in gold]
+    masked = expected = predicted = spurious = 0
+    negatives = negatives_hit = 0
+    for g, p, a in zip(gold, pred, annotated, strict=True):
         covered = set().union(*(range(s, e) for _, s, e in p)) if p else set()
         expected += len(g)
         masked += sum(all(i in covered for i in range(s, e)) for _, s, e in g)
+        extra = sum(not any(s < ae and as_ < e for as_, ae in a) for _, s, e in p)
+        predicted += len(p)
+        spurious += extra
+        if not a:
+            negatives += 1
+            negatives_hit += bool(p)
     return {
         "cases": len(texts),
         "strict": score(gold, pred, types),
         "masking_rate": round(masked / expected, 4) if expected else None,
+        "masking_precision": round(1 - spurious / predicted, 4) if predicted else 1.0,
+        "spurious": spurious,
+        "negative_cases": negatives,
+        "negative_cases_hit": negatives_hit,
     }
 
 
 def eval_corpus(ner: OnnxNer, path: Path) -> dict:
     cases = json.loads(path.read_text(encoding="utf-8"))["cases"]
-    return {"corpus": path.name, **text_scores(ner, [c["text"] for c in cases], [gold_spans(c) for c in cases], NER_TYPES)}
+    texts = [c["text"] for c in cases]
+    return {"corpus": path.name, **text_scores(ner, texts, [gold_spans(c) for c in cases], NER_TYPES, [annotated_spans(c) for c in cases])}
 
 
 def eval_synthetic(ner: OnnxNer, path: Path) -> dict:
@@ -112,7 +139,10 @@ def main() -> None:
         report, out = eval_synthetic(ner, args.path), Path("reports") / args.name / "synthetic.json"
     else:
         report, out = eval_corpus(ner, args.path), Path("reports/local") / args.name / f"corpus-{args.path.stem}.json"
-        print(f"F1 strict {report['strict']['micro']['f1']:.4f}, masquage {report['masking_rate']:.4f}")
+        print(
+            f"F1 strict {report['strict']['micro']['f1']:.4f}, masquage {report['masking_rate']:.4f}, "
+            f"précision de masquage {report['masking_precision']:.4f} ({report['spurious']} en trop)"
+        )
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({**meta, **report}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Rapport : {out}")

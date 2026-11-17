@@ -19,10 +19,12 @@ lists:
   ecoles: ORG
 
 # Formes d'un nom de personne et leur poids. {NOM} = nom de famille en capitales ; {prenoms} = 1 à 3 prénoms.
-# Usage ivoirien : nom de famille d'abord dans l'administration, souvent en capitales.
+# Usage ivoirien : nom de famille d'abord dans l'administration, souvent en capitales ; dans les listes et les fiches,
+# séparé des prénoms par une virgule (« KONAN, Aya Marie »).
 person_formats:
   "{nom} {prenoms}": 4
   "{NOM} {prenoms}": 3
+  "{NOM}, {prenoms}": 1
   "{prenom} {nom}": 3
   "{prenom} {NOM}": 1
   "{nom}": 1
