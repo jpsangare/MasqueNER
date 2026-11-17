@@ -1,0 +1,20 @@
+# regions.txt — généré par countries/fr/build_lists.py le 2026-11-17
+# source : geo.api.gouv.fr (Licence Ouverte 2.0)
+Auvergne-Rhône-Alpes
+Bourgogne-Franche-Comté
+Bretagne
+Centre-Val de Loire
+Corse
+Grand Est
+Guadeloupe
+Guyane
+Hauts-de-France
+Île-de-France
+La Réunion
+Martinique
+Mayotte
+Normandie
+Nouvelle-Aquitaine
+Occitanie
+Pays de la Loire
+Provence-Alpes-Côte d'Azur

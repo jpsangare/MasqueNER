@@ -5,7 +5,8 @@
 Lit les rapports déjà produits par masquener.evaluate (reports/<nom>/ et reports/local/<nom>/) et compare, pour chaque
 mesure bloquante de la référence, le nouveau score à l'ancien. Seuil : −0,5 point de F1 (ou de taux de masquage).
 - jeux publics bloquants (conll, masakhaner) : F1 moyen sur les langues ; le détail par langue est affiché ;
-- phrases synthétiques : F1 de chaque pays ;
+- phrases synthétiques : F1 et précision de masquage de chaque pays ; pour un dossier d'exemples négatifs (sans
+  entité), part des phrases restées intactes ;
 - corpus réels (reports/local) : F1 PER, F1 LOC, taux de masquage et précision de masquage (part des masquages qui
   touchent une valeur annotée : un mot ordinaire masqué à tort, « Bonjour », « Matricule », la fait baisser). ORG n'y
   est pas bloquant (le corpus n'annote pas les institutions, que le modèle doit pourtant trouver) ;
@@ -35,7 +36,17 @@ def measures(report: dict) -> tuple[dict[str, float], dict[str, float]]:
         return block, {"ORG F1": s["ORG"]["f1"]}
     r = report["results"]
     if report["dataset"] == "synthetic":
-        return {f"{c} F1": v["strict"]["micro"]["f1"] for c, v in r.items()}, {f"{c} masquage": v["masking_rate"] for c, v in r.items()}
+        # Dossier sans entité (exemples négatifs) : tout masquage y est faux, la précision vaut 0 dès la première
+        # erreur ; on compte donc les phrases restées intactes.
+        block = {}
+        for c, v in r.items():
+            if v["masking_rate"] is not None:
+                block[f"{c} F1"] = v["strict"]["micro"]["f1"]
+                if "masking_precision" in v:
+                    block[f"{c} précision de masquage"] = v["masking_precision"]
+            elif v.get("negative_cases"):
+                block[f"{c} phrases intactes"] = 1 - v["negative_cases_hit"] / v["negative_cases"]
+        return block, {f"{c} masquage": v["masking_rate"] for c, v in r.items() if v["masking_rate"] is not None}
     langs = {f"{lang} F1": v["micro"]["f1"] for lang, v in r.items() if lang != "macro_f1"}
     return ({"F1 moyen": r["macro_f1"]}, langs) if report["blocking"] else ({}, {"F1 moyen": r["macro_f1"], **langs})
 

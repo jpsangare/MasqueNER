@@ -1,0 +1,56 @@
+# Institutions et organismes publics français, rédigés à la main (licence du dépôt).
+Caisse d'allocations familiales
+CAF
+Caisse primaire d'assurance maladie
+CPAM
+Assurance Maladie
+Assurance retraite
+Caisse nationale d'assurance vieillesse
+URSSAF
+France Travail
+Pôle emploi
+Mutualité sociale agricole
+MSA
+Direction générale des Finances publiques
+DGFiP
+Banque de France
+Caisse des dépôts
+Agence nationale de l'habitat
+Agence régionale de santé
+ARS
+Office français de l'immigration et de l'intégration
+Conseil départemental
+Conseil régional
+Défenseur des droits
+Commission nationale de l'informatique et des libertés
+CNIL
+Haute Autorité de santé
+Agence nationale des titres sécurisés
+ANTS
+Centre communal d'action sociale
+CCAS
+Maison départementale des personnes handicapées
+MDPH
+Établissement français du sang
+Météo-France
+Institut national de la statistique et des études économiques
+Insee
+Office national des forêts
+SNCF Réseau
+RATP
+La Poste
+Électricité de France
+EDF
+Engie
+Orange
+Crédit Agricole
+Société générale
+BNP Paribas
+Caisse d'épargne
+Banque populaire
+Crédit mutuel
+LCL
+MAIF
+MACIF
+AXA
+Groupama

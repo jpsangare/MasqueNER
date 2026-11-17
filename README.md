@@ -96,6 +96,32 @@ uv run python -m masquener.gate --name v2                  # against the referen
 uv run python -m masquener.gate --name v2 --baseline v1    # and against v1
 ```
 
+Result (17 Nov 2026): better than v1 on the Ivorian corpus (fewer ordinary words masked), but still less precise
+than the reference once used inside an application (courtesy phrases in other languages, lowercase French names), and
+a slight regression on MasakhaNER (0.439 → 0.433). Not published.
+
+## Version 3 (prepared, being trained)
+
+- **Less forgetting**: two rehearsal (distillation) sentences per country sentence (`distill --train 40000`), and a
+  lower learning rate (`--lr 2e-5`). The goal: learn the countries' names without disturbing the rest.
+- **France**, second country (`countries/fr/`): Insee given and family names, communes, departments and regions from
+  the official geographic code, companies and institutions from Wikidata (`build_lists.py`).
+- **Shared negative examples** (`countries/commun/`, weight 0.15): courtesy phrases, form labels and headers in
+  French, English, German, Italian, Spanish and Arabic, with no entity at all. Written without reusing any text or word
+  found in the evaluation corpora.
+- **Gate**: masking precision is blocking on each country's synthetic test; for the shared folder, which has no
+  entity, the share of sentences left intact.
+- The generator accepts a weight per folder (`weight`) and the six languages (months and weekdays).
+
+```bash
+uv run python countries/fr/build_lists.py      # versioned lists: rerun only to update them
+uv run python -m masquener.generate
+# re-evaluate reference, v1 and v2 on the new synthetic test (evaluate … synthetic)
+# Kaggle: python -m masquener.reference && python -m masquener.distill --train 40000 && python -m masquener.generate
+#         && python -m masquener.train --name v3 --lr 2e-5
+uv run python -m masquener.gate --name v3 && uv run python -m masquener.gate --name v3 --baseline v2
+```
+
 Quick CPU test: `uv sync --extra train` then `uv run python -m masquener.train --name test --max-steps 4 --batch 8`.
 
 ## Published versions

@@ -53,6 +53,18 @@ def test_corpus_org_and_wikiann_do_not_block(tmp_path, monkeypatch):
     assert len(failures(tmp_path, monkeypatch)) == 1
 
 
+def test_synthetic_negatives_folder_counts_intact_sentences(tmp_path, monkeypatch):
+    def synthetic(hit):
+        neg = {"strict": {"micro": {"f1": 0.0}}, "masking_rate": None, "masking_precision": 0.0, "negative_cases": 100, "negative_cases_hit": hit}
+        return {"dataset": "synthetic", "results": {"commun": neg}}
+
+    write(tmp_path / "reports/reference/synthetic.json", synthetic(40))
+    write(tmp_path / "reports/new/synthetic.json", synthetic(20))
+    assert failures(tmp_path, monkeypatch) == []  # 60 % → 80 % de phrases intactes
+    write(tmp_path / "reports/new/synthetic.json", synthetic(45))
+    assert len(failures(tmp_path, monkeypatch)) == 1  # 60 % → 55 %
+
+
 def test_corpus_masking_precision_blocks(tmp_path, monkeypatch):
     # Plus de noms trouvés, mais des mots ordinaires masqués à tort : refusé (cas de la v1).
     write(tmp_path / "reports/local/reference/corpus-ci.json", {**corpus(0.4, 0.6, 0.1, 0.7), "masking_precision": 0.90})

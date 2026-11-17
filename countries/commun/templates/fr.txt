@@ -1,0 +1,11 @@
+# Exemples négatifs (français) : rien à masquer. « \n » = retour à la ligne.
+Bonjour,\n\nMerci pour votre message.\n\nCordialement
+Bonsoir,\nJe reviens vers vous demain.\nBonne soirée
+Madame, Monsieur,\n\nVeuillez agréer l'expression de mes salutations distinguées.
+Bien à vous,\nLa Direction
+Rendez-vous : à fixer\nStatut : en attente\nPriorité : haute
+Nom :\nPrénom :\nAdresse :\nCode postal :\nVille :\nTéléphone :
+Pièces jointes : 3\nObjet : Relance\nRéférence : voir ci-dessous
+Avis du comité : le projet avance bien, mais le budget reste à valider.
+Total à payer : voir facture\nMode de règlement : virement
+Merci et bonne journée !

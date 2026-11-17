@@ -1,0 +1,10 @@
+# Negativbeispiele (Deutsch): nichts zu maskieren. "\n" = Zeilenumbruch.
+Hallo,\n\nvielen Dank für Ihre Nachricht.\n\nMit freundlichen Grüßen
+Guten Abend,\nich melde mich morgen bei Ihnen.\nViele Grüße
+Sehr geehrte Damen und Herren,\n\nmit freundlichen Grüßen\nDie Geschäftsleitung
+Termin: noch offen\nStatus: ausstehend\nPriorität: hoch
+Vorname:\nNachname:\nAnschrift:\nPostleitzahl:\nOrt:\nTelefon:
+Anlagen: 3\nBetreff: Erinnerung\nAktenzeichen: siehe unten
+Gesamtbetrag: siehe Rechnung\nZahlungsart: Überweisung
+Danke und einen schönen Tag!
+Anbei finden Sie das gewünschte Dokument.\nBeste Grüße

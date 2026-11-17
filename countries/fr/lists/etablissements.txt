@@ -1,0 +1,375 @@
+# etablissements.txt — généré par countries/fr/build_lists.py le 2026-11-17
+# source : Wikidata (CC0) : universités, écoles et lycées situés en France
+Académie de Die
+Académie de La Rochelle
+Académie de Montauban et de Puylaurens
+Académie de Saumur
+Académie du Tourisme
+AFTEC
+Agrocampus Ouest
+AgroParisTech Nancy
+American Business College Paris
+American University of Paris
+Animosteo
+antenne universitaire d'Arles
+Applied Institute of Artificial Intelligence
+Atelier national de création typographique
+Atelier national de recherche typographique
+Bachelor in Business Administration
+Boulogne-sur-Mer Langues et Cultures
+Campus de la Transition
+Centre de formation des journalistes
+Centre de perfectionnement aux affaires
+Centre de préparation à l'administration générale
+Centre d’enseignement zootechnique
+centre national des arts du cirque
+centre universitaire de formation et de recherche de Mayotte
+Centre universitaire de formation et de recherche de Nîmes
+CESACOM
+CESI
+Cifacom
+CinéCréatis
+Coding Academy
+Collège de France
+Collège de Paris
+Collège des Irlandais
+collège international de philosophie
+collège libre des sciences sociales
+Collège Saint-Bertin
+Congrégation des Filles de Marie (Réunion)
+Conservatoire européen d'écriture audiovisuelle
+Conservatoire national des arts et métiers
+Département d'odontologie de Lille
+Digital Business School
+e-artsup
+EAI Tech
+ECM (École de Commerce & Management)
+école Alain Fournier
+École Aujourd'hui
+école Céléstin Freinet
+École d'agriculture de Grignon
+École d'Anthropologie de Paris
+École d'économie d'Aix-Marseille
+École d'économie de Paris
+École d'économie de Toulouse
+école d'ingénieurs en France
+École de bibliothécaires-documentalistes
+École de Commerce de Lyon
+École de guerre économique
+École de journalisme de Sciences Po
+École de l'abbaye d'Ainay
+école de la Bernardière
+École de notariat de Paris
+École de Sport — Groupe École de Commerce de Lyon
+école des Batignolles
+École des beaux-arts de Nîmes
+École des hautes études internationales et politiques
+École des hautes études sociales
+École des mines de Douai
+École des technologies numériques avancées
+École du Cercle Digital
+École du Louvre
+école du Plant Champigny
+école du Vieux Chêne
+École d’architecture de la ville et des territoires Paris-Est
+École d’ingénieurs de l’université de Toulon
+École Élementaire Alphonse Daudet
+École Élementaire Ampere
+Ecole Elementaire Anatole France
+École Élementaire Anthoard
+École Élementaire Bajatiere
+École Élementaire Beauvert
+École Élementaire Bizanet
+école élémentaire Château Sud
+École Élementaire Christophe Turc
+Ecole Elementaire Elisee Chatin
+École Élementaire Ferdinand Buisson
+École Élementaire Grand Chatelet
+Ecole Elementaire Houille Blanche
+École Élementaire Jardin De Ville
+école élémentaire Jean Jaurès
+Ecole Elementaire Jean Mace
+Ecole Elementaire Jean Racine
+Ecole Elementaire Joseph Vallier
+Ecole Elementaire Jules Ferry
+Ecole Elementaire La Fontaine
+École Élementaire Le Lac
+Ecole Elementaire Le Verderet
+École Élementaire Leon Jouhaux
+École Élementaire Les Buttes
+École Élementaire Les Genets
+Ecole Elementaire Les Trembles
+Ecole Elementaire Liberation
+école élémentaire Louis Blanc de Paris
+Ecole Elementaire Lucie Aubrac
+École Élementaire Malherbe
+Ecole Elementaire Menon
+École Élementaire Menon Site Gemond
+Ecole Elementaire Nicolas Chorier
+École Élementaire Paul Painleve
+École Élementaire Porte Saint-laurent
+école élémentaire publique d'application Boileau
+École élémentaire publique Éblé
+école élémentaire publique Kerargaouyat
+École élémentaire publique Kerhallet
+École élémentaire publique Providence Eb
+école élémentaire Roger Salengro
+école élémentaire Saint-Brice
+École Élementaire Sidi Brahim
+école élémentaire Vauban
+école Émilie-Brandt
+École espagnole Federico-García-Lorca
+École française d'enseignement technique
+école Henri Lesage
+École internationale bilingue
+École internationale de marketing du luxe de Paris
+École Internationale Tunon
+École intuit lab
+Ecole IPSSI
+école Jacques Prévert
+école Jean Zay
+école Joannès-Masset
+école La Châtaigneraie
+école la Croix Jeannette
+école la Ferrière
+école La Lande de Mazaire
+École La Providence-Passy
+école La Sensive
+école Le Grignon
+école Les Halbrans
+école Les Quatre Moulins
+école Lucie et Raymond Aubrac
+école Lucien-de-Hirsch
+école Marcel Canonnet
+école Marie Curie - La Martellière
+école maternelle Paul-Dubois
+École nationale d'ingénieurs de Saint-Étienne
+école nationale de la France d'outre-mer
+école nationale des Arts décoratifs de Nice
+École nationale des sports de montagne
+école nationale supérieure agronomique de Rennes
+École nationale supérieure d'architecture de La Réunion
+École nationale supérieure d'architecture de Normandie
+École nationale supérieure d'art de Limoges
+École nationale supérieure d'ingénieurs électriciens de Grenoble
+École nationale supérieure de paysage de Versailles
+École nationale supérieure des sciences applicatives et du risque
+École nationale vétérinaire de Lyon
+École normale supérieure
+École normale supérieure de Fontenay-Saint-Cloud
+École normale supérieure de jeunes filles
+École normale supérieure de l'enseignement technique
+École normale supérieure de Lyon
+École normale supérieure de Saint-Cloud
+École normale supérieure Paris-Saclay
+École nouvelle de la Rize
+école Paul-Jozon
+école Plessis Cellier
+École polytechnique universitaire de l'université de Nice
+École pour l'informatique et les nouvelles technologies
+Ecole Primaire Clemenceau
+école primaire Hortense Tanvet
+école primaire Jean Jaurès
+école primaire Notre-Dame
+école primaire publique du Questel
+école primaire publique Louise Michel Kerionoc
+école primaire publique Paul Eluard
+école primaire Saint-André
+école primaire Saint-Joseph
+école primaire Saint-Yves
+école primaire Sanquer
+école primaire Simone Veil
+Ecole Primaire Specialisee Paul Bert
+école primaire Yvonne et Alexandre Plancher
+école Privée Immaculée Conception
+école publique du Forestou
+école publique élémentaire Ange Guepin
+école Raymond-Queneau
+école Saint Gabriel
+école Saint-Joseph
+école Saint-Louis
+École Saint-Mesrop
+école Saint-Michel
+école Saint-Vincent
+école Sainte-Famille
+École supérieure d'art de Clermont Métropole
+École supérieure d'art et de design Toulon Provence Méditerranée
+École supérieure de chimie, physique, électronique de Lyon
+École supérieure de commerce de Rennes
+École supérieure de commerce et de gestion
+École supérieure de comptabilité et de gestion
+École supérieure de comptabilité et de gestion de Nice
+École supérieure de publicité
+École supérieure de réalisation audiovisuelle
+École Supérieure de Tourisme et d'Événementiel de Lyon
+École supérieure des arts appliqués et du textile
+École supérieure des arts et techniques de la mode
+École Supérieure d’Art d'Annecy
+École supérieure d’ingénieurs et de techniciens pour l’agriculture
+École supérieure européenne de packaging
+école Tebrotzassère
+école Théodore Monod
+EFAP
+EFOA
+Efrei Paris
+EGC Business School
+ESA Casablanca (Ecole Supérieure des Affaires de Casablanca)
+ESAM, école de Management, Finance et Droit
+ESEAD
+Ésitpa
+ESSEC IRENÉ
+établissement La Rochefoucauld
+Établissement Saint-Adjutor
+Etoile Institut
+European Communication School
+Expernet
+Faculté de droit de l’Université Paris XII
+faculté de théologie d'Aix-en-Provence
+Faculté de théologie protestante de Montauban
+Faculté des sciences de Luminy
+faculté des sciences de Marseille
+Faculté libre de théologie évangélique de Vaux-sur-Seine
+Faculté libre internationale pluridisciplinaire
+Facultés Loyola Paris
+GRIM-EDIF
+Groupe IGENSIA Education
+Groupe scolaire La Fontaine
+groupe scolaire Victor-Baloche
+Groupe VISO - Groupe d'écoles privées d’enseignement supérieur
+Groupement de recherche et d’études en gestion à HEC Paris
+Hectar
+HETIC
+HORIZON - École supérieure des Sciences
+IA Institut
+IFM3R
+IGENSIA Alternance
+IGENSIA Pro Académie
+IGENSIA RH
+IHECF (Institut des Hautes Études Comptables et Financière)
+IMA Bordeaux
+IMIE PARIS
+IMIS (Institut de Management des Industries de la Santé)
+IMSI (Institut du Management des Services Immobiliers)
+IMT Nord Europe
+INA Campus
+INSPÉ Toulouse Occitanie-Pyrénées
+Institut Agro Dijon
+Institut agro Rennes-Angers
+Institut André-et-Rina-Neher
+Institut Avicenne de Sciences Humaines
+Institut d'administration des entreprises de Lyon
+Institut d'études politiques de Bordeaux
+Institut d'études politiques de Saint-Germain-en-Laye
+Institut d'urbanisme et d'aménagement régional
+Institut de Chambéry
+Institut de droit comparé
+Institut de géographie alpine
+Institut de pharmacotechnie et de pharmacodynamie
+Institut de physique du globe de Paris
+Institut de psychologie
+Institut de Touraine
+Institut des actuaires français
+Institut des hautes études de droit rural et d'économie agricole
+Institut des sciences de la famille
+Institut des Sciences et Techniques de l'Antiquité
+Institut du droit de la paix et du développement
+Institut européen de journalisme
+Institut français de la mode
+Institut Frilley
+Institut Galilée
+Institut international d'administration publique
+Institut Léonard-de-Vinci
+Institut national d'étude du travail et d'orientation professionnelle
+Institut national des formations notariales
+Institut national des langues et civilisations orientales
+Institut national des sciences appliquées Hauts-de-France
+Institut national des sciences et techniques de la mer
+Institut national du patrimoine
+Institut national polytechnique Clermont Auvergne
+Institut national polytechnique de Lorraine
+Institut national universitaire Jean-François-Champollion
+Institut polytechnique de Grenoble
+Institut polytechnique de l'Ouest
+Institut polytechnique des sciences avancées
+Institut pour l'Entrepreneuriat en Afrique
+Institut pour l'étude de la francophonie et de la mondialisation
+Institut Sainte-Geneviève
+Institut supérieur de l'environnement
+Institut supérieur des affaires
+Institut supérieur des langues de la République française
+Institut supérieur européen de gestion
+institut technique franco-chinois de Shanghai
+Institut universitaire de technologie de Lille C
+Institution Saint-Louis-de-Gonzague
+institution Saint-Pie-X
+International Fashion Academy
+International Space University
+Ipécom Paris
+IPI école d'informatique
+IPSSI St-Quentin en Yvelines
+ISCOM
+ISCPA (école de journalisme, communication, production)
+ISERP ITAIM
+ISIFA PLUS VALUES
+ISMM (Institut Supérieur Maria Montessori)
+Le Lycée
+LiveCampus
+L’École des métiers de l’information
+mairie-école de Tramoyes
+Master en stratégie et gestion des affaires internationales
+MyDigitalSchool
+New York University Paris
+Omnes Éducation
+OTERIA
+palais universitaire d'Angers
+Paris American Academy
+Paris Centre Universités
+Réseau Polytech
+Roshan Afghanistan University
+Rubika
+Rush School
+séminaire israélite de France
+Sorbonne
+Studio école de France
+Studio M Academy
+Studio Mercier
+Sup'ETIXS
+Sup'Internet
+SUPINFO
+Supinfocom
+Télécom Saint-Étienne
+The sustainable design school
+Toulouse Tech
+université basque d'été
+université Bordeaux-I
+université catholique de l'Ouest Bretagne-Sud
+université catholique de l'Ouest, site de Nantes
+université catholique de Lille
+université d'Aix
+Université de Billom
+université de Bourges
+université de France
+université de Perpignan
+université de Pont-à-Mousson
+université de Strasbourg
+université de technologie de Belfort-Montbéliard
+Université de Valence
+université des langues et lettres de Grenoble
+université des patients
+université des sciences sociales de Grenoble
+université du Littoral-Côte-d'Opale
+université du vin
+université européenne des senteurs et saveurs
+université Grenoble-I
+université Gustave-Eiffel, campus de Nantes
+université libre des sciences de l'homme
+université Lille-I
+université Marie-et-Louis-Pasteur
+université médicale virtuelle francophone
+Université polonaise à l'étranger
+universités de Douai
+Universités nouvelles
+University of London Institute in Paris
+Vendôme Esthétique
+Vendôme L'École
+Ynov Campus

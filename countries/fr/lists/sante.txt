@@ -1,0 +1,594 @@
+# sante.txt — généré par countries/fr/build_lists.py le 2026-11-17
+# source : Wikidata (CC0) : hôpitaux situés en France
+abbaye de Saint-Jean-lès-Sens
+abbaye Notre-Dame-de-Protection
+ambulance alpine 2/75 ou 306 du Gaschney
+Antiquaille
+asile Bethléem
+asile de Drancy
+Asile départemental de Loir-et-Cher
+Association Œuvre des dames du Calvaire
+Bicêtre
+Cancéropôle de Toulouse
+caserne Monge
+Centre d'Investigation Clinique - Innovation Technologique
+Centre hospitalier - Comminges Pyrénées (Saint-Gaudens)
+centre hospitalier Auban-Moët
+Centre hospitalier Compiègne-Noyon
+centre hospitalier cours Pourtoules d'Orange
+Centre hospitalier Cœur de Corrèze
+centre hospitalier d'Aix-en-Provence
+Centre hospitalier d'Albi
+centre hospitalier d'Embrun
+centre hospitalier d'Eure-Seine de Vernon
+centre hospitalier d'Orsay
+centre hospitalier de Beauvais
+Centre hospitalier de Bigorre
+Centre hospitalier de Bigorre (La Gespe)
+centre hospitalier de Bligny
+centre hospitalier de Bourg-en-Bresse
+Centre Hospitalier de Cahors
+centre hospitalier de Cornouaille
+Centre hospitalier de Digne-les-Bains
+centre hospitalier de Fismes
+Centre hospitalier de Foix
+centre hospitalier de Fougères
+Centre Hospitalier de Gonesse
+Centre hospitalier de la Côte Fleurie
+Centre hospitalier de La Guerche-de-Bretagne
+Centre hospitalier de la Polynésie française
+Centre hospitalier de la Vallee de Maurienne
+Centre hospitalier de Laval
+centre hospitalier de Lesneven
+Centre hospitalier de Limoux
+centre hospitalier de Mâcon
+centre hospitalier de Mayotte
+centre hospitalier de Pau
+Centre hospitalier de Quillan
+centre hospitalier de Redon
+Centre Hospitalier de Saint-Dié
+centre hospitalier de Saint-Malo
+centre hospitalier de Saint-Quentin
+centre hospitalier de Soissons
+centre hospitalier de Thuir
+Centre hospitalier de Tulle
+Centre hospitalier départemental Vendée de La Roche-sur-Yon
+centre hospitalier des Pays de Morlaix
+centre hospitalier Docteur-Récamier de Belley
+Centre hospitalier du Centre Bretagne
+centre hospitalier du Pays d'Eygurande
+Centre hospitalier du Val de Saône Pierre-Vitter
+centre hospitalier Esquirol à Limoges
+centre hospitalier Henri-Laborit à Poitiers
+centre hospitalier intercommunal André Grégoire
+centre hospitalier intercommunal Fréjus-Saint-Raphaël
+centre hospitalier intercommunal Le Raincy-Montfermeil
+Centre hospitalier Jacques Lacarin
+centre hospitalier Jacques-Cœur de Bourges
+Centre hospitalier Lagny - Marne la Vallée
+Centre hospitalier Lucien Hussel (Vienne)
+centre hospitalier mémorial France - États-Unis
+Centre hospitalier Perray-Vaucluse - GHU Paris
+centre hospitalier privé Saint Grégoire
+centre hospitalier René-Dubos
+centre hospitalier Saint-Joseph et Saint-Luc
+centre hospitalier Saint-Nazaire
+centre hospitalier Sainte-Anne
+centre hospitalier spécialisé Albert-Bousquet
+centre hospitalier spécialisé Charles-Perrens
+Centre Hospitalier Spécialisé de Sevrey
+centre hospitalier universitaire de Nantes
+centre hospitalier universitaire Grenoble-Alpes
+centre hospitalier William Morey
+Centre Jean Abadie
+Centre marin de Pen-Bron
+Centre Médical Alfred Leune
+centre médical Barbieux
+Centre Médico Psychologique Adultes Joseph Daquin
+chalet-hôpital de la Côte d'Echery
+chapelle de l'Enfant-Jésus d'Annonay
+chapelle Saint-Érard de Riquewihr
+chapelle Sainte-Catherine de Ribeauvillé
+château de la Hille
+château de Pélican
+château des comtes d'Armagnac
+CHU Île de Nantes
+CHU Louise-Michel Hopital
+clinique Convert
+Clinique du Saint-Rédempteur
+clinique Geoffroy Saint-Hilaire
+Clinique Jeanne d'Arc
+clinique la Montagne
+clinique Lyon-Nord Rillieux
+Clinique médico-universitaire Georges-Heuyer
+Clinique psychiatrique de la Chesnaie
+Clinique psychiatrique du Roussillon
+Clinique Saint-Joseph
+Clinique Saint-Pierre
+Clinique Saint-Vincent
+Clinique Sainte-Barbe
+Clinique Sainte-Élisabeth
+Clinique Sainte-Marthe
+Clinique Sarrus-Teinturiers
+Clinique Supervaltech
+Clinique-maternité Sainte-Barbe des mines de Béthune
+Comme à la maison
+corderie de Toulon
+couvent des Capucins
+couvent des Dominicaines de Sylo
+couvent des Récollets de Paris
+École de médecine navale de Rochefort
+EPSM Metz Jury
+établissement public de santé Alsace-Nord
+Folie-Regnault
+Fondation Rossini
+Grand Hôpital de l'Est Francilien - Site de Marne-la-Vallée
+groupe hospitalier de Rodez
+Groupe Hospitalier Diaconesses Croix Saint-Simon
+Groupe hospitalier Paris Saint-Joseph
+Groupe hospitalo-universitaire de l'AP-HP
+Groupement des hôpitaux de l'institut catholique de Lille
+Groupement Hospitalier Portes de Provence
+hôpital abbatial
+hôpital Adélaïde-Hautval
+hôpital Ambroise-Paré
+hôpital américain de Paris
+hôpital américain de Reims
+hôpital Andral
+hôpital André-Bouron
+hôpital Antoine-Béclère
+hôpital Armand-Trousseau
+hôpital Auffredy
+hôpital Avicenne
+hôpital Beaujon
+hôpital Bicêtre
+hôpital Bichat
+hôpital Boucicaut
+hôpital bourgeois de Sélestat
+hôpital Bretonneau
+hôpital Broca
+hôpital Broussais
+hôpital Cardiologique
+hôpital Caroline
+hôpital central de Nancy
+hôpital Chalucet et jardin Alexandre Ier
+hôpital Chardon-Lagache
+hôpital Charles-Foix
+hôpital civil
+hôpital civil de Dunkerque
+hôpital civil de Haguenau
+hôpital civil de Strasbourg
+hôpital Claude Bernard
+hôpital Clemenceau
+hôpital Cochin
+hôpital Combarel
+hôpital Corentin-Celton
+hôpital d'Aligre
+hôpital d'Estaing
+hôpital d'Hautefort
+hôpital d'instruction des armées du Val-de-Grâce
+hôpital de Beaujeu
+hôpital de Belnay
+hôpital de Benfeld
+hôpital de Bourg-en-Bresse
+hôpital de Buxy
+hôpital de Carhaix
+Hôpital de Castelluccio
+hôpital de Castelnaudary
+hôpital de Chalon-sur-Saône
+hôpital de Charolles
+hôpital de Châteaudun
+hôpital de Châtillon-sur-Saône
+hôpital de Chaumont
+hôpital de Crémieu
+hôpital de Cuiseaux
+hôpital de Cuisery
+hôpital de Dzaoudzi
+hôpital de Dzoumogné
+hôpital de Fénétrange
+hôpital de Fontainebleau
+hôpital de Fourvière
+hôpital de Gisors
+hôpital de Grammont
+hôpital de jour Santos-Dumont
+hôpital de l'Antiquaille
+hôpital de l'Écosse
+hôpital de l'Hospitalet
+hôpital de l'île Royale
+hôpital de la 9e écluse
+hôpital de la Chana
+hôpital de la Charité
+hôpital de la Charité de Langres
+hôpital de la Charité de Lyon
+hôpital de la Charité de Senlis
+hôpital de La Charité-sur-Loire
+hôpital de la Collégiale
+hôpital de La Grave
+hôpital de la Marine de Rochefort
+hôpital de la Marine de Saint-Mandrier
+hôpital de la Miséricorde d'Ajaccio
+hôpital de la Musse
+hôpital de la Pitié
+hôpital de La Roche-Guyon
+hôpital de La Roche-sur-Yon
+hôpital de la Sainte-Trinité de Beaune
+hôpital de la Salpêtrière
+hôpital de la Seilleraye
+hôpital de la Trinité
+hôpital de Loches
+Hôpital de Machecoul
+hôpital de Magenta
+hôpital de Melun
+hôpital de Mercy (Metz-Thionville)
+hôpital de Militaires
+hôpital de Mont-Saint-Jean
+Hôpital de Montfaucon
+hôpital de Montignac
+hôpital de Nancy-Brabois
+hôpital de Nérac
+hôpital de Neuilly-sur-Seine
+hôpital de Niort
+hôpital de Pérouges
+hôpital de Ploërmel
+hôpital de Pont-de-Vaux
+hôpital de Pont-de-Veyle
+hôpital de Purpan
+hôpital de Rangueil
+hôpital de Ribeauvillé
+hôpital de Riquewihr
+hôpital de Rivières
+hôpital de Saint-Léonard-de-Noblat
+hôpital de Sainte-Marie-aux-Mines
+hôpital de Salins-les-Bains
+hôpital de Salornay-sur-Guye
+hôpital de Semur-en-Auxois
+hôpital de Sisteron
+hôpital de Tarbes
+hôpital de Thoissey
+hôpital de Turckheim
+hôpital de Vichy
+hôpital de Ville-Évrard
+hôpital de Villefranche-sur-Saône
+hôpital de Vitry-le-François
+hôpital Debrousse
+hôpital des Anglais
+hôpital des armées Calmette
+hôpital des armées René-Le Bas
+hôpital des Bourgeois
+hôpital des Champs
+hôpital des Charitains
+hôpital des Charmettes
+hôpital des Dames Blanches
+hôpital des diaconesses de Reuilly
+hôpital des Enfants Convalescents
+hôpital des enfants malades
+hôpital des Enfermés
+Hôpital des Hospitalières de la Charité Notre-Dame
+hôpital des pèlerins de Pons
+hôpital des Quinze-Vingts
+hôpital des religieuses de Beaulieu
+hôpital du Groupe hospitalier Est Réunion
+hôpital du Jardin Colonial
+Hôpital du Nom-de-Jésus
+hôpital du Porzou
+hôpital du Saint-Esprit
+hôpital du Saint-Esprit de Besançon
+hôpital du Scorff
+hôpital du Vésinet
+hôpital Édouard-Herriot (Lyon)
+hôpital Émile-Roux
+hôpital Esquirol
+hôpital et chapelle Saint-Julien de Château-Gontier
+hôpital et chapelle Saint-Julien de Laval
+hôpital Etoc-Demazy
+hôpital européen Georges-Pompidou
+hôpital Fernand-Widal
+hôpital Foch
+hôpital Fondation Adolphe-de-Rothschild
+hôpital Frémeur
+hôpital Gabriel Montpied de Clermont-Ferrand
+hôpital Gaston-Bourret
+hôpital Gaston-Doumergue
+hôpital Gatien de Clocheville
+hôpital général d'Uzès
+hôpital général de Bourges
+hôpital général de Douai
+hôpital général de Guérande
+hôpital général de Laon
+hôpital général de Paris
+hôpital général de Poitiers
+hôpital général de Saint-Omer
+hôpital général de Sarlat
+hôpital général de Tours
+hôpital général de Valenciennes
+hôpital général du centre hospitalier Ferdinand Grall
+hôpital général du Puy-en-Velay
+hôpital général Joseph Ricou
+hôpital général Saint-Charles de Montpellier
+hôpital Georges-Clemenceau
+hôpital gériatrique Pierre Garraud
+hôpital Goüin
+hôpital Gui de Chauliac
+hôpital Guillaume-et-René-Laennec
+hôpital Henri Gastaut
+hôpital Henri-Mondor
+hôpital Henry-Gabrielle
+hôpital intercommunal de Créteil
+hôpital intercommunal Sèvre et Loire
+hôpital Jean Martial
+Hôpital Jeanne-de-Flandres
+hôpital Joffre-Dupuytren
+hôpital Joseph-Ducuing
+hôpital Joseph-Imbert
+hôpital Lariboisière
+hôpital Larrey de Toulouse
+hôpital Léopold Bellan
+hôpital Lesbazeilles
+hôpital local de Marcigny
+hôpital Loewel
+hôpital Louis-Mourier
+hôpital Louis-Pasteur de Cherbourg-Octeville
+hôpital Lozère site Gévaudan
+hôpital marin d'Hendaye
+hôpital maritime de Berck
+hôpital Marmottan
+hôpital Max-Fourestier
+hôpital Michel-Lévy
+hôpital militaire du Fort Moselle
+hôpital militaire du Gros-Caillou
+hôpital militaire et bourgeois de Haguenau
+hôpital militaire Gaujot
+hôpital militaire Saint Jean-Baptiste de Saint-Pierre
+hôpital militaire Scrive
+hôpital militaire souterrain de Domjevin
+hôpital militaire Villemanzy
+hôpital Montpensier
+hôpital municipal de Limoges
+hôpital national de Saint-Maurice
+hôpital neurologique et neurochirurgical Pierre-Wertheimer
+hôpital Nord
+hôpital Nord-Ouest
+hôpital Notre-Dame
+hôpital Notre-Dame-de-Bon-Secours
+hôpital Paul-Brousse
+hôpital Paul-Morel
+hôpital Pierre Rouquès-Les bluets
+hôpital Pierre-Lebrun de Saint-Germain-le-Grand
+hôpital Pontchaillou
+hôpital Porte-Madeleine
+hôpital privé des Peupliers
+hôpital privé du Confluent de Nantes
+hôpital privé Jean Mermoz
+hôpital privé Médipôle de Savoie
+hôpital Privé Nord Parisien
+hôpital psychiatrique d'Alençon
+hôpital Raymond-Poincaré
+hôpital René-Huguenin
+hôpital René-Muret-Bigottini
+hôpital Renée-Sabran
+hôpital Richaud
+hôpital Robert-Debré
+hôpital Rothschild
+hôpital rural de Montcenis
+hôpital rural Saint-Louis
+Hôpital Saint Charles
+hôpital Saint-André
+hôpital Saint-Antoine
+hôpital Saint-Camille
+hôpital Saint-Cyr
+hôpital Saint-Éloy d'Arras
+hôpital Saint-Gabriel d'Autun
+hôpital Saint-Jacques
+Hôpital Saint-Jacques aux pèlerins
+hôpital Saint-Jacques de Besançon
+hôpital Saint-Jacques de Josselin
+hôpital Saint-Jacques de Nantes
+hôpital Saint-Jacques de Pradelles
+hôpital Saint-Jean
+hôpital Saint-Jean de Crécy-Couvé
+hôpital Saint-Jean de Montignac
+hôpital Saint-Jean de Montreuil-Bellay
+hôpital Saint-Jean de Saint-Omer
+hôpital Saint-Joseph
+hôpital Saint-Joseph de Compiègne
+hôpital Saint-Joseph de Tence
+hôpital Saint-Julien
+hôpital Saint-Julien de Cambrai
+Hôpital Saint-Lazare
+hôpital Saint-Louis
+hôpital Saint-Nicolas d'Aiguilhe
+hôpital Saint-Nicolas de Mortagne-au-Perche
+hôpital Saint-Nicolas de Tarascon
+hôpital Saint-Sauveur
+hôpital Saint-Vincent-de-Paul
+hôpital Saint-Yves
+hôpital Sainte-Croix de Metz
+hôpital Sainte-Marguerite de Marseille
+hôpital Sainte-Marthe d'Avignon
+hôpital Sainte-Périne
+hôpital Sainte-Périne AP-HP
+hôpital Sainte-Reine
+hôpital San Salvadour
+hôpital sanatorium d'Ormesson-sur-Marne
+hôpital Sanatorium des Enfants Tuberculeux
+hôpital souterrain allemand
+hôpital souterrain allemand du Havre
+hôpital Ste-Barbe de Forbach
+hôpital stell
+hôpital Sud
+hôpital suisse de Paris
+hôpital Tarnier
+hôpital Tenon
+hôpital thermal des armées
+hôpital Vaugirard - Gabriel-Pallez
+hôpital Victor Provo
+hôpital Villemin-Paul-Doumer
+hôpital-hospice de 1841
+hôpital-hospice de Bâgé-le-Châtel
+hôpital-hospice de Cluny
+hôpital-hospice de L'Isle-sur-la-Sorgue
+hôpital-hospice de Saulieu
+hôpital-hospice Sainte-Béatrix
+Hopitaux privés de Metz
+hospice Boulet
+hospice Brézin
+hospice d'Effiat
+hospice d'Honfleur
+hospice d'Orbec
+hospice de Bazas
+hospice de Beaugency
+hospice de Chablis
+hospice de Châtillon-Coligny
+hospice de Châtillon-sur-Chalaronne
+hospice de Gignac
+hospice de Grandchamp
+hospice de la Charité
+hospice de la Charité de Montereau-Fault-Yonne
+hospice de la cité Jardin
+hospice de Malrigou
+hospice de Melle
+hospice de Montauban
+hospice de Saint-Geniez-d'Olt
+hospice de Saint-Riquier
+hospice de Saint-Valery-en-Caux
+hospice de Salers
+hospice de Sospel
+hospice de Soubise
+hospice de Villas
+hospice de Villemur-sur-Tarn
+hospice départemental de Montreuil
+hospice des Enfants-Rouges
+hospice des Petites-Maisons
+hospice des Petits-Ménages
+Hospice Devillas
+hospice du Vigan
+hospice Ferrari
+hospice Gantois
+hospice général de Lille
+hospice général de Tourcoing
+hospice Marie-Richard
+hospice municipal Lasserre
+hospice Oriza
+hospice Raspail
+hospice Saint-Charles
+hospice Saint-Charles de Toul
+hospice Saint-Jacques
+hospice Saint-Jacques de Cesny-Bois-Halbout
+hospice Saint-Jean
+hospice Saint-Jean de Brignoles
+hospice Saint-Julien de Caudebec-en-Caux
+hospice Saint-Louis
+hospice Saint-Melaine
+hospice Saint-Michel
+hospice Saint-Nicolas
+hospice Saint-Nicolas de Troyes
+hospice Saint-Pierre
+hospice Sainte-Agnès d'Arras
+hospice Sainte-Émilie
+hospice Sainte-Marguerite
+hospice Verdier
+hospices de Beaune
+hospices de Nuits-Saint-Georges
+hospices de Seurre
+Hospici d'Illa
+hôtel de la Collectivité de Corse
+hôtel de ville d'Aire-sur-l'Adour
+hôtel du Département
+hôtel du département de Lot-et-Garonne
+hôtel Ruhl
+hôtel Stanislas
+hôtel-Dieu
+hôtel-Dieu d'Amiens
+Hôtel-Dieu d'Angers
+hôtel-Dieu d'Étampes
+hôtel-Dieu d'Issoudun
+hôtel-Dieu de Baugé
+hôtel-Dieu de Bayeux
+hôtel-Dieu de Belleville
+hôtel-Dieu de Blois
+hôtel-Dieu de Bourges
+hôtel-Dieu de Caen
+hôtel-Dieu de Chambéry
+hôtel-Dieu de Champagne-sur-Oise
+hôtel-Dieu de Charlieu
+hôtel-Dieu de Chartres
+hôtel-Dieu de Château-Landon
+hôtel-Dieu de Château-Thierry
+hôtel-Dieu de Clermont-Ferrand
+hôtel-Dieu de Dole
+hôtel-Dieu de Douai
+hôtel-Dieu de Doullens
+hôtel-Dieu de Dourdan
+hôtel-Dieu de Falaise
+hôtel-Dieu de Gray
+hôtel-Dieu de Lons-le-Saunier
+hôtel-Dieu de Louhans
+hôtel-Dieu de Louvres
+hôtel-Dieu de Mâcon
+hôtel-Dieu de Mantes-la-Jolie
+hôtel-Dieu de Marseille
+hôtel-Dieu de Montbazon
+hôtel-Dieu de Montlhéry
+hôtel-Dieu de Montreuil-sur-Mer
+hôtel-Dieu de Nîmes
+hôtel-Dieu de Nogent-le-Rotrou
+hôtel-Dieu de Noyon
+hôtel-Dieu de Paris
+hôtel-Dieu de Pézenas
+hôtel-Dieu de Pont-Saint-Esprit
+hôtel-Dieu de Provins
+hôtel-Dieu de Reims
+hôtel-Dieu de Rouen
+hôtel-Dieu de Saint-Chamond
+hôtel-Dieu de Saint-Lizier
+hôtel-Dieu de Sarlat-la-Canéda
+hôtel-Dieu de Senlis
+hôtel-Dieu de Thonon-les-Bains
+hôtel-Dieu de Tonnerre
+hôtel-Dieu de Tournus
+hôtel-Dieu de Vire
+hôtel-Dieu du Bellay-en-Vexin
+hôtel-Dieu du Creusot
+hôtel-Dieu du Puy-en-Velay
+hôtel-Dieu Mansart
+hôtel-Dieu Saint-Esprit d'Arles
+hôtel-Dieu Saint-Jacques
+hôtel-Dieu-le-Comte
+hôtel-Dieu-Saint-Étienne
+Infirmerie psychiatrique de la Préfecture de Police
+Institut d'hématologie et d'oncologie pédiatrique
+Institut Gustave-Roussy
+institut hospitalier franco-britannique
+Institut hospitalo-universitaire
+Institut Montsouris
+La Capelette Saint-Jacques
+La Providence
+Lariboisière - Fernand-Widal
+léproserie de Meursault
+Léproserie Saint-Lazare d'Herbet
+maison au 2, place de l'Ancien-Hôpital à Ribeauvillé
+maison Coignard
+maison coloniale de santé
+maison Daura
+maison de retraite Charles-Guillot
+maladrerie
+maladrerie de Beaulieu-lès-Loches
+maladrerie de Closebarde
+maladrerie de Saint-Gilles de Mauves
+maladrerie Saint-Lazare
+maladrerie Saint-Lazare de Beauvais
+maladrerie Sainte-Catherine
+maternité suisse d'Elne
+Médipôle de Koutio
+Médipôle Lyon-Villeurbanne
+musée Jean-Lurçat et de la Tapisserie contemporaine
+Nouvel Hôpital civil
+Nouvel hôpital d'Orléans
+palais des Évêques de Saint-Lizier
+Polyclinique de Franche Comté
+Polyclinique Médipôle Saint-Roch
+Préventorium Les Tilleuls
+Salins de Bregille
+site de Cherbourg du centre hospitalier public du Cotentin
+vieille Charité
+viel hôpital de Saint-Amand-de-Coly

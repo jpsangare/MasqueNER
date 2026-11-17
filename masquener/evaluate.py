@@ -112,7 +112,13 @@ def eval_synthetic(ner: OnnxNer, path: Path) -> dict:
         mine = [r for r in rows if r["country"] == country]
         gold = [{(t, s, e) for s, e, t in r["entities"]} for r in mine]
         results[country] = text_scores(ner, [r["text"] for r in mine], gold, NER_TYPES)
-        print(f"  {country} : F1 {results[country]['strict']['micro']['f1']:.4f}, masquage {results[country]['masking_rate']:.4f}")
+        r = results[country]
+        # Dossier d'exemples négatifs (sans entité) : ni F1 ni taux de masquage, seulement les masquages en trop.
+        if r["masking_rate"] is None:
+            print(f"  {country} : phrases intactes {r['negative_cases'] - r['negative_cases_hit']}/{r['negative_cases']} ({r['spurious']} en trop)")
+        else:
+            f1, rate, precision = r["strict"]["micro"]["f1"], r["masking_rate"], r["masking_precision"]
+            print(f"  {country} : F1 {f1:.4f}, masquage {rate:.4f}, précision de masquage {precision:.4f} ({r['spurious']} en trop)")
     return {"dataset": "synthetic", "file": path.name, "file_sha256": sha256(path), "blocking": True, "results": results}
 
 

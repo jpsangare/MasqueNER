@@ -19,6 +19,20 @@ redistribution de ces listes, ou d'une base qui en dérive, doit garder cette li
 
 Les modèles de phrases (`templates/`) sont rédigés à la main et suivent la licence MIT.
 
+## France (`countries/fr/`)
+
+| Source | Licence | Listes concernées |
+|---|---|---|
+| Insee, base des prénoms 2024 | Licence Ouverte / Open Licence 2.0 | prénoms |
+| Insee, fichier des personnes décédées 2024 (noms comptés seulement) | Licence Ouverte / Open Licence 2.0 | noms |
+| geo.api.gouv.fr (Code officiel géographique de l'Insee) | Licence Ouverte / Open Licence 2.0 | villes, départements, régions |
+| Wikidata | CC0 1.0 | entreprises, santé, établissements |
+| Listes rédigées à la main (`manual/`) | MIT, comme le dépôt | institutions |
+
+## Exemples négatifs communs (`countries/commun/`)
+
+Modèles de phrases rédigés à la main, sans liste ni entité : licence MIT, comme le dépôt.
+
 ## Règle sur les personnes
 
 Les listes `prenoms.txt` et `noms.txt` ne contiennent que des mots isolés, portés par au moins deux personnes, sans

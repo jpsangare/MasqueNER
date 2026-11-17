@@ -1,0 +1,50 @@
+# France. Listes produites par build_lists.py (sources publiques, voir plus bas).
+code: fr
+name: France
+languages: [fr]
+
+# Listes (lists/<fichier>.txt) → type d'entité. Dans les modèles de phrases, {LOC.villes} tire dans villes.txt.
+# Les prénoms et noms ne s'utilisent pas seuls : ils composent {PER} selon person_formats.
+lists:
+  prenoms: PER
+  noms: PER
+  villes: LOC
+  departements: LOC
+  regions: LOC
+  entreprises: ORG
+  sante: ORG
+  etablissements: ORG
+  institutions: ORG
+
+# Formes d'un nom de personne et leur poids. {NOM} = nom de famille en capitales ; {prenoms} = 1 à 3 prénoms.
+# Usage français : prénom puis nom ; nom en capitales dans les courriers et formulaires, souvent en tête (« DUPONT
+# Marie », « LEFORT, Éric »).
+person_formats:
+  "{prenom} {nom}": 6
+  "{prenom} {NOM}": 2
+  "{NOM} {prenom}": 2
+  "{NOM}, {prenom}": 1
+  "{prenoms} {nom}": 1
+  "{nom}": 1
+  "{prenom}": 1
+
+sources:
+  - name: Insee, base des prénoms 2024 (version Parquet publiée sur data.gouv.fr)
+    url: https://www.data.gouv.fr/datasets/base-prenoms-2024-insee/
+    license: Licence Ouverte / Open Licence 2.0
+    used_for: prénoms donnés au moins 2 000 fois depuis 1940
+  - name: Insee, fichier des personnes décédées 2024
+    url: https://www.data.gouv.fr/datasets/fichier-des-personnes-decedees/
+    license: Licence Ouverte / Open Licence 2.0
+    used_for: noms de famille portés par au moins 25 personnes (comptés seulement ; rien d'autre n'est gardé)
+  - name: geo.api.gouv.fr (Code officiel géographique de l'Insee)
+    url: https://geo.api.gouv.fr/
+    license: Licence Ouverte / Open Licence 2.0
+    used_for: communes de 2 000 habitants et plus, départements, régions
+  - name: Wikidata
+    url: https://www.wikidata.org/
+    license: CC0 1.0
+    used_for: entreprises, hôpitaux, universités et établissements d'enseignement situés en France
+  - name: listes rédigées à la main (manual/)
+    license: même licence que le dépôt
+    used_for: institutions et organismes publics

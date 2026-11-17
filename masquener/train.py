@@ -4,7 +4,8 @@
     python -m masquener.train --name v1 [--epochs 3] [--lr 3e-5] [--batch 32] [--max-steps N]
 
 Entrées (produites avant, voir README) : data/synthetic/{train,dev}.jsonl et data/distill/{train,dev}.jsonl,
-mélangés tels quels (autant de phrases pays que de phrases de révision).
+mélangés tels quels : la proportion vient du nombre de phrases produites (v1, v2 : 20 000 et 20 000 ; v3 : 20 000
+phrases pays pour 40 000 de révision, `distill --train 40000`, contre l'oubli du modèle de départ).
 Sortie : artifacts/<nom>/ au même format que artifacts/reference/, mesurable avec masquener.evaluate :
     config.json, tokenizer.json, tokenizer_config.json (ceux du modèle de départ), onnx/model_quantized.onnx,
     training.json (réglages, empreintes des données, pertes).

@@ -1,0 +1,57 @@
+# institutions.txt — généré par countries/fr/build_lists.py le 2026-11-17
+# source : manual/institutions.txt
+Agence nationale de l'habitat
+Agence nationale des titres sécurisés
+Agence régionale de santé
+ANTS
+ARS
+Assurance Maladie
+Assurance retraite
+AXA
+Banque de France
+Banque populaire
+BNP Paribas
+CAF
+Caisse d'allocations familiales
+Caisse d'épargne
+Caisse des dépôts
+Caisse nationale d'assurance vieillesse
+Caisse primaire d'assurance maladie
+CCAS
+Centre communal d'action sociale
+CNIL
+Commission nationale de l'informatique et des libertés
+Conseil départemental
+Conseil régional
+CPAM
+Crédit Agricole
+Crédit mutuel
+Défenseur des droits
+DGFiP
+Direction générale des Finances publiques
+EDF
+Électricité de France
+Engie
+Établissement français du sang
+France Travail
+Groupama
+Haute Autorité de santé
+Insee
+Institut national de la statistique et des études économiques
+La Poste
+LCL
+MACIF
+MAIF
+Maison départementale des personnes handicapées
+MDPH
+Météo-France
+MSA
+Mutualité sociale agricole
+Office français de l'immigration et de l'intégration
+Office national des forêts
+Orange
+Pôle emploi
+RATP
+SNCF Réseau
+Société générale
+URSSAF

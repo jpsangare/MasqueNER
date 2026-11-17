@@ -1,0 +1,10 @@
+# Ejemplos negativos (español): nada que enmascarar. "\n" = salto de línea.
+Hola,\n\ngracias por su mensaje.\n\nSaludos
+Buenas tardes,\nle respondo mañana.\nUn saludo cordial
+Estimados señores:\n\nAtentamente,\nLa Dirección
+Cita: por definir\nEstado: pendiente\nPrioridad: alta
+Nombre:\nApellidos:\nDirección:\nCódigo postal:\nCiudad:\nTeléfono:
+Adjuntos: 3\nAsunto: Recordatorio\nReferencia: ver abajo
+Total a pagar: ver factura\nForma de pago: transferencia
+¡Gracias y buen día!
+Adjunto le envío el documento solicitado.\nSaludos cordiales

@@ -1,0 +1,12 @@
+# Negative examples (English): nothing to mask. "\n" = line break.
+Hi,\n\nThanks for your message.\n\nBest regards
+Good evening,\nI will get back to you tomorrow.\nKind regards
+Dear Sir or Madam,\n\nYours faithfully,\nThe Management
+Meeting: to be scheduled\nStatus: pending\nPriority: high
+First name:\nLast name:\nAddress:\nZip code:\nCity:\nPhone:
+Attachments: 3\nSubject: Follow-up\nReference: see below
+Effective date: upon signature\nNotice period: one month
+Committee opinion: the project is on track, but the budget still needs approval.
+Total due: see invoice\nPayment method: bank transfer
+Thanks, and have a nice day!
+Please find attached the requested document.\nCheers

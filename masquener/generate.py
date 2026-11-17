@@ -42,8 +42,20 @@ NEWLINE = "\\n"
 
 MONTHS = {
     "fr": "janvier février mars avril mai juin juillet août septembre octobre novembre décembre".split(),
+    "en": "January February March April May June July August September October November December".split(),
+    "de": "Januar Februar März April Mai Juni Juli August September Oktober November Dezember".split(),
+    "it": "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split(),
+    "es": "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split(),
+    "ar": "يناير فبراير مارس أبريل مايو يونيو يوليو أغسطس سبتمبر أكتوبر نوفمبر ديسمبر".split(),
 }
-WEEKDAYS = {"fr": "lundi mardi mercredi jeudi vendredi samedi dimanche".split()}
+WEEKDAYS = {
+    "fr": "lundi mardi mercredi jeudi vendredi samedi dimanche".split(),
+    "en": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday".split(),
+    "de": "Montag Dienstag Mittwoch Donnerstag Freitag Samstag Sonntag".split(),
+    "it": "lunedì martedì mercoledì giovedì venerdì sabato domenica".split(),
+    "es": "lunes martes miércoles jueves viernes sábado domingo".split(),
+    "ar": "الاثنين الثلاثاء الأربعاء الخميس الجمعة السبت الأحد".split(),
+}
 # Élision devant une valeur qui commence par une voyelle : « de Ageroute » → « d'Ageroute ».
 ELISION = {"fr": re.compile(r"(?<![\w'])([dDlLjJ]e|[lL]a|[qQ]ue) $")}
 VOWEL = re.compile(r"^[AEIOUYÀÂÉÈÊËÎÏÔÛÙaeiouyàâéèêëîïôûù]")
@@ -67,6 +79,7 @@ class Country:
     types: dict[str, str]  # nom de liste → type d'entité
     person_formats: dict[str, int]
     templates: dict[str, list[str]]  # langue → modèles du jeu
+    weight: float = 1.0  # part des phrases, relative aux autres dossiers (country.yaml : weight)
 
 
 def load_country(folder: Path, split: str) -> Country:
@@ -83,7 +96,7 @@ def load_country(folder: Path, split: str) -> Country:
         if lang not in MONTHS:
             raise ValueError(f"{code} : langue {lang} sans noms de mois dans masquener/generate.py")
         templates[lang] = [t for t in entries(folder / "templates" / f"{lang}.txt") if bucket(code, lang, t) == split]
-    return Country(code, lists, config["lists"], config["person_formats"], templates)
+    return Country(code, lists, config["lists"], config["person_formats"], templates, float(config.get("weight", 1)))
 
 
 def person(country: Country, rng: random.Random) -> str:
@@ -126,7 +139,7 @@ def fill(template: str, country: Country, lang: str, rng: random.Random) -> tupl
         else:
             kind, name = slot.split(".")
             value = rng.choice(country.lists[name])
-        if VOWEL.match(value) and (e := ELISION[lang].search(text)):
+        if VOWEL.match(value) and lang in ELISION and (e := ELISION[lang].search(text)):
             text = text[: e.start()] + e.group(1)[:-1] + "'"
         if kind:
             spans.append([len(text), len(text) + len(value), kind])
@@ -135,14 +148,19 @@ def fill(template: str, country: Country, lang: str, rng: random.Random) -> tupl
 
 
 def generate(split: str, n: int, seed: int) -> list[dict]:
-    """n phrases d'un jeu, réparties à parts égales entre les pays puis entre leurs langues."""
+    """n phrases d'un jeu, réparties entre les dossiers selon leur poids (weight), puis à parts égales entre leurs
+    langues. Une langue sans modèle dans ce jeu (liste trop courte) n'en reçoit aucune."""
     folders = sorted(p for p in COUNTRIES.iterdir() if (p / "country.yaml").exists())
     countries = [load_country(folder, split) for folder in folders]
-    groups = [(c, lang) for c in countries for lang in sorted(c.templates)]
+    groups = [(c, lang) for c in countries for lang in sorted(c.templates) if c.templates[lang]]
+    weights = [c.weight / sum(1 for k, lang in groups if k is c) for c, _ in groups]
+    counts = [int(n * w / sum(weights)) for w in weights]
+    for g in range(n - sum(counts)):  # reste de l'arrondi : un de plus aux premiers groupes
+        counts[g % len(groups)] += 1
     rows = []
-    for g, (country, lang) in enumerate(groups):
+    for (country, lang), count in zip(groups, counts, strict=True):
         rng = random.Random(f"{seed}/{split}/{country.code}/{lang}")
-        for i in range(n // len(groups) + (g < n % len(groups))):
+        for i in range(count):
             template = rng.choice(country.templates[lang])
             text, spans = fill(template, country, lang, rng)
             # Minuscules : mêmes positions tant que chaque caractère garde sa longueur (vrai pour le français).

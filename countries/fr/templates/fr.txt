@@ -1,0 +1,80 @@
+# Modèles de phrases (français, France). Un modèle par ligne ; « \n » y marque un retour à la ligne (fiches,
+# courriels, en-têtes).
+# Cases : {PER} nom de personne ; {LOC.<liste>} et {ORG.<liste>} (listes de country.yaml) ; {DATE} date en toutes
+# lettres et {NUM} nombre (écrits mais non étiquetés : ils relèvent de règles à part). Une ligne sans case est un exemple négatif (rien à détecter).
+# Ne sont jamais des entités : libellés de champ (Nom, Matricule, Civilité, Nationalité…), formules de politesse
+# (Bonjour, Cordialement, Veuillez…), titres de document, services internes, nationalités.
+#
+# Courriers et démarches
+Madame {PER}, domiciliée à {LOC.villes}, est convoquée le {DATE} à la mairie.
+Je soussigné {PER}, demeurant à {LOC.villes} ({LOC.departements}), certifie sur l'honneur l'exactitude des informations ci-dessus.
+Objet : demande de mutation de {PER} de {LOC.villes} vers {LOC.villes}.
+La {ORG.institutions} informe Monsieur {PER} que son dossier a été enregistré sous le numéro {NUM}.
+Le dossier de {PER} a été transmis à la {ORG.institutions} de {LOC.villes} le {DATE}.
+Suite à notre entretien du {DATE}, je vous confirme l'embauche de {PER} au sein de {ORG.entreprises}.
+Mme {PER} est hospitalisée depuis le {DATE} à l'établissement {ORG.sante}.
+L'étudiant {PER}, inscrit à {ORG.etablissements}, effectuera son stage chez {ORG.entreprises} à {LOC.villes}.
+Le contrat de location du logement situé à {LOC.villes} est établi au nom de {PER} et de {PER}.
+M. {PER} conteste la décision de la {ORG.institutions} rendue le {DATE}.
+Le conseil de prud'hommes de {LOC.villes} a convoqué les parties, {PER} et la société {ORG.entreprises}.
+Pour faire valoir ce que de droit, fait à {LOC.villes} le {DATE}, {PER}.
+Le médecin traitant de {PER}, le docteur {PER}, exerce à {LOC.villes}.
+Le véhicule immatriculé au nom de {PER} a été contrôlé sur la commune de {LOC.villes}.
+L'assemblée générale de la copropriété s'est tenue à {LOC.villes} sous la présidence de {PER}.
+# Fiches et formulaires
+Nom : {PER} ; lieu de naissance : {LOC.villes} ; adresse : {LOC.villes}.
+Nom et prénom : {PER}
+Personne à prévenir en cas d'urgence : {PER}, {LOC.villes}.
+Employeur : {ORG.entreprises} ; lieu de travail : {LOC.villes} ({LOC.departements}).
+Établissement fréquenté : {ORG.etablissements}.
+Bénéficiaire : {PER} ; organisme payeur : {ORG.institutions}.
+Signataire : {PER}, directrice des ressources humaines de {ORG.entreprises}.
+Témoins : {PER} et {PER}, tous deux domiciliés en {LOC.regions}.
+# Courriels et messages
+Bonjour {PER}, je vous confirme notre rendez-vous à {LOC.villes} le {DATE}.
+Bonsoir {PER}, merci de me renvoyer la facture de {ORG.entreprises} avant vendredi.
+Cher {PER}, la réunion avec {ORG.entreprises} est reportée au {DATE}.
+Salut {PER}, tu passes récupérer les clés à {LOC.villes} ce week-end ?
+Je vous mets en copie {PER}, qui suit le dossier pour la {ORG.institutions}.
+Merci de contacter {PER} au service client de {ORG.entreprises}.
+Bienvenue à {PER}, qui rejoint l'équipe de {LOC.villes} à partir du {DATE}.
+# Demandes à un assistant d'IA
+Rédige une lettre de recommandation pour {PER}, qui a travaillé trois ans chez {ORG.entreprises}.
+Aide-moi à répondre à {PER}, qui conteste la facture de {ORG.entreprises}.
+Écris un courrier à la {ORG.institutions} pour signaler le changement d'adresse de {PER} à {LOC.villes}.
+Résume ce compte rendu d'hospitalisation de {PER} à {ORG.sante}.
+Traduis en anglais : {PER} représentera {ORG.entreprises} au salon de {LOC.villes}.
+Mon voisin {PER} veut ouvrir une boulangerie à {LOC.villes}, quelles démarches faire ?
+Prépare un discours pour le départ en retraite de {PER}, professeur à {ORG.etablissements}.
+Corrige ce texte : ma fille {PER} est inscrite au collège de {LOC.villes} depuis {DATE}.
+# Écrits informels (souvent sans majuscules ni accents)
+on se voit a {LOC.villes} demain avec {PER}
+{PER} dit que le train pour {LOC.villes} part a 7h
+appelle {PER} pour le devis de {ORG.entreprises}
+je suis chez {PER} a {LOC.villes}, tu viens ?
+# Documents en plusieurs lignes : fiches, courriels, notes (libellés et formules de politesse jamais étiquetés)
+FICHE DE RENSEIGNEMENTS\nNom : {PER}\nCivilité : Mme\nDate de naissance : {DATE}\nLieu de naissance : {LOC.villes}\nNationalité : Française\nService : Comptabilité
+Bonjour {PER},\n\nVeuillez trouver ci-joint le compte rendu de la réunion du {DATE}.\n\nCordialement,\n{PER}\n{ORG.entreprises}
+Bonjour,\n\nJe transmets votre demande à {PER}, qui reviendra vers vous rapidement.\n\nBien cordialement,\n{PER}
+Objet : Résiliation de contrat\n\nMadame, Monsieur,\n\nJe vous informe de ma décision de résilier mon contrat auprès de {ORG.entreprises} à compter du {DATE}.\n\nVeuillez agréer mes salutations distinguées.\n\n{PER}\n{LOC.villes}
+ATTESTATION EMPLOYEUR\n\nJe soussignée, {PER}, gérante de {ORG.entreprises}, atteste que {PER} est salarié de l'entreprise depuis le {DATE}.\n\nFait à {LOC.villes}, le {DATE}.
+Destinataire : {PER}\nAdresse : {LOC.villes} ({LOC.departements})\nExpéditeur : {ORG.institutions}\nRéférence : {NUM}
+Liste des présents :\n- {PER}, {ORG.entreprises}\n- {PER}, {ORG.institutions}\n- {PER}, mairie de {LOC.villes}
+Rédigé par : {PER}\nValidé par : {PER}\nDiffusion : service juridique
+# Exemples négatifs : rien à masquer
+La direction rappelle que les congés doivent être posés avant la fin du mois.
+Madame, Monsieur, je vous prie de trouver ci-joint les pièces demandées.
+Objet : Note de service relative à la sécurité des locaux.
+Merci de transmettre les justificatifs au service comptable dans les meilleurs délais.
+Peux-tu m'expliquer la différence entre un CDD et un contrat d'intérim ?
+Rédige un message pour remercier mon équipe après la fin du projet.
+Le Conseil municipal s'est réuni ce mardi en séance publique.
+Article 2 : Le présent règlement entre en vigueur à compter de sa publication.
+Nom :\nPrénom :\nDate de naissance :\nAdresse :\nTéléphone :\nSignature :
+Bonjour,\n\nVeuillez trouver ci-joint le document demandé.\n\nCordialement
+Bonjour à tous,\n\nLa réunion de demain est maintenue à 10 heures.\n\nBonne journée
+COMPTE RENDU DE RÉUNION\n\nOrdre du jour :\n1. Validation du budget\n2. Point sur les recrutements\n3. Questions diverses
+Civilité : Monsieur\nSituation familiale : Marié\nNationalité : Française\nProfession : Cadre
+Merci de votre compréhension.\nCordialement,\nLe service des ressources humaines
+Confidentiel\nNe pas diffuser\nVersion de travail
+salut ça va ? on se retrouve au bureau demain matin

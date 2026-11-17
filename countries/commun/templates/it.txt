@@ -1,0 +1,10 @@
+# Esempi negativi (italiano): niente da mascherare. "\n" = a capo.
+Buongiorno,\n\ngrazie per il suo messaggio.\n\nCordiali saluti
+Buonasera,\nle rispondo domani.\nUn saluto
+Gentili Signore e Signori,\n\ndistinti saluti\nLa Direzione
+Appuntamento: da definire\nStato: in attesa\nPriorità: alta
+Nome:\nCognome:\nIndirizzo:\nCAP:\nCittà:\nTelefono:
+Allegati: 3\nOggetto: Sollecito\nRiferimento: vedi sotto
+Totale da pagare: vedi fattura\nModalità di pagamento: bonifico
+Grazie e buona giornata!
+In allegato trova il documento richiesto.\nA presto

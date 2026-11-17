@@ -1,0 +1,10 @@
+# Exemples négatifs communs à tous les pays, dans les six langues : formules de politesse, libellés de formulaire,
+# en-têtes et phrases ordinaires, sans aucune entité. Ils apprennent au modèle qu'un mot en majuscule en début de ligne
+# (« Saludos », « Matricule », « Mit freundlichen Grüßen ») n'est pas un nom. Rédigés à la main (licence du dépôt).
+code: commun
+name: Exemples négatifs communs
+languages: [fr, en, de, it, es, ar]
+# Part des phrases, relative à un pays (1) : environ 7 % des phrases avec deux pays.
+weight: 0.15
+lists: {}
+person_formats: {}
