@@ -46,9 +46,37 @@ Les vacances de Pâques commencent samedi.
 Pendant le Ramadan, les horaires changent.
 Le lundi de Pentecôte est travaillé.
 Le défilé de la fête de l'Indépendance est annulé.
-Prix : 15 000 XOF HT
+Prix : 15 000 XOF hors taxes
 Joindre une copie de la CNI et un CV.
 Contrat en CDI, salaire au-dessus du SMIG.
 Merci de renvoyer le PV signé au DG.
 NB : format A5, fichier JPEG.
 Les KPI du T3 sont en ligne.
+# v5 — fêtes, sigles, mots tout en capitales, libellés de formulaire (aucun mot repris des tests).
+Fermeture exceptionnelle le lundi de Pâques.
+Bonne fête du Travail à toute l'équipe !
+Le marché de Noël ouvre vendredi.
+Pendant l'Aïd el-Fitr, le bureau ferme à midi.
+Les congés de Carnaval sont décalés.
+Réunion reportée après l'Épiphanie.
+Le défilé du 14 Juillet passe devant la mairie.
+Joyeux Nouvel An et meilleurs vœux !
+Le Mawlid tombe un mardi cette année.
+Facture en XOF, montant net, paiement à 30 jours.
+Envoyez le CERFA rempli et un justificatif de domicile.
+Le BTS et la VAE sont reconnus par l'État.
+Copie du bulletin de paie et attestation URSSAF jointes.
+Le SAV répond par SMS sous 24 h.
+Le KYC est en attente, la KYB aussi.
+Rapport en DOCX ou en XLSX, pas de ZIP.
+ERREUR : délai dépassé\nINFO : nouvelle tentative
+AVERTISSEMENT\nCe message contient des informations sensibles.
+VALIDÉ — À ARCHIVER
+STATUT : PAYÉ\nÉTAT : CLÔTURÉ
+IMPORTANT : à lire avant la réunion.
+RAPPEL\nLa date limite approche.
+Domicilié à :\nNé(e) le :\nProfession :
+N° de dossier :\nN° de client :\nN° d'adhérent :
+Situation de famille :\nNombre d'enfants :
+Le Chef de rayon et la Responsable logistique valident les plannings.
+L'Enseignante principale réunit les parents.

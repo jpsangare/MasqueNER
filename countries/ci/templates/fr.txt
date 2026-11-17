@@ -103,7 +103,7 @@ salut ça va ? on se retrouve au bureau demain matin
 # Documents en plusieurs lignes : fiches, courriels, notes (libellés et formules de politesse jamais étiquetés)
 FICHE INDIVIDUELLE DE RENSEIGNEMENTS\nNom et prénoms : {PER}\nCivilité : M.\nMatricule : {NUM}\nNé le : {DATE} à {LOC.villes}\nNationalité : Ivoirienne\nService : Direction des Ressources humaines
 FICHE DE SUIVI\nAgent : {PER}\nFonction : Responsable de la logistique\nAffectation : {LOC.villes}\nStatut : À VALIDER\nObservations : néant
-Bénéficiaire : {PER}\nPériode : du {DATE} au {DATE}\nMontant : {NUM} FCFA\nVisa du chef de service :
+Bénéficiaire : {PER}\nPériode : du {DATE} au {DATE}\nMontant : {NUM} francs CFA\nVisa du chef de service :
 Civilité : Madame\nNom : {PER}\nNée le : {DATE}\nDomicile : {LOC.quartiers}, {LOC.villes}\nSituation matrimoniale : Mariée\nNationalité : Ivoirienne
 ATTESTATION DE TRAVAIL\n\nJe soussigné, {PER}, Directeur des Ressources humaines de {ORG.entreprises}, atteste que {PER}, matricule {NUM}, est employé au sein de notre société depuis le {DATE}.\n\nFait à {LOC.villes}, le {DATE}.\nLe Directeur
 Rédigé par : {PER}\nValidé par : {PER}\nCopie : {ORG.institutions}\nVu et approuvé

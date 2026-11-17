@@ -73,3 +73,16 @@ def test_composed_slots_and_initials():
     # Initiale d'un prénom dans une entité : « K. KONAN », « Kassi J.-P. ».
     initials = re.compile(r"(?<![\w.])\w\.(?:-\w\.)?(?= \w)|(?<=\w )\w\.(?:-\w\.)?$")
     assert any(initials.search(row["text"][s:e]) for row in rows for s, e, t in row["entities"] if t == "PER")
+
+
+def test_recased_sentences_keep_their_entities():
+    from masquener.generate import recase
+
+    assert recase("Appelle Sophie chez Ford demain.") == "Appelle Sophie chez Ford Demain."
+    assert recase("Le dossier de N'Guessan") == "le Dossier de n'guessan"  # mots outils et élisions en minuscules
+    rows = generate("train", 3000, seed=4)
+    recased = [r for r in rows if r["entities"] and r["text"] == recase(r["text"]) and r["text"] != r["text"].upper()]
+    assert recased, "aucune phrase remise en majuscules"
+    for row in recased:
+        for start, end, _ in row["entities"]:
+            assert row["text"][start:end] == row["text"][start:end].strip() != ""

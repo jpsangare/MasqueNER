@@ -8,3 +8,12 @@ Adjuntos: 3\nAsunto: Recordatorio\nReferencia: ver abajo
 Total a pagar: ver factura\nForma de pago: transferencia
 ¡Gracias y buen día!
 Adjunto le envío el documento solicitado.\nSaludos cordiales
+# v5 — fiestas, siglas, palabras en mayúsculas, campos de formulario.
+La oficina cierra en Semana Santa.
+¡Feliz Navidad y próspero Año Nuevo!
+Factura con IVA incluido, pago por SEPA.
+ERROR: tiempo de espera agotado
+AVISO IMPORTANTE\nLea el documento antes de firmar.
+Domicilio:\nFecha de nacimiento:\nProfesión:
+Atentamente,\nEl departamento de administración
+Un abrazo y hasta pronto.

@@ -1,0 +1,112 @@
+{
+  "model": "v4",
+  "onnx_sha256": "e5a8ae44b1a9ecada3c6f0d2a7624f862903b7b7ad92a1f54fc1325b65e07590",
+  "dataset": "synthetic",
+  "file": "test.jsonl",
+  "file_sha256": "17f0a681db4a97445aeaa7aca319985ff4d11a81bf1bf19a388ec48a96487ab7",
+  "blocking": true,
+  "results": {
+    "ci": {
+      "cases": 931,
+      "strict": {
+        "PER": {
+          "precision": 0.6648,
+          "recall": 0.8815,
+          "f1": 0.758,
+          "support": 810
+        },
+        "ORG": {
+          "precision": 0.7676,
+          "recall": 0.6147,
+          "f1": 0.6827,
+          "support": 462
+        },
+        "LOC": {
+          "precision": 0.799,
+          "recall": 0.6709,
+          "f1": 0.7294,
+          "support": 468
+        },
+        "micro": {
+          "precision": 0.7142,
+          "recall": 0.754,
+          "f1": 0.7336,
+          "support": 1740
+        }
+      },
+      "masking_rate": 0.8937,
+      "masking_precision": 0.9439,
+      "spurious": 103,
+      "negative_cases": 58,
+      "negative_cases_hit": 0
+    },
+    "commun": {
+      "cases": 139,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 11,
+      "negative_cases": 139,
+      "negative_cases_hit": 11
+    },
+    "fr": {
+      "cases": 930,
+      "strict": {
+        "PER": {
+          "precision": 0.9164,
+          "recall": 0.8976,
+          "f1": 0.9069,
+          "support": 586
+        },
+        "ORG": {
+          "precision": 0.8446,
+          "recall": 0.944,
+          "f1": 0.8915,
+          "support": 357
+        },
+        "LOC": {
+          "precision": 0.9394,
+          "recall": 0.9353,
+          "f1": 0.9374,
+          "support": 232
+        },
+        "micro": {
+          "precision": 0.897,
+          "recall": 0.9191,
+          "f1": 0.9079,
+          "support": 1175
+        }
+      },
+      "masking_rate": 0.9677,
+      "masking_precision": 0.9942,
+      "spurious": 7,
+      "negative_cases": 344,
+      "negative_cases_hit": 0
+    }
+  }
+}

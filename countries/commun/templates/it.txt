@@ -8,3 +8,11 @@ Allegati: 3\nOggetto: Sollecito\nRiferimento: vedi sotto
 Totale da pagare: vedi fattura\nModalità di pagamento: bonifico
 Grazie e buona giornata!
 In allegato trova il documento richiesto.\nA presto
+# v5 — feste, sigle, parole in maiuscolo, campi di modulo.
+L'ufficio resta chiuso a Ferragosto.
+Buon Natale e felice anno nuovo!
+Fattura con IVA, pagamento tramite SEPA.
+ERRORE: tempo scaduto
+AVVISO IMPORTANTE\nLeggere prima della riunione.
+Residente in:\nData di nascita:\nProfessione:
+Cordiali saluti,\nL'ufficio amministrativo

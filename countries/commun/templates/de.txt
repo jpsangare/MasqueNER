@@ -8,3 +8,11 @@ Anlagen: 3\nBetreff: Erinnerung\nAktenzeichen: siehe unten
 Gesamtbetrag: siehe Rechnung\nZahlungsart: Überweisung
 Danke und einen schönen Tag!
 Anbei finden Sie das gewünschte Dokument.\nBeste Grüße
+# v5 — Feiertage, Abkürzungen, Großbuchstaben, Formularfelder.
+Das Büro bleibt an Ostern geschlossen.
+Frohe Weihnachten und einen guten Rutsch!
+Rechnung inkl. MwSt., Zahlung per SEPA.
+FEHLER: Zeitüberschreitung
+WICHTIG\nBitte vor der Sitzung lesen.
+Wohnhaft in:\nGeburtsdatum:\nBeruf:
+Mit freundlichen Grüßen\nIhre Personalabteilung
