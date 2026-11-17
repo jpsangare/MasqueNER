@@ -5,7 +5,8 @@
 Lit les rapports déjà produits par masquener.evaluate (reports/<nom>/ et reports/local/<nom>/) et compare, pour chaque
 mesure bloquante de la référence, le nouveau score à l'ancien. Seuil : −0,5 point de F1 (ou de taux de masquage).
 - jeux publics bloquants (conll, masakhaner) : F1 moyen sur les langues ; le détail par langue est affiché ;
-- phrases synthétiques : F1 et précision de masquage de chaque pays ; pour un dossier d'exemples négatifs (sans
+- phrases synthétiques : F1 et précision de masquage de chaque pays ; familles (familles/familles.txt) : masquage et
+  précision de masquage de chaque famille ; pour un dossier ou une famille d’exemples négatifs (sans
   entité), part des phrases restées intactes ;
 - corpus réels (reports/local) : F1 PER, F1 LOC, taux de masquage et précision de masquage (part des masquages qui
   touchent une valeur annotée : un mot ordinaire masqué à tort, « Bonjour », « Matricule », la fait baisser). ORG n'y
@@ -35,18 +36,21 @@ def measures(report: dict) -> tuple[dict[str, float], dict[str, float]]:
             block["précision de masquage"] = report["masking_precision"]
         return block, {"ORG F1": s["ORG"]["f1"]}
     r = report["results"]
-    if report["dataset"] == "synthetic":
-        # Dossier sans entité (exemples négatifs) : tout masquage y est faux, la précision vaut 0 dès la première
-        # erreur ; on compte donc les phrases restées intactes.
-        block = {}
+    if report["dataset"] in ("synthetic", "familles"):
+        # Dossier ou famille sans entité (exemples négatifs) : tout masquage y est faux, la précision vaut 0 dès la
+        # première erreur ; on compte donc les phrases restées intactes. Familles : masquage plutôt que F1 strict
+        # (une voie, « rue Victor Hugo », peut être trouvée comme lieu ou comme personne : elle est masquée).
+        main, side = ("masquage", "F1") if report["dataset"] == "familles" else ("F1", "masquage")
+        block, info = {}, {}
         for c, v in r.items():
             if v["masking_rate"] is not None:
-                block[f"{c} F1"] = v["strict"]["micro"]["f1"]
+                scores = {"F1": v["strict"]["micro"]["f1"], "masquage": v["masking_rate"]}
+                block[f"{c} {main}"], info[f"{c} {side}"] = scores[main], scores[side]
                 if "masking_precision" in v:
                     block[f"{c} précision de masquage"] = v["masking_precision"]
             elif v.get("negative_cases"):
                 block[f"{c} phrases intactes"] = 1 - v["negative_cases_hit"] / v["negative_cases"]
-        return block, {f"{c} masquage": v["masking_rate"] for c, v in r.items() if v["masking_rate"] is not None}
+        return block, info
     langs = {f"{lang} F1": v["micro"]["f1"] for lang, v in r.items() if lang != "macro_f1"}
     return ({"F1 moyen": r["macro_f1"]}, langs) if report["blocking"] else ({}, {"F1 moyen": r["macro_f1"], **langs})
 

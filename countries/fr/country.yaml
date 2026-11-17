@@ -25,6 +25,8 @@ person_formats:
   "{NOM} {prenom}": 2
   "{NOM}, {prenom}": 1
   "{prenoms} {nom}": 1
+  "{initiale} {nom}": 1
+  "{nom} {initiale}": 1
   "{nom}": 1
   "{prenom}": 1
 

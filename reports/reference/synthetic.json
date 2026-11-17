@@ -3,42 +3,42 @@
   "onnx_sha256": "24a0b98f4dd4cd92842f5a541272f86f760225a64a29928eddef14bdb2edb986",
   "dataset": "synthetic",
   "file": "test.jsonl",
-  "file_sha256": "0076d681bf82f643a22298eed6ec2ebb34f30d3a75588783348544a839b1fc25",
+  "file_sha256": "17f0a681db4a97445aeaa7aca319985ff4d11a81bf1bf19a388ec48a96487ab7",
   "blocking": true,
   "results": {
     "ci": {
       "cases": 931,
       "strict": {
         "PER": {
-          "precision": 0.5459,
-          "recall": 0.6074,
-          "f1": 0.575,
-          "support": 754
+          "precision": 0.4383,
+          "recall": 0.5654,
+          "f1": 0.4938,
+          "support": 810
         },
         "ORG": {
-          "precision": 0.4771,
-          "recall": 0.5736,
-          "f1": 0.521,
-          "support": 455
+          "precision": 0.4376,
+          "recall": 0.4177,
+          "f1": 0.4275,
+          "support": 462
         },
         "LOC": {
-          "precision": 0.5584,
-          "recall": 0.4622,
-          "f1": 0.5058,
-          "support": 331
+          "precision": 0.6156,
+          "recall": 0.4038,
+          "f1": 0.4877,
+          "support": 468
         },
         "micro": {
-          "precision": 0.5253,
-          "recall": 0.5662,
-          "f1": 0.545,
-          "support": 1540
+          "precision": 0.4685,
+          "recall": 0.4828,
+          "f1": 0.4755,
+          "support": 1740
         }
       },
-      "masking_rate": 0.6747,
-      "masking_precision": 0.9548,
-      "spurious": 75,
-      "negative_cases": 151,
-      "negative_cases_hit": 66
+      "masking_rate": 0.6121,
+      "masking_precision": 0.9844,
+      "spurious": 28,
+      "negative_cases": 58,
+      "negative_cases_hit": 2
     },
     "commun": {
       "cases": 139,
@@ -70,43 +70,43 @@
       },
       "masking_rate": null,
       "masking_precision": 0.0,
-      "spurious": 99,
+      "spurious": 76,
       "negative_cases": 139,
-      "negative_cases_hit": 45
+      "negative_cases_hit": 63
     },
     "fr": {
       "cases": 930,
       "strict": {
         "PER": {
-          "precision": 0.7454,
-          "recall": 0.6836,
-          "f1": 0.7132,
-          "support": 531
+          "precision": 0.7357,
+          "recall": 0.7218,
+          "f1": 0.7287,
+          "support": 586
         },
         "ORG": {
-          "precision": 0.5347,
-          "recall": 0.5804,
-          "f1": 0.5566,
-          "support": 398
+          "precision": 0.5012,
+          "recall": 0.5994,
+          "f1": 0.5459,
+          "support": 357
         },
         "LOC": {
-          "precision": 0.7404,
-          "recall": 0.8587,
-          "f1": 0.7952,
-          "support": 269
+          "precision": 0.7216,
+          "recall": 0.8491,
+          "f1": 0.7802,
+          "support": 232
         },
         "micro": {
-          "precision": 0.6702,
-          "recall": 0.6886,
-          "f1": 0.6793,
-          "support": 1198
+          "precision": 0.6541,
+          "recall": 0.7098,
+          "f1": 0.6808,
+          "support": 1175
         }
       },
-      "masking_rate": 0.7705,
-      "masking_precision": 0.9992,
-      "spurious": 1,
-      "negative_cases": 399,
-      "negative_cases_hit": 0
+      "masking_rate": 0.7881,
+      "masking_precision": 0.9718,
+      "spurious": 36,
+      "negative_cases": 344,
+      "negative_cases_hit": 15
     }
   }
 }

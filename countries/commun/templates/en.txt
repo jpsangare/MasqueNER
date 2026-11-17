@@ -10,3 +10,16 @@ Committee opinion: the project is on track, but the budget still needs approval.
 Total due: see invoice\nPayment method: bank transfer
 Thanks, and have a nice day!
 Please find attached the requested document.\nCheers
+# v4 — negative families (no sentence from familles/familles.txt is reused).
+Looking forward to hearing from you.\nRegards
+Many thanks in advance.
+CONFIDENTIAL — INTERNAL USE ONLY
+Next steps\nOpen questions\nAction items
+The Chief Financial Officer approved the budget.
+The Head of Procurement will review the bids.
+Please contact the Finance Department.
+Customer Support replies within two business days.
+He was diagnosed with Parkinson's disease.
+It is 30 degrees Celsius today.
+The office is closed on Christmas Day.
+Q3 KPIs are due by EOD, see the PDF.

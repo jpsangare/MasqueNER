@@ -9,3 +9,46 @@ Pièces jointes : 3\nObjet : Relance\nRéférence : voir ci-dessous
 Avis du comité : le projet avance bien, mais le budget reste à valider.
 Total à payer : voir facture\nMode de règlement : virement
 Merci et bonne journée !
+# v4 — familles d'exemples négatifs (aucune phrase de familles/familles.txt n'y est reprise).
+Je vous souhaite une excellente journée.
+Au plaisir de vous lire,\nCordialement
+Merci d'avance pour votre aide.
+Je vous prie de croire à l'assurance de ma considération distinguée.
+Bonne fin de semaine à tous !
+Coucou, tu es dispo ce soir ?
+NOTE DE SERVICE
+CONFIDENTIEL — USAGE INTERNE
+À l'attention de :\nExpéditeur :\nDate :
+Version : 2\nDernière mise à jour : hier
+Priorité : Haute\nÉchéance : fin du mois
+Récapitulatif des frais\nPoints d'attention\nCalendrier prévisionnel
+Le Directeur Général signera la convention.
+Avis du Chef de service : réservé.
+Le Comptable principal clôture l'exercice.
+Le Contrôleur budgétaire a émis un avis favorable.
+La Présidente du jury annonce les résultats.
+L'Ingénieur des travaux suit le chantier.
+La Direction Financière prépare le budget.
+Le Service Client répond sous 48 heures.
+La Division des Études a remis son rapport.
+Le Pôle Logistique organise la livraison.
+La Sous-direction du Budget valide la dépense.
+Le Bureau des Admissions ouvre à 8 heures.
+Il souffre de la maladie de Parkinson.
+Une maladie de Crohn a été diagnostiquée.
+Le séisme a atteint 5,8 sur l'échelle de Richter.
+Il fait 32 degrés Celsius à l'ombre.
+Le roman a obtenu le prix Goncourt.
+On applique le théorème de Thalès.
+L'école suit la pédagogie Montessori.
+Le magasin ferme à 16 heures le jour de Noël.
+Les vacances de Pâques commencent samedi.
+Pendant le Ramadan, les horaires changent.
+Le lundi de Pentecôte est travaillé.
+Le défilé de la fête de l'Indépendance est annulé.
+Prix : 15 000 XOF HT
+Joindre une copie de la CNI et un CV.
+Contrat en CDI, salaire au-dessus du SMIG.
+Merci de renvoyer le PV signé au DG.
+NB : format A5, fichier JPEG.
+Les KPI du T3 sont en ligne.

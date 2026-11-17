@@ -73,3 +73,18 @@ def test_corpus_masking_precision_blocks(tmp_path, monkeypatch):
     # Mesure absente du nouveau rapport : bloquant aussi.
     write(tmp_path / "reports/local/new/corpus-ci.json", corpus(0.7, 0.65, 0.1, 0.85))
     assert len(failures(tmp_path, monkeypatch)) == 1
+
+
+def test_families_block_on_masking_and_intact_sentences(tmp_path, monkeypatch):
+    def families(rate, hit):
+        pos = {"strict": {"micro": {"f1": 0.5}}, "masking_rate": rate, "masking_precision": 1.0}
+        neg = {"strict": {"micro": {"f1": 0.0}}, "masking_rate": None, "masking_precision": 0.0, "negative_cases": 10, "negative_cases_hit": hit}
+        return {"dataset": "familles", "results": {"majuscules": pos, "formules": neg}}
+
+    write(tmp_path / "reports/reference/familles.json", families(0.4, 3))
+    write(tmp_path / "reports/new/familles.json", families(0.8, 1))
+    assert failures(tmp_path, monkeypatch) == []
+    write(tmp_path / "reports/new/familles.json", families(0.3, 1))
+    assert len(failures(tmp_path, monkeypatch)) == 1  # masquage en recul
+    write(tmp_path / "reports/new/familles.json", families(0.8, 4))
+    assert len(failures(tmp_path, monkeypatch)) == 1  # une phrase négative de plus touchée

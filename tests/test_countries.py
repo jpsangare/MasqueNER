@@ -6,8 +6,9 @@ from pathlib import Path
 import pytest
 import yaml
 
+from masquener.generate import SLOT
+
 COUNTRIES = sorted(p for p in Path("countries").iterdir() if (p / "country.yaml").exists())
-SLOT = re.compile(r"\{([^}]+)\}")
 
 
 def entries(path: Path) -> list[str]:
@@ -40,5 +41,8 @@ def test_country_folder(country: Path):
     allowed = {"PER", "DATE", "NUM"} | {f"{t}.{n}" for n, t in config["lists"].items() if t != "PER"}
     for lang in config["languages"]:
         for line in entries(country / "templates" / f"{lang}.txt"):
-            unknown = set(SLOT.findall(line)) - allowed
+            # Case composée {TYPE:forme} : morceaux de nom <nom>, <prenom>… ; elle demande les listes de noms.
+            composed = {s for s in SLOT.findall(line) if re.fullmatch(r"(PER|LOC|ORG):.*<(nom|NOM|prenom|prenoms|initiale)>.*", s)}
+            assert not composed or {"prenoms", "noms"} <= set(config["lists"]), f"case composée sans listes de noms : {line}"
+            unknown = set(SLOT.findall(line)) - allowed - composed
             assert not unknown, f"case inconnue {unknown} dans : {line}"

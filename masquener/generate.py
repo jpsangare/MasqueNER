@@ -4,7 +4,9 @@
 
 Chaque modèle de phrase voit ses cases remplies au hasard ; on connaît donc la position exacte de chaque entité.
 Un modèle peut tenir sur plusieurs lignes (« \n » : fiche, courriel, en-tête), et une petite part des phrases est
-écrite tout en minuscules (LOWERCASE_RATE).
+écrite tout en capitales (UPPERCASE_RATE : en-têtes, formulaires). Jamais en minuscules : le texte tapé sans
+majuscules relève du moteur qui emploie le modèle (il rend les majuscules avant de l'interroger) ; l'apprendre au
+modèle lui fait prendre des noms communs pour des noms (v3).
 Sortie : data/synthetic/{train,dev,test}.jsonl, une phrase par ligne :
     {"id", "country", "lang", "template", "text", "entities": [[début, fin, type], ...]}
 (positions en caractères, fin exclue ; types PER, LOC, ORG).
@@ -31,12 +33,19 @@ import yaml
 COUNTRIES = Path("countries")
 OUT = Path("data/synthetic")
 SPLITS = ("train", "dev", "test")
-SLOT = re.compile(r"\{([^}]+)\}")
-PERSON_PART = re.compile(r"\{(nom|NOM|prenom|prenoms)\}")
+# Case : type en capitales, sans accolade à l'intérieur ; les autres accolades sont du texte (JSON : {"nom": "{PER}"}).
+SLOT = re.compile(r"\{([A-Z]+(?:[.:][^{}]+)?)\}")
+PERSON_PART = re.compile(r"\{(nom|NOM|prenom|prenoms|initiale)\}")
+# Case composée d'un modèle de phrase, {TYPE:forme} : les morceaux de nom s'y écrivent <nom>, <prenom>…
+# (« {ORG:Pharmacie <nom>} », « rue {LOC:<prenom> <nom>} », « {PER:<prenom> Ould <nom>} »).
+COMPOSED_PART = re.compile(r"<(nom|NOM|prenom|prenoms|initiale)>")
 # Nombre de prénoms pour {prenoms} et poids : un prénom le plus souvent, parfois deux ou trois.
 GIVEN_COUNT = {1: 5, 2: 4, 3: 1}
-# Part des phrases écrites tout en minuscules (messages tapés vite : « appelle james chez ford »), entités comprises.
-LOWERCASE_RATE = 0.05
+# Part des phrases écrites tout en capitales (« ATTESTATION DÉLIVRÉE À KONÉ ADAMA »), entités comprises.
+UPPERCASE_RATE = 0.04
+# Types des listes de noms propres : une ligne sans majuscule (« audit france ») en est retirée, une ligne qui commence
+# par une minuscule (« centre hospitalier de Mâcon », libellé Wikidata) prend une majuscule initiale.
+PROPER_TYPES = ("ORG", "LOC")
 # Dans un modèle de phrase, « \n » marque un retour à la ligne : fiches, courriels, en-têtes sur plusieurs lignes.
 NEWLINE = "\\n"
 
@@ -67,6 +76,13 @@ def bucket(*parts: str) -> str:
     return "test" if n == 0 else "dev" if n == 1 else "train"
 
 
+def proper(value: str) -> str | None:
+    """Ligne d'une liste de noms propres, avec majuscule initiale ; None si elle n'a aucune majuscule."""
+    if not any(ch.isupper() for ch in value):
+        return None
+    return value[0].upper() + value[1:]
+
+
 def entries(path: Path) -> list[str]:
     lines = path.read_text(encoding="utf-8").splitlines()
     return [line.strip() for line in lines if line.strip() and not line.startswith("#")]
@@ -89,6 +105,8 @@ def load_country(folder: Path, split: str) -> Country:
     lists = {}
     for name in config["lists"]:
         values = entries(folder / "lists" / f"{name}.txt")
+        if config["lists"][name] in PROPER_TYPES:
+            values = sorted({v for v in map(proper, values) if v})
         parts = {s: [v for v in values if bucket(code, name, v) == s] for s in SPLITS}
         lists[name] = parts[split] if all(parts.values()) else values
     templates = {}
@@ -99,18 +117,20 @@ def load_country(folder: Path, split: str) -> Country:
     return Country(code, lists, config["lists"], config["person_formats"], templates, float(config.get("weight", 1)))
 
 
+def name_part(kind: str, country: Country, rng: random.Random) -> str:
+    """Un morceau de nom de personne : nom, NOM (capitales), prenom, prenoms (1 à 3) ou initiale."""
+    if kind in ("nom", "NOM"):
+        name = rng.choice(country.lists["noms"])
+        return name.upper() if kind == "NOM" else name
+    if kind == "initiale":  # « K. », « J.-P. » pour un prénom composé
+        return "-".join(f"{w[0]}." for w in rng.choice(country.lists["prenoms"]).split("-"))
+    k = 1 if kind == "prenom" else rng.choices(list(GIVEN_COUNT), weights=list(GIVEN_COUNT.values()))[0]
+    return " ".join(rng.sample(country.lists["prenoms"], k))
+
+
 def person(country: Country, rng: random.Random) -> str:
     fmt = rng.choices(list(country.person_formats), weights=list(country.person_formats.values()))[0]
-
-    def part(m: re.Match) -> str:
-        kind = m.group(1)
-        if kind in ("nom", "NOM"):
-            name = rng.choice(country.lists["noms"])
-            return name.upper() if kind == "NOM" else name
-        k = 1 if kind == "prenom" else rng.choices(list(GIVEN_COUNT), weights=list(GIVEN_COUNT.values()))[0]
-        return " ".join(rng.sample(country.lists["prenoms"], k))
-
-    return PERSON_PART.sub(part, fmt)
+    return PERSON_PART.sub(lambda m: name_part(m.group(1), country, rng), fmt)
 
 
 def date(lang: str, rng: random.Random) -> str:
@@ -136,6 +156,9 @@ def fill(template: str, country: Country, lang: str, rng: random.Random) -> tupl
             kind, value = None, date(lang, rng)
         elif slot == "NUM":
             kind, value = None, str(rng.randint(10, 999999))
+        elif ":" in slot:  # entité composée autour d'un nom de personne : {ORG:Cabinet <nom> & Associés}
+            kind, form = slot.split(":", 1)
+            value = COMPOSED_PART.sub(lambda m: name_part(m.group(1), country, rng), form)
         else:
             kind, name = slot.split(".")
             value = rng.choice(country.lists[name])
@@ -163,9 +186,9 @@ def generate(split: str, n: int, seed: int) -> list[dict]:
         for i in range(count):
             template = rng.choice(country.templates[lang])
             text, spans = fill(template, country, lang, rng)
-            # Minuscules : mêmes positions tant que chaque caractère garde sa longueur (vrai pour le français).
-            if rng.random() < LOWERCASE_RATE and len(text.lower()) == len(text):
-                text = text.lower()
+            # Capitales : mêmes positions tant que chaque caractère garde sa longueur (« ß » → « SS » l'empêche).
+            if rng.random() < UPPERCASE_RATE and len(text.upper()) == len(text):
+                text = text.upper()
             rows.append({"id": f"{country.code}-{lang}-{split}-{i}", "country": country.code, "lang": lang,
                          "template": template, "text": text, "entities": spans})  # fmt: skip
     return rows

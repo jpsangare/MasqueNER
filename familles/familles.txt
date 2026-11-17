@@ -1,0 +1,200 @@
+# Test par famille de cas (bloquant) : `python -m masquener.evaluate ... familles`.
+# Phrases écrites à la main, sans phrase ni nom repris des corpus de test ou des modèles de phrases d’entraînement : elles
+# mesurent si le modèle a compris une famille de cas, pas s'il l'a apprise par cœur.
+# « == nom == » ouvre une famille ; une ligne = une phrase ; « \n » = retour à la ligne ; [valeur](TYPE) = entité
+# attendue (PER, LOC, ORG). Une famille sans aucune entité est négative : ses phrases doivent rester intactes.
+# Ne relèvent pas du modèle (traités par l'application qui emploie le modèle) : nom de l'IA, pays, grandes marques, mots coupés
+# par l'OCR, texte en minuscules ou style SMS.
+
+== prenoms-mots ==
+Le dossier de [Sincère Kouadio](PER) est complet depuis lundi.
+J'ai transmis la facture à [Prudence](PER), qui la validera demain.
+[Céleste Ahoua](PER) remplace la comptable pendant son congé.
+Merci de rappeler [Bienvenu Zadi](PER) au sujet du devis.
+La signature de [Honorine Beugré](PER) manque sur le contrat.
+[Rose Marchetti](PER) a confirmé sa présence à la formation.
+Le stage de [Clément Fofana](PER) commence le mois prochain.
+Envoyez le planning à [Félicité](PER) avant midi.
+[Fidèle Gnagne](PER) est le nouveau responsable du magasin.
+Demandez à [Espérance Tia](PER) le code du local.
+
+== noms-mots ==
+Le rapport de M. [Petit](PER) arrive en retard.
+Madame [Blanc](PER) a déposé une réclamation hier.
+J'ai croisé [Julien Boulanger](PER) à l'accueil.
+Le docteur [Meunier](PER) reçoit sur rendez-vous.
+[Claire Berger](PER) quitte l'équipe à la fin du mois.
+Le chantier est suivi par [Paul Charpentier](PER).
+[Nadia Roux](PER) et [Hugo Masson](PER) ont signé le procès-verbal.
+Merci à Mme [Lebrun](PER) pour son aide.
+
+== ordre-initiales ==
+Demandeur : [TRAORÉ Mariam](PER)\nService : comptabilité
+Le courrier est signé [K. Brou](PER).
+Pièce remise par [Gauthier P.](PER) le 3 mars.
+Contact : [M.-L. Kassi](PER), poste 214.
+[BAMBA, Issouf](PER) ; [YAO, Akissi](PER) ; [SORO, Lacina](PER)
+Le procès-verbal mentionne [Dosso A.](PER) comme témoin.
+Validé par [J. Lefèvre](PER), relu par [S. Mabiala](PER).
+Liste d'attente : [DIALLO Fatoumata](PER), [CAMARA Sékou](PER).
+
+== particules-etrangeres ==
+Le dossier de [Aya N'Guessan](PER) est arrivé.
+[Sean O'Brien](PER) joined the team last week.
+[Mohamed Ould Ahmed](PER) présidera la séance.
+La lettre est adressée à [Leïla Ben Salah](PER).
+[Omar al-Hassan](PER) a validé le budget.
+[João da Silva](PER) assure la traduction.
+[Pieter van der Meer](PER) arrive de Rotterdam par le train de 9 heures.
+[Karl von Arnim](PER) a envoyé ses remarques.
+[Ana de Oliveira](PER) reprend le suivi du client.
+[Amadou dit Papis Koné](PER) sera absent jeudi.
+
+== titres-honneur ==
+El Hadj [Moussa Cissé](PER) a fait un don à l'école.
+Nanan [Kouamé Ahoussou](PER) a reçu la délégation.
+Monseigneur [Paul Dacoury](PER) célébrera la messe.
+Maître [Hélène Courtois](PER) représente la société.
+Le pasteur [Samuel Ekra](PER) a ouvert la cérémonie.
+L'imam [Idrissa Ouattara](PER) prendra la parole.
+Le professeur [Alain Néné](PER) dirige le jury.
+
+== majuscules ==
+[SOCIÉTÉ IVOIRIENNE DE BOIS ET MATÉRIAUX](ORG)\nBON DE LIVRAISON
+DESTINATAIRE : [KONÉ ADAMA](PER)\nVILLE : [KORHOGO](LOC)
+[CLINIQUE DES PALMIERS](ORG) — SERVICE DES URGENCES
+ATTESTATION DÉLIVRÉE À [GBANÉ SALIMATA](PER), DOMICILIÉE À [ANYAMA](LOC)
+[TRANSPORTS GUÉDÉ FRÈRES](ORG)\nFACTURE N° 2214
+LIEU DE NAISSANCE : [DIMBOKRO](LOC)
+EXPÉDITEUR : [AGRO-SAVANE CÔTE D'IVOIRE](ORG)
+[MAIRIE DE GRAND-LAHOU](ORG)\nEXTRAIT D'ACTE DE NAISSANCE
+
+== formes-juridiques ==
+Le contrat lie notre cabinet à [Bâti-Lagune SARL](ORG).
+[Ivoire Négoce SA](ORG) a réglé la facture.
+Our supplier [Northbridge Tools Inc.](ORG) shipped the order.
+[Kessler Maschinenbau GmbH](ORG) envoie un technicien.
+La société [Akwaba Logistique SAS](ORG) recrute deux chauffeurs.
+[Brennan & Moore LLP](ORG) represents the buyer.
+[Coopérative Agricole de Yamoussoukro](ORG) livre le cacao.
+Le devis de [Lumen Studio SARLU](ORG) est le moins cher.
+
+== org-nom-personne ==
+Le dossier est suivi par le [Cabinet Yapo & Associés](ORG).
+La [Fondation Marguerite Dupuis](ORG) finance le projet.
+Rendez-vous à la [Clinique Sainte-Odile](ORG) à 14 heures.
+Les [Établissements Kodjo Frères](ORG) ont livré le ciment.
+L'[École privée Jean-Baptiste Aké](ORG) ouvre ses inscriptions.
+La [Pharmacie Diabaté](ORG) est de garde ce week-end.
+Le [Groupe Coulibaly Distribution](ORG) a racheté le magasin.
+
+== lieux-reperes ==
+J'habite à [Abobo](LOC), derrière le marché, près de la pharmacie.
+Le magasin se trouve à [Marcory](LOC), [Zone 4](LOC), après le grand carrefour.
+Livraison à [Bingerville](LOC), quartier [Résidentiel](LOC), lot 32 îlot 5.
+On se retrouve à [Treichville](LOC), à côté de la gare.
+Son bureau est à [Koumassi](LOC), [Remblais](LOC), en face de l'église.
+Adresse : [Port-Bouët](LOC), [Vridi](LOC), cité [Akromiabla](LOC).
+
+== lieux-homonymes ==
+La réunion régionale aura lieu à [Man](LOC) le mois prochain.
+Il a été muté à [Tours](LOC) l'an dernier.
+Nous ouvrons une agence à [Nice](LOC).
+Le colis part de [Vienne](LOC) demain matin.
+Elle est née à [Orange](LOC), dans le Vaucluse.
+Le séminaire se tiendra à [Sens](LOC).
+Rendez-vous à la gare de [Grasse](LOC).
+Le chantier de [Divo](LOC) a pris du retard.
+
+== voies-nom-personne ==
+Notre siège est situé boulevard [Félix Houphouët-Boigny](LOC).
+Le cabinet a déménagé rue [Victor Hugo](LOC), au numéro 12.
+Rendez-vous avenue [Jean-Jaurès](LOC), devant la banque.
+Les cours ont lieu au lycée [Jean Mermoz](ORG) de [Bassam](LOC).
+La boutique est place [Charles-de-Gaulle](LOC).
+
+== tableaux ==
+nom;prenom;ville\n[Konan](PER);[Ange](PER);[Daloa](LOC)\n[Meite](PER);[Awa](PER);[Odienné](LOC)
+| Nom | Service | Ville |\n|---|---|---|\n| [Edouard Gnaoré](PER) | Achats | [Abengourou](LOC) |
+Client,Montant\n[Sylvie Okou](PER),45000\n[Hamed Sangaré](PER),12000
+Matricule\tAgent\n1042\t[Kouakou Brice](PER)\n1043\t[Assi Mireille](PER)
+
+== code-json ==
+{"client": "[Mariam Touré](PER)", "ville": "[Séguéla](LOC)", "solde": 1200}
+user = {"name": "[Daniel Moreau](PER)", "city": "[Lyon](LOC)"}
+2026-03-04 12:01:22 INFO commande validée pour [Éric Gohou](PER) (agence [San-Pédro](LOC))
+<auteur>[Fanta Kané](PER)</auteur><ville>[Bouna](LOC)</ville>
+
+== courriel ==
+De : [Inès Kouyaté](PER)\nÀ : [Marc Ehui](PER)\nObjet : Devis
+> Le 2 mai, [Théo Lambert](PER) a écrit :\n> Merci pour l'envoi.
+[Yolande Assié](PER)\nResponsable administrative\n[Solibra](ORG) — [Abidjan](LOC)
+Bonjour [Alice](PER),\n\nVoici le compte rendu.\n\nBien à vous,\n[Romain](PER)
+
+== formules ==
+Bonjour,\n\nJe vous remercie pour votre retour rapide.
+Bien cordialement,\nL'équipe
+Bonne réception.\nSincères salutations.
+Bonjour à toutes et à tous,
+Dans l'attente de votre réponse, je reste à votre disposition.
+Salut, je te rappelle plus tard.
+Meilleures salutations
+Hello team,\nQuick reminder about tomorrow.\nBest,
+Avec mes remerciements anticipés.
+Respectueusement.
+
+== rubriques ==
+Objet : Demande de congé
+Diffusion restreinte
+Pièces jointes : aucune
+URGENT\nÀ traiter avant vendredi
+Destinataires :\nCopie :\nCopie cachée :
+Statut : Validé\nÉtape : Signature
+Observations : néant
+Annexe 2 — Récapitulatif
+Brouillon — ne pas transmettre
+Synthèse\nContexte\nRecommandations
+
+== fonctions ==
+La Directrice adjointe validera le dossier.
+Avis de l'Inspecteur principal : favorable.
+La Chargée de mission présentera le bilan.
+Signature du Responsable qualité :
+L'Attachée de presse prépare le communiqué.
+Le Trésorier général a approuvé les comptes.
+Visa du Chef de bureau
+Le Conseiller technique rejoindra la réunion.
+
+== services-internes ==
+Merci d'envoyer votre demande à la Direction des Ressources Humaines.
+Le Service Comptabilité clôture le mois.
+Le Bureau d'ordre enregistre les courriers.
+La Cellule Communication relit le texte.
+La Direction Technique a validé le plan.
+Le Département Juridique donnera son avis.
+Le Service Informatique redémarre les serveurs ce soir.
+
+== eponymes ==
+Le patient est suivi pour une maladie d'Alzheimer.
+La loi Évin encadre la publicité pour l'alcool.
+Le théorème de Pythagore est au programme.
+Elle a reçu le prix Nobel de chimie.
+L'enfant présente un syndrome d'Asperger.
+La température dépasse 90 degrés Fahrenheit.
+Le cours porte sur les lois de Newton.
+
+== fetes ==
+Le bureau sera fermé pour la Toussaint.
+Les congés de Tabaski commencent jeudi.
+Réveillon de la Saint-Sylvestre : inscriptions ouvertes.
+Le pont de l'Ascension tombe un jeudi.
+Les commandes reprendront après l'Assomption.
+
+== sigles-courants ==
+Montant : 250 000 FCFA TTC
+Format A4, recto verso, en PDF.
+Le service RH valide les fiches de paie.
+Merci d'indiquer votre RIB et le montant HT.
+La TVA s'applique au taux normal.
+Réunion du CA le 12, ordre du jour en PJ.
+Le projet de M&A est suspendu.

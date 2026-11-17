@@ -102,7 +102,7 @@ Fais-moi une liste de courses pour la semaine avec des plats ivoiriens.
 salut ça va ? on se retrouve au bureau demain matin
 # Documents en plusieurs lignes : fiches, courriels, notes (libellés et formules de politesse jamais étiquetés)
 FICHE INDIVIDUELLE DE RENSEIGNEMENTS\nNom et prénoms : {PER}\nCivilité : M.\nMatricule : {NUM}\nNé le : {DATE} à {LOC.villes}\nNationalité : Ivoirienne\nService : Direction des Ressources humaines
-FICHE DE SUIVI\nAgent : {PER}\nFonction : Chargée du suivi\nAffectation : {LOC.villes}\nStatut : EN ATTENTE\nObservations : néant
+FICHE DE SUIVI\nAgent : {PER}\nFonction : Responsable de la logistique\nAffectation : {LOC.villes}\nStatut : À VALIDER\nObservations : néant
 Bénéficiaire : {PER}\nPériode : du {DATE} au {DATE}\nMontant : {NUM} FCFA\nVisa du chef de service :
 Civilité : Madame\nNom : {PER}\nNée le : {DATE}\nDomicile : {LOC.quartiers}, {LOC.villes}\nSituation matrimoniale : Mariée\nNationalité : Ivoirienne
 ATTESTATION DE TRAVAIL\n\nJe soussigné, {PER}, Directeur des Ressources humaines de {ORG.entreprises}, atteste que {PER}, matricule {NUM}, est employé au sein de notre société depuis le {DATE}.\n\nFait à {LOC.villes}, le {DATE}.\nLe Directeur
@@ -120,12 +120,51 @@ Bonjour,\n\nVeuillez trouver ci-joint le document demandé.\n\nCordialement
 Bonjour à tous,\n\nLa réunion de demain est maintenue à 10 heures.\n\nMerci et bonne journée.
 PROCÈS-VERBAL DE RÉUNION\n\nOrdre du jour :\n1. Approbation du compte rendu\n2. Point sur les opérations\n3. Divers\n\nLa séance est ouverte à 9 heures.
 Visa du Directeur\n\nPour copie conforme\n\nAmpliations :\n- Archives\n- Intéressé
-Période : premier trimestre\nStatut : EN ATTENTE\nObservations : RAS\nMontant total : à préciser (FCFA)
+Période : deuxième semestre\nÉtat : À COMPLÉTER\nRemarques : aucune\nCoût estimé : à préciser
 Civilité : Monsieur\nSituation matrimoniale : Célibataire\nNationalité : Ivoirienne\nNiveau d'études : Licence
-Rédigé par le service juridique\nVu et approuvé par la Direction\nCopie : Cellule d'Audit Financier
+Préparé par le service des marchés\nVu par la Direction\nCopie : Cellule de Contrôle de Gestion
 Merci de votre compréhension.\nCordialement,\nLe Service des Affaires Générales
-FICHE DE POSTE\nIntitulé : Chargé du suivi des opérations\nRattachement : Direction du Personnel et de la Solde\nCatégorie : A3
-Opérations\nTotal des dépenses : voir annexe\nNé le : à compléter\nObservations : document en attente de signature
+FICHE DE POSTE\nIntitulé : Responsable des approvisionnements\nRattachement : Direction de la Logistique et du Matériel\nGrade : B2
+Logistique\nCoût total : voir tableau\nDate d'effet : à préciser\nRemarques : pièce en cours de visa
 Madame, Monsieur,\n\nVeuillez agréer l'expression de nos salutations distinguées.\n\nLa Direction
 Confidentiel\nNe pas diffuser\nVersion de travail du rapport annuel
 Cordialement,\nLe secrétariat
+#
+# v4 — familles de cas (voir familles/familles.txt, test écrit à part : aucune phrase ni aucun nom n'y est repris)
+# Fonction à côté d'un nom : seul le nom est une entité.
+{PER}, Directeur de l'Administration et des Finances\n{ORG.entreprises}
+Mme {PER}, Chef du service courrier, a réceptionné le pli.
+Avis du Directeur régional : favorable.\nSigné : {PER}
+Le Responsable des moyens généraux, {PER}, organise le déménagement.
+{PER}\nIngénieur des travaux\n{ORG.institutions}
+# Titres et marques d'honneur devant un nom.
+El Hadji {PER} a offert des kits scolaires aux élèves de {LOC.villages}.
+Sa Majesté Nanan {PER} recevra les cadres de {LOC.regions} samedi.
+Mgr {PER} présidera la cérémonie à {LOC.villes}.
+Me {PER}, avocat au barreau, assiste la famille.
+Le Dr {PER} assure la consultation du {DATE} au centre de {LOC.villes}.
+Le chef du village de {LOC.villages}, {PER}, a reçu la mission.
+# Organisations au nom d'une personne, formes juridiques.
+Le litige oppose la société au {ORG:Cabinet <nom> et Associés}.
+La {ORG:Pharmacie <nom>} de {LOC.quartiers} est de garde cette nuit.
+Facture émise par {ORG:Ets <NOM> et Fils} pour {NUM} francs.
+Les élèves du {ORG:Groupe scolaire <prenom> <nom>} passent l'examen le {DATE}.
+La {ORG:Clinique Saint-<prenom>} recrute deux infirmiers.
+Le marché a été attribué à {ORG:<nom> BTP SARL}.
+{ORG:<NOM> TRANSPORTS SA}\nBON DE COMMANDE N° {NUM}
+La {ORG:Fondation <prenom> <nom>} offre des bourses aux étudiants de {LOC.villes}.
+# Voies et lieux au nom d'une personne ; adresses par repères.
+Le bureau est situé boulevard {LOC:<prenom> <nom>}, à {LOC.villes}.
+Rendez-vous rue {LOC:<nom>}, juste après la station-service.
+Il habite à {LOC.quartiers}, non loin du maquis, deuxième rue à gauche.
+Livraison à {LOC.quartiers}, villa {NUM}, portail bleu.
+Le terrain est à {LOC.villages}, sur la route de {LOC.villes}, après le pont.
+# Noms d'ailleurs, avec particule.
+{PER:<prenom> Ould <nom>} est arrivé de Nouakchott pour la réunion.
+Le rapport de {PER:<prenom> Ben <nom>} est en relecture.
+# Tableaux, données, courriels.
+Nom;Prénom;Commune\n{PER:<NOM>};{PER:<prenom>};{LOC.villes}\n{PER:<NOM>};{PER:<prenoms>};{LOC.quartiers}
+| Agent | Affectation |\n|---|---|\n| {PER} | {LOC.villes} |\n| {PER} | {LOC.villes} |
+{"agent": "{PER}", "commune": "{LOC.villes}", "statut": "actif"}
+De : {PER}\nÀ : {PER}\nObjet : Point sur le dossier\n\nBonsoir, je vous transmets la pièce demandée.
+> {PER} a écrit :\n> Je confirme ma présence.\n\nMerci, à demain.

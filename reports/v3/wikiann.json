@@ -1,0 +1,322 @@
+{
+  "model": "v3",
+  "onnx_sha256": "e1ea2b47b572a77dc0d96398535f36eebf2f98748bf08501da1d95f4d5e407d2",
+  "dataset": "wikiann",
+  "files": {
+    "ar": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "ar/test-00000-of-00001.parquet"
+    ],
+    "de": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "de/test-00000-of-00001.parquet"
+    ],
+    "en": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "en/test-00000-of-00001.parquet"
+    ],
+    "es": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "es/test-00000-of-00001.parquet"
+    ],
+    "fr": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "fr/test-00000-of-00001.parquet"
+    ],
+    "it": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "it/test-00000-of-00001.parquet"
+    ],
+    "lv": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "lv/test-00000-of-00001.parquet"
+    ],
+    "nl": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "nl/test-00000-of-00001.parquet"
+    ],
+    "pt": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "pt/test-00000-of-00001.parquet"
+    ],
+    "zh": [
+      "unimelb-nlp/wikiann",
+      "f0a3be6dc5564c0cc4150bb660144800a1f539d4",
+      "zh/test-00000-of-00001.parquet"
+    ]
+  },
+  "blocking": false,
+  "limit": null,
+  "results": {
+    "ar": {
+      "PER": {
+        "precision": 0.536,
+        "recall": 0.58,
+        "f1": 0.5571,
+        "support": 3850
+      },
+      "ORG": {
+        "precision": 0.2052,
+        "recall": 0.1339,
+        "f1": 0.1621,
+        "support": 3629
+      },
+      "LOC": {
+        "precision": 0.1698,
+        "recall": 0.2034,
+        "f1": 0.1851,
+        "support": 3780
+      },
+      "micro": {
+        "precision": 0.3153,
+        "recall": 0.3098,
+        "f1": 0.3125,
+        "support": 11259
+      }
+    },
+    "de": {
+      "PER": {
+        "precision": 0.7961,
+        "recall": 0.8069,
+        "f1": 0.8015,
+        "support": 4750
+      },
+      "ORG": {
+        "precision": 0.6987,
+        "recall": 0.3721,
+        "f1": 0.4856,
+        "support": 4157
+      },
+      "LOC": {
+        "precision": 0.6198,
+        "recall": 0.7418,
+        "f1": 0.6754,
+        "support": 4961
+      },
+      "micro": {
+        "precision": 0.6988,
+        "recall": 0.6533,
+        "f1": 0.6753,
+        "support": 13868
+      }
+    },
+    "en": {
+      "PER": {
+        "precision": 0.6413,
+        "recall": 0.7684,
+        "f1": 0.6992,
+        "support": 4556
+      },
+      "ORG": {
+        "precision": 0.5555,
+        "recall": 0.2986,
+        "f1": 0.3884,
+        "support": 4745
+      },
+      "LOC": {
+        "precision": 0.3851,
+        "recall": 0.5164,
+        "f1": 0.4412,
+        "support": 4657
+      },
+      "micro": {
+        "precision": 0.5137,
+        "recall": 0.5246,
+        "f1": 0.5191,
+        "support": 13958
+      }
+    },
+    "es": {
+      "PER": {
+        "precision": 0.7224,
+        "recall": 0.8098,
+        "f1": 0.7636,
+        "support": 3959
+      },
+      "ORG": {
+        "precision": 0.5091,
+        "recall": 0.3289,
+        "f1": 0.3996,
+        "support": 3576
+      },
+      "LOC": {
+        "precision": 0.5513,
+        "recall": 0.6897,
+        "f1": 0.6128,
+        "support": 4725
+      },
+      "micro": {
+        "precision": 0.6036,
+        "recall": 0.6232,
+        "f1": 0.6132,
+        "support": 12260
+      }
+    },
+    "fr": {
+      "PER": {
+        "precision": 0.7391,
+        "recall": 0.828,
+        "f1": 0.781,
+        "support": 4499
+      },
+      "ORG": {
+        "precision": 0.4731,
+        "recall": 0.3143,
+        "f1": 0.3777,
+        "support": 3885
+      },
+      "LOC": {
+        "precision": 0.509,
+        "recall": 0.5743,
+        "f1": 0.5397,
+        "support": 4985
+      },
+      "micro": {
+        "precision": 0.5895,
+        "recall": 0.5841,
+        "f1": 0.5868,
+        "support": 13369
+      }
+    },
+    "it": {
+      "PER": {
+        "precision": 0.7811,
+        "recall": 0.8843,
+        "f1": 0.8295,
+        "support": 4842
+      },
+      "ORG": {
+        "precision": 0.4901,
+        "recall": 0.3496,
+        "f1": 0.4081,
+        "support": 4087
+      },
+      "LOC": {
+        "precision": 0.607,
+        "recall": 0.6066,
+        "f1": 0.6068,
+        "support": 4820
+      },
+      "micro": {
+        "precision": 0.6534,
+        "recall": 0.628,
+        "f1": 0.6405,
+        "support": 13749
+      }
+    },
+    "lv": {
+      "PER": {
+        "precision": 0.6828,
+        "recall": 0.8379,
+        "f1": 0.7524,
+        "support": 3727
+      },
+      "ORG": {
+        "precision": 0.3302,
+        "recall": 0.2529,
+        "f1": 0.2864,
+        "support": 3749
+      },
+      "LOC": {
+        "precision": 0.6058,
+        "recall": 0.6841,
+        "f1": 0.6426,
+        "support": 5223
+      },
+      "micro": {
+        "precision": 0.5729,
+        "recall": 0.6019,
+        "f1": 0.5871,
+        "support": 12699
+      }
+    },
+    "nl": {
+      "PER": {
+        "precision": 0.7511,
+        "recall": 0.8395,
+        "f1": 0.7928,
+        "support": 4684
+      },
+      "ORG": {
+        "precision": 0.6891,
+        "recall": 0.4429,
+        "f1": 0.5393,
+        "support": 3908
+      },
+      "LOC": {
+        "precision": 0.6239,
+        "recall": 0.6994,
+        "f1": 0.6595,
+        "support": 5133
+      },
+      "micro": {
+        "precision": 0.6854,
+        "recall": 0.6742,
+        "f1": 0.6797,
+        "support": 13725
+      }
+    },
+    "pt": {
+      "PER": {
+        "precision": 0.6555,
+        "recall": 0.7723,
+        "f1": 0.7091,
+        "support": 4291
+      },
+      "ORG": {
+        "precision": 0.5249,
+        "recall": 0.3365,
+        "f1": 0.4101,
+        "support": 3753
+      },
+      "LOC": {
+        "precision": 0.5467,
+        "recall": 0.6443,
+        "f1": 0.5915,
+        "support": 4779
+      },
+      "micro": {
+        "precision": 0.5847,
+        "recall": 0.5971,
+        "f1": 0.5908,
+        "support": 12823
+      }
+    },
+    "zh": {
+      "PER": {
+        "precision": 0.5284,
+        "recall": 0.7862,
+        "f1": 0.632,
+        "support": 3943
+      },
+      "ORG": {
+        "precision": 0.3336,
+        "recall": 0.1942,
+        "f1": 0.2455,
+        "support": 4115
+      },
+      "LOC": {
+        "precision": 0.3671,
+        "recall": 0.5811,
+        "f1": 0.4499,
+        "support": 4474
+      },
+      "micro": {
+        "precision": 0.4235,
+        "recall": 0.5186,
+        "f1": 0.4663,
+        "support": 12532
+      }
+    },
+    "macro_f1": 0.5671
+  }
+}

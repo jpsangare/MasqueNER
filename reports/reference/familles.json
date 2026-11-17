@@ -1,0 +1,724 @@
+{
+  "model": "reference",
+  "onnx_sha256": "24a0b98f4dd4cd92842f5a541272f86f760225a64a29928eddef14bdb2edb986",
+  "dataset": "familles",
+  "file": "familles.txt",
+  "file_sha256": "ba35b8e2395790ea3a8100675f41236a8ea7047b2ca5763813947d55db962f31",
+  "blocking": true,
+  "results": {
+    "prenoms-mots": {
+      "cases": 10,
+      "strict": {
+        "PER": {
+          "precision": 0.8333,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.7143,
+          "recall": 0.5,
+          "f1": 0.5882,
+          "support": 10
+        }
+      },
+      "masking_rate": 0.6,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "noms-mots": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.875,
+          "recall": 0.7778,
+          "f1": 0.8235,
+          "support": 9
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.875,
+          "recall": 0.7778,
+          "f1": 0.8235,
+          "support": 9
+        }
+      },
+      "masking_rate": 0.8889,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "ordre-initiales": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.5714,
+          "recall": 0.6667,
+          "f1": 0.6154,
+          "support": 12
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.5333,
+          "recall": 0.6667,
+          "f1": 0.5926,
+          "support": 12
+        }
+      },
+      "masking_rate": 0.6667,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "particules-etrangeres": {
+      "cases": 10,
+      "strict": {
+        "PER": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "support": 10
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.5714,
+          "recall": 0.8,
+          "f1": 0.6667,
+          "support": 10
+        }
+      },
+      "masking_rate": 0.8,
+      "masking_precision": 0.9286,
+      "spurious": 1,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "titres-honneur": {
+      "cases": 7,
+      "strict": {
+        "PER": {
+          "precision": 0.7143,
+          "recall": 0.7143,
+          "f1": 0.7143,
+          "support": 7
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.7143,
+          "recall": 0.7143,
+          "f1": 0.7143,
+          "support": 7
+        }
+      },
+      "masking_rate": 1.0,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "majuscules": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "support": 2
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5
+        },
+        "LOC": {
+          "precision": 0.1667,
+          "recall": 0.3333,
+          "f1": 0.2222,
+          "support": 3
+        },
+        "micro": {
+          "precision": 0.2222,
+          "recall": 0.2,
+          "f1": 0.2105,
+          "support": 10
+        }
+      },
+      "masking_rate": 0.4,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "formes-juridiques": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.6667,
+          "recall": 0.5,
+          "f1": 0.5714,
+          "support": 8
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1": 0.4444,
+          "support": 8
+        }
+      },
+      "masking_rate": 0.5,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "org-nom-personne": {
+      "cases": 7,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.8333,
+          "recall": 0.7143,
+          "f1": 0.7692,
+          "support": 7
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.7143,
+          "recall": 0.7143,
+          "f1": 0.7143,
+          "support": 7
+        }
+      },
+      "masking_rate": 0.7143,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "lieux-reperes": {
+      "cases": 6,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.8,
+          "recall": 0.7273,
+          "f1": 0.7619,
+          "support": 11
+        },
+        "micro": {
+          "precision": 0.8,
+          "recall": 0.7273,
+          "f1": 0.7619,
+          "support": 11
+        }
+      },
+      "masking_rate": 0.9091,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "lieux-homonymes": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "support": 8
+        },
+        "micro": {
+          "precision": 0.7778,
+          "recall": 0.875,
+          "f1": 0.8235,
+          "support": 8
+        }
+      },
+      "masking_rate": 1.0,
+      "masking_precision": 0.8889,
+      "spurious": 1,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "voies-nom-personne": {
+      "cases": 5,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "LOC": {
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2,
+          "support": 5
+        },
+        "micro": {
+          "precision": 0.1667,
+          "recall": 0.1667,
+          "f1": 0.1667,
+          "support": 6
+        }
+      },
+      "masking_rate": 1.0,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "tableaux": {
+      "cases": 4,
+      "strict": {
+        "PER": {
+          "precision": 0.7,
+          "recall": 0.7778,
+          "f1": 0.7368,
+          "support": 9
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "micro": {
+          "precision": 0.7273,
+          "recall": 0.6667,
+          "f1": 0.6957,
+          "support": 12
+        }
+      },
+      "masking_rate": 0.9167,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "code-json": {
+      "cases": 4,
+      "strict": {
+        "PER": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "support": 4
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "support": 4
+        },
+        "micro": {
+          "precision": 0.6667,
+          "recall": 0.75,
+          "f1": 0.7059,
+          "support": 8
+        }
+      },
+      "masking_rate": 1.0,
+      "masking_precision": 0.8889,
+      "spurious": 1,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "courriel": {
+      "cases": 4,
+      "strict": {
+        "PER": {
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091,
+          "support": 6
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "micro": {
+          "precision": 0.7143,
+          "recall": 0.625,
+          "f1": 0.6667,
+          "support": 8
+        }
+      },
+      "masking_rate": 1.0,
+      "masking_precision": 1.0,
+      "spurious": 0,
+      "negative_cases": 0,
+      "negative_cases_hit": 0
+    },
+    "formules": {
+      "cases": 10,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 1,
+      "negative_cases": 10,
+      "negative_cases_hit": 1
+    },
+    "rubriques": {
+      "cases": 10,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 3,
+      "negative_cases": 10,
+      "negative_cases_hit": 3
+    },
+    "fonctions": {
+      "cases": 8,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 1,
+      "negative_cases": 8,
+      "negative_cases_hit": 1
+    },
+    "services-internes": {
+      "cases": 7,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 5,
+      "negative_cases": 7,
+      "negative_cases_hit": 5
+    },
+    "eponymes": {
+      "cases": 7,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 3,
+      "negative_cases": 7,
+      "negative_cases_hit": 3
+    },
+    "fetes": {
+      "cases": 5,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 1,
+      "negative_cases": 5,
+      "negative_cases_hit": 1
+    },
+    "sigles-courants": {
+      "cases": 7,
+      "strict": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "micro": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "masking_rate": null,
+      "masking_precision": 0.0,
+      "spurious": 6,
+      "negative_cases": 7,
+      "negative_cases_hit": 4
+    }
+  }
+}

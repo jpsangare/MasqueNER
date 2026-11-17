@@ -1,9 +1,10 @@
 """Générateur : positions justes, jeux étanches (modèles et noms), sortie reproductible."""
 
 import random
+import re
 from pathlib import Path
 
-from masquener.generate import SPLITS, Country, fill, generate, load_country
+from masquener.generate import SLOT, SPLITS, Country, fill, generate, load_country
 
 CI = Path("countries/ci")
 
@@ -11,7 +12,7 @@ CI = Path("countries/ci")
 def test_entities_point_at_their_values():
     for row in generate("train", 300, seed=1):
         text = row["text"]
-        assert "{" not in text, text
+        assert not SLOT.search(text) and "<" not in text, text  # aucune case ni morceau de nom laissé vide
         for start, end, kind in row["entities"]:
             value = text[start:end]
             assert value == value.strip() and value, (text, start, end)
@@ -40,11 +41,12 @@ def test_multiline_template_and_comma_name():
     assert [text[s:e] for s, e, _ in spans] == ["KONAN, Aya"]
 
 
-def test_lowercase_sentences_keep_their_entities():
+def test_uppercase_sentences_keep_their_entities_and_none_is_lowercased():
     rows = generate("train", 2000, seed=2)
-    lower = [r for r in rows if r["text"] == r["text"].lower() and r["entities"]]
-    assert lower, "aucune phrase en minuscules"
-    for row in lower:
+    upper = [r for r in rows if r["text"] == r["text"].upper() and r["entities"]]
+    assert upper, "aucune phrase en capitales"
+    assert not [r for r in rows if r["text"] == r["text"].lower() and r["entities"]]
+    for row in upper:
         for start, end, _ in row["entities"]:
             assert row["text"][start:end] == row["text"][start:end].strip() != ""
 
@@ -60,3 +62,14 @@ def test_elision_before_vowel():
     text, spans = fill("Le dossier de {ORG.institutions} est prêt.", country, "fr", random.Random(0))
     assert text == "Le dossier d'Ageroute est prêt."
     assert [text[s:e] for s, e, _ in spans] == ["Ageroute"]
+
+
+def test_composed_slots_and_initials():
+    rows = generate("train", 4000, seed=3)
+    composed = [r for r in rows if "{ORG:" in r["template"] or "{LOC:" in r["template"] or "{PER:" in r["template"]]
+    assert composed, "aucune case composée"
+    for row in composed:
+        assert "<" not in row["text"]
+    # Initiale d'un prénom dans une entité : « K. KONAN », « Kassi J.-P. ».
+    initials = re.compile(r"(?<![\w.])\w\.(?:-\w\.)?(?= \w)|(?<=\w )\w\.(?:-\w\.)?$")
+    assert any(initials.search(row["text"][s:e]) for row in rows for s, e, t in row["entities"] if t == "PER")

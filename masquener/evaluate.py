@@ -3,15 +3,19 @@
     python -m masquener.evaluate --model artifacts/reference --name reference gold {conll,masakhaner,wikiann} [--limit N]
     python -m masquener.evaluate --model artifacts/reference --name reference corpus CHEMIN/corpus-ci.json
     python -m masquener.evaluate --model artifacts/reference --name reference synthetic [data/synthetic/test.jsonl]
+    python -m masquener.evaluate --model artifacts/reference --name reference familles [familles/familles.txt]
 
 - gold : jeu de test public annoté (masquener/gold.py) → reports/<nom>/<jeu>.json (versionné).
 - corpus : corpus réel annoté (format JSON : cases, text, entities), lu sur place et jamais copié → reports/local/<nom>/corpus.json
   (ignoré par git). Le rapport ne contient que des chiffres.
 - synthetic : test synthétique des pays (modèles et noms absents de l'entraînement) → reports/<nom>/synthetic.json.
+- familles : phrases écrites à la main, une famille de cas à la fois (prénoms qui sont des mots, formules de
+  politesse…) → reports/<nom>/familles.json.
 """
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from .gold import GOLD_SETS, load_test
@@ -122,6 +126,47 @@ def eval_synthetic(ner: OnnxNer, path: Path) -> dict:
     return {"dataset": "synthetic", "file": path.name, "file_sha256": sha256(path), "blocking": True, "results": results}
 
 
+MARKED = re.compile(r"\[([^\]]+)\]\((PER|LOC|ORG)\)")
+
+
+def parse_families(path: Path) -> dict[str, list[tuple[str, set]]]:
+    """familles/familles.txt → {famille: [(texte, {(type, début, fin)})]} ; voir l'en-tête du fichier."""
+    families, current = {}, None
+    for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if m := re.fullmatch(r"== (\S+) ==", line):
+            current = families.setdefault(m.group(1), [])
+            continue
+        if current is None:
+            raise ValueError(f"{path}:{n} : phrase avant la première famille")
+        text, spans, at = "", set(), 0
+        line = line.replace("\\n", "\n")
+        for m in MARKED.finditer(line):
+            text += line[at : m.start()]
+            spans.add((m.group(2), len(text), len(text) + len(m.group(1))))
+            text += m.group(1)
+            at = m.end()
+        text += line[at:]
+        if "[" in text and "](" in text:
+            raise ValueError(f"{path}:{n} : entité mal marquée")
+        current.append((text, spans))
+    return families
+
+
+def eval_families(ner: OnnxNer, path: Path) -> dict:
+    """Une famille positive est notée sur le masquage et sa précision ; une famille négative, sur ses phrases intactes."""
+    results = {}
+    for family, rows in parse_families(path).items():
+        r = results[family] = text_scores(ner, [t for t, _ in rows], [g for _, g in rows], NER_TYPES)
+        if r["masking_rate"] is None:
+            print(f"  {family} : phrases intactes {r['negative_cases'] - r['negative_cases_hit']}/{r['negative_cases']}")
+        else:
+            print(f"  {family} : masquage {r['masking_rate']:.4f}, précision de masquage {r['masking_precision']:.4f}")
+    return {"dataset": "familles", "file": path.name, "file_sha256": sha256(path), "blocking": True, "results": results}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--model", type=Path, required=True, help="dossier au format Xenova")
@@ -134,6 +179,8 @@ def main() -> None:
     c.add_argument("path", type=Path)
     s = sub.add_parser("synthetic", help="phrases synthétiques des pays (masquener/generate.py)")
     s.add_argument("path", type=Path, nargs="?", default=Path("data/synthetic/test.jsonl"))
+    f = sub.add_parser("familles", help="test par famille de cas (familles/familles.txt)")
+    f.add_argument("path", type=Path, nargs="?", default=Path("familles/familles.txt"))
     args = parser.parse_args()
 
     ner = OnnxNer(args.model)
@@ -143,6 +190,8 @@ def main() -> None:
         print(f"{args.dataset}, F1 moyen sur les langues : {report['results']['macro_f1']:.4f}")
     elif args.target == "synthetic":
         report, out = eval_synthetic(ner, args.path), Path("reports") / args.name / "synthetic.json"
+    elif args.target == "familles":
+        report, out = eval_families(ner, args.path), Path("reports") / args.name / "familles.json"
     else:
         report, out = eval_corpus(ner, args.path), Path("reports/local") / args.name / f"corpus-{args.path.stem}.json"
         print(

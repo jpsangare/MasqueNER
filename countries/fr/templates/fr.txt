@@ -78,3 +78,25 @@ Civilité : Monsieur\nSituation familiale : Marié\nNationalité : Française\nP
 Merci de votre compréhension.\nCordialement,\nLe service des ressources humaines
 Confidentiel\nNe pas diffuser\nVersion de travail
 salut ça va ? on se retrouve au bureau demain matin
+#
+# v4 — familles de cas (voir familles/familles.txt, test écrit à part : aucune phrase ni aucun nom n'y est repris)
+{PER}, Directrice commerciale\n{ORG.entreprises}
+Validation du Chef de projet : {PER}
+Le Médecin-chef, {PER}, reçoit les familles le mardi.
+Me {PER}, notaire à {LOC.villes}, a reçu l'acte.
+Le Pr {PER} interviendra au colloque de {LOC.villes}.
+L'abbé {PER} célébrera le mariage.
+Le dossier est confié au {ORG:Cabinet <nom> Avocats}.
+Les {ORG:Établissements <nom>} livrent le matériel lundi.
+La {ORG:Boulangerie <nom>} fournit le buffet.
+Un devis de {ORG:<nom> Rénovation SAS} est arrivé.
+{ORG:<NOM> & FILS SARL}\nDevis n° {NUM}
+Le centre est situé avenue {LOC:<prenom> <nom>}, à {LOC.villes}.
+Rendez-vous place {LOC:<prenom>-<nom>}, devant la mairie.
+Le collège {ORG:<prenom> <nom>} de {LOC.villes} organise ses portes ouvertes.
+{PER:<prenom> van <nom>} rejoint l'équipe de {LOC.villes}.
+{PER:<prenom> da <nom>} a signé le bon de livraison.
+nom,prénom,ville\n{PER:<nom>},{PER:<prenom>},{LOC.villes}\n{PER:<nom>},{PER:<prenom>},{LOC.villes}
+{"nom": "{PER}", "ville": "{LOC.villes}", "actif": true}
+2026-01-12 09:14:03 WARN échec de paiement pour {PER} (magasin de {LOC.villes})
+De : {PER}\nÀ : {PER}\nObjet : Réunion\n\nJe serai en retard de dix minutes.

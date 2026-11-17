@@ -1,0 +1,105 @@
+{
+  "model": "v3",
+  "onnx_sha256": "e1ea2b47b572a77dc0d96398535f36eebf2f98748bf08501da1d95f4d5e407d2",
+  "dataset": "conll",
+  "files": {
+    "en": [
+      "eriktks/conll2003",
+      "ce85b39f9dd99f552d0739d456814e95fb6a39b0",
+      "conll2003/test/0000.parquet"
+    ],
+    "es": [
+      "eriktks/conll2002",
+      "cc09aa3e64654924d2bec21b294bd79c885bafd6",
+      "es/test/0000.parquet"
+    ],
+    "nl": [
+      "eriktks/conll2002",
+      "cc09aa3e64654924d2bec21b294bd79c885bafd6",
+      "nl/test/0000.parquet"
+    ]
+  },
+  "blocking": true,
+  "limit": null,
+  "results": {
+    "en": {
+      "PER": {
+        "precision": 0.9517,
+        "recall": 0.9388,
+        "f1": 0.9452,
+        "support": 1617
+      },
+      "ORG": {
+        "precision": 0.8716,
+        "recall": 0.8784,
+        "f1": 0.875,
+        "support": 1661
+      },
+      "LOC": {
+        "precision": 0.9072,
+        "recall": 0.9203,
+        "f1": 0.9137,
+        "support": 1668
+      },
+      "micro": {
+        "precision": 0.9095,
+        "recall": 0.9123,
+        "f1": 0.9109,
+        "support": 4946
+      }
+    },
+    "es": {
+      "PER": {
+        "precision": 0.9623,
+        "recall": 0.9714,
+        "f1": 0.9668,
+        "support": 735
+      },
+      "ORG": {
+        "precision": 0.8454,
+        "recall": 0.8829,
+        "f1": 0.8637,
+        "support": 1400
+      },
+      "LOC": {
+        "precision": 0.852,
+        "recall": 0.8653,
+        "f1": 0.8586,
+        "support": 1084
+      },
+      "micro": {
+        "precision": 0.8738,
+        "recall": 0.8972,
+        "f1": 0.8853,
+        "support": 3219
+      }
+    },
+    "nl": {
+      "PER": {
+        "precision": 0.9154,
+        "recall": 0.9554,
+        "f1": 0.9349,
+        "support": 1098
+      },
+      "ORG": {
+        "precision": 0.808,
+        "recall": 0.8685,
+        "f1": 0.8372,
+        "support": 882
+      },
+      "LOC": {
+        "precision": 0.9151,
+        "recall": 0.8915,
+        "f1": 0.9031,
+        "support": 774
+      },
+      "micro": {
+        "precision": 0.8796,
+        "recall": 0.9096,
+        "f1": 0.8943,
+        "support": 2754
+      }
+    },
+    "macro_f1": 0.8968
+  }
+}

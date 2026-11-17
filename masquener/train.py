@@ -9,7 +9,8 @@ phrases pays pour 40 000 de révision, `distill --train 40000`, contre l'oubli d
 Sortie : artifacts/<nom>/ au même format que artifacts/reference/, mesurable avec masquener.evaluate :
     config.json, tokenizer.json, tokenizer_config.json (ceux du modèle de départ), onnx/model_quantized.onnx,
     training.json (réglages, empreintes des données, pertes).
-Le modèle PyTorch affiné reste dans artifacts/<nom>-torch/ (non versionné).
+Le modèle PyTorch affiné reste dans artifacts/<nom>-torch/ (non versionné). La passe gardée est celle dont la perte de
+validation est la plus basse (training.json : best), pas forcément la dernière.
 """
 
 import argparse
@@ -146,7 +147,13 @@ def main() -> None:
             weight_decay=0.01,
             eval_strategy="epoch" if args.max_steps < 0 else "steps",
             eval_steps=None if args.max_steps < 0 else args.max_steps,
-            save_strategy="no",
+            # Meilleure passe d'après la perte de validation (v3 : elle remontait dès la 2e passe, surapprentissage).
+            save_strategy="epoch" if args.max_steps < 0 else "steps",
+            save_steps=None if args.max_steps < 0 else args.max_steps,
+            save_total_limit=2,
+            load_best_model_at_end=True,
+            metric_for_best_model="eval_loss",
+            greater_is_better=False,
             logging_steps=50,
             fp16=torch.cuda.is_available(),
             seed=args.seed,
@@ -157,7 +164,9 @@ def main() -> None:
         data_collator=DataCollatorForTokenClassification(tokenizer),
     )
     trainer.train()
+    print(f"Passe retenue : {trainer.state.best_model_checkpoint} (perte de validation {trainer.state.best_metric})")
     trainer.save_model(str(torch_dir))
+    shutil.rmtree(torch_dir / "checkpoints", ignore_errors=True)
     tokenizer.save_pretrained(str(torch_dir))
 
     export(torch_dir, out)
@@ -166,6 +175,7 @@ def main() -> None:
         "base": [DAVLAN_REPO, DAVLAN_REVISION],
         "args": vars(args),
         "data": {f: sha256(Path(f)) for files in DATA.values() for f in files},
+        "best": {"checkpoint": Path(trainer.state.best_model_checkpoint or "").name, "eval_loss": trainer.state.best_metric},
         "log": log,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")  # fmt: skip
     print(f"Modèle : {out} (mesurer : python -m masquener.evaluate --model {out} --name {args.name} ...)")
